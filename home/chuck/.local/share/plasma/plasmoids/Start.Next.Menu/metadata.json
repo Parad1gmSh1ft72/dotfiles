@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                 "Email": "zayronxio@gmail.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "BugReportUrl": "",
+        "Category": "Application Launchers",
+        "Description": "Start menu inspired by the Start11v2 menu, Windows 12 concept.",
+        "EnabledByDefault": true,
+        "Icon": "start-here-kde",
+        "Id": "Start.Next.Menu",
+        "License": "GPL-2.0+",
+        "Name": "Start Next Menu",
+        "Website": "https://github.com/zayronxio/Start.Next"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.launchermenu"
+    ]
+}

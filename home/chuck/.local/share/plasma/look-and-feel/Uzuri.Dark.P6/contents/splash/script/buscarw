@@ -1,0 +1,12 @@
+#!/bin/bash
+file="$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"
+contenedordefinido=$(grep -m 1 '\[Containments\]' "$file")
+identificador="$contenedordefinido[Wallpaper][org.kde.image][General]"
+identificador1=$(echo $identificador | sed 's/\[/\\[/g' | sed 's/\]/\\]/g')
+wallpaperpath0=$(grep  -n "$identificador1" "$file")
+Wallpaperlinea=$(echo $wallpaperpath0 | cut -d: -f1)
+((Wallpaperlinea++))  # Añade 1 al valor de Wallpaperlinea
+lineausar=$Wallpaperlinea"p"
+pathdewallpaper=$(sed -n "$lineausar" "$file")
+finalpath=$(echo $pathdewallpaper | sed 's/Image=//g')
+echo $finalpath

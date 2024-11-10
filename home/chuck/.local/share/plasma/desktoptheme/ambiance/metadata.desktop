@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Ambiance
+
+Comment=Plasma port of ubuntu's ambiance
+X-KDE-PluginInfo-Author=anton petersson
+X-KDE-PluginInfo-Email=scnd101@gmail.com
+X-KDE-PluginInfo-Name=ambiance
+X-KDE-PluginInfo-Version=0.90
+X-KDE-PluginInfo-Website=http://scnd101.deviantart.com
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-Depends=KDE4
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true

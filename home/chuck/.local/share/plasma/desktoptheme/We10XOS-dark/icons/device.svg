@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="device.svg"
+   version="1.1"
+   viewBox="0 0 22 22"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="namedview33"
+     bordercolor="#666666"
+     borderopacity="1"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:bbox-nodes="true"
+     inkscape:current-layer="svg"
+     inkscape:cx="5.4381304"
+     inkscape:cy="37.144079"
+     inkscape:object-nodes="true"
+     inkscape:object-paths="true"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:window-height="936"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1920"
+     inkscape:window-x="0"
+     inkscape:window-y="40"
+     inkscape:zoom="15.170655"
+     objecttolerance="10"
+     pagecolor="#c8c8c8"
+     showgrid="true"
+     showguides="false"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0">
+    <inkscape:grid
+       id="grid842"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <style
+       id="current-color-scheme"
+       type="text/css">.ColorScheme-Text { color:#dedede; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#dedede; }</style>
+  </defs>
+  <g
+     id="device-notifier">
+    <rect
+       y="-35.999996"
+       x="0"
+       height="31.999985"
+       width="31.999985"
+       id="rect4151"
+       style="opacity:0.2;fill:none;fill-opacity:1;stroke:none" />
+    <g
+       id="g2675"
+       transform="translate(14)">
+      <path
+         id="rect866"
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         d="m -3,-28 c -1.108,0 -2,0.892 -2,2 v 18 c 0,1.108 0.892,2 2,2 H 7 c 1.108,0 2,-0.892 2,-2 v -18 c 0,-1.108 -0.892,-2 -2,-2 z m 0,1 H 7 c 0.554,0 1,0.446 1,1 v 18 c 0,0.554 -0.446,1 -1,1 H -3 c -0.554,0 -1,-0.446 -1,-1 v -18 c 0,-0.554 0.446,-1 1,-1 z" />
+      <path
+         id="rect1215"
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.19523;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         d="m -1,-34 c -1.108,0 -2,0.892 -2,2 v 4 h 1 v -4 c 0,-0.554 0.446,-1 1,-1 h 6 c 0.554,0 1,0.446 1,1 v 4 h 1 v -4 c 0,-1.108 -0.892,-2 -2,-2 z" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         id="rect1883"
+         width="2"
+         height="3"
+         x="-1"
+         y="-32"
+         ry="1" />
+      <rect
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         id="rect1965"
+         width="2"
+         height="3"
+         x="3"
+         y="-32"
+         ry="1" />
+    </g>
+  </g>
+  <g
+     id="22-22-device-notifier">
+    <rect
+       y="1.2617187e-05"
+       x="9.9999997e-06"
+       height="21.999985"
+       width="21.999985"
+       id="rect4157"
+       style="opacity:0.2;fill:none;fill-opacity:1;stroke:none" />
+    <g
+       id="g3853"
+       transform="translate(19)">
+      <path
+         id="rect2820"
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         d="m -11,7 c -1.108,0 -2,0.892 -2,2 v 9 c 0,1.108 0.892,2 2,2 h 4.2929688 l -1,-1 H -11 c -0.554,0 -1,-0.446 -1,-1 V 9 c 0,-0.554 0.446,-1 1,-1 h 5 c 0.554,0 1,0.446 1,1 v 7.050781 L -4.4453125,16.605469 -4,16.117188 V 9 C -4,7.892 -4.892,7 -6,7 Z" />
+      <path
+         id="rect3045"
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         d="m -10,3 c -1.108,0 -2,0.892 -2,2 v 3 h 1 V 5 c 0,-0.554 0.446,-1 1,-1 h 3 c 0.554,0 1,0.446 1,1 v 3 h 1 V 5 C -5,3.892 -5.892,3 -7,3 Z" />
+      <circle
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         id="path3292"
+         cx="-9.5"
+         cy="5.5"
+         r="0.5" />
+      <circle
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-linecap:round;stroke-linejoin:bevel;paint-order:stroke fill markers"
+         id="path3294"
+         cx="-7.5"
+         cy="5.5"
+         r="0.5" />
+      <path
+         style="color:#000000;fill:#fbfbfb;fill-rule:evenodd;stroke-width:3;stroke-linecap:round;stroke-linejoin:bevel;-inkscape-stroke:none;paint-order:stroke fill markers"
+         d="m -6.1459911,17.024671 2.1213203,2.12132 c 0.1958686,0.195868 0.1958686,0.511238 0,0.707107 -0.1958686,0.195868 -0.5112382,0.195868 -0.7071068,0 l -2.1213202,-2.121321 c -0.1958686,-0.195868 -0.1958686,-0.511238 0,-0.707106 0.1958685,-0.195869 0.5112382,-0.195869 0.7071067,0 z"
+         id="path3839" />
+      <path
+         style="color:#000000;fill:#fbfbfb;fill-rule:evenodd;stroke-width:3;stroke-linecap:round;stroke-linejoin:bevel;-inkscape-stroke:none;paint-order:stroke fill markers"
+         d="m -4.7467331,19.162603 6.0649533,-6.649536 c 0.1866658,-0.204658 0.5017027,-0.219143 0.7063606,-0.03248 0.2046576,0.186665 0.2191423,0.501702 0.032477,0.70636 l -6.0649534,6.649536 c -0.1866658,0.204658 -0.5017026,0.219143 -0.7063602,0.03248 -0.204658,-0.186665 -0.2191426,-0.501702 -0.032477,-0.70636 z"
+         id="path3833" />
+    </g>
+  </g>
+  <g
+     id="16-16-device-notifier">
+    <rect
+       style="opacity:0.2;fill:none;fill-opacity:1;stroke:none"
+       id="rect4182"
+       width="15.999985"
+       height="15.999985"
+       x="0"
+       y="26.000002" />
+    <g
+       id="g4766"
+       transform="translate(14,-1)">
+      <path
+         id="rect4104"
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m -8,31 c -0.554,0 -1,0.446 -1,1 v 8 c 0,0.554 0.446,1 1,1 h 4 c 0.554,0 1,-0.446 1,-1 v -8 c 0,-0.554 -0.446,-1 -1,-1 z m 0,1 h 4 v 8 h -4 z" />
+      <path
+         id="rect4431"
+         style="fill:#fbfbfb;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m -7,29 c -0.554,0 -1,0.446 -1,1 v 2 h 1 v -2 h 2 v 2 h 1 v -2 c 0,-0.554 -0.446,-1 -1,-1 z" />
+    </g>
+  </g>
+</svg>

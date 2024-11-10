@@ -1,0 +1,32 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "susan.donham@pm.me",
+                "Name": "Sue Donham"
+            }
+        ],
+        "Category": "Global Themes (Plasma 6)",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Chocula",
+        "Description": "Dark brown theme with bright accents",
+        "Id": "Chocula",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "Website": "https://github.com/SueDonham/chocula-desktop-theme"
+    },
+    "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/2198929",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2198931",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2198932",
+        "kns://aurorae.knsrc/api.kde-look.org/2205839",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2202675",
+        "kns://wallpaper.knsrc/api.kde-look.org/2198940",
+        "kns://xcursor.knsrc/api.kde-look.org/2219158",
+        "kns://icons.knsrc/api.kde-look.org/2205840"
+    ]
+}

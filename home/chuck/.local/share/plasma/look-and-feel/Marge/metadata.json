@@ -1,0 +1,33 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "gicalucejo@gmail.com",
+                "Name": "jomada"
+            }
+        ],
+        "Category": "Global Themes (Plasma 6)",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Marge",
+        "Description": "Marge Desktop Design",
+        "Id": "Marge",
+        "Version": "1.0",
+        "License": "GPL 3+",
+        "Website": "https://seduccionlinux.wordpress.com",
+        "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+        "X-Plasma-APIVersion": "2"
+    },
+     "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/2222232",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2222239",
+        "kns://aurorae.knsrc/api.kde-look.org/2222235",
+        "kns://wallpaper.knsrc/api.kde-look.org/2222221",
+        "kns://wallpaper.knsrc/api.kde-look.org/2222218",
+        "kns://wallpaper.knsrc/api.kde-look.org/2222214",
+        "kns://icons.knsrc/api.kde-look.org/1661983"
+    ]
+}

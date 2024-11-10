@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "KWin/Aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zayronxio@gmail.co,",
+                "Name": "Zayronxio"
+            }
+        ],
+        "Category": "Plasma 5 Window Decorations",
+        "ServiceTypes": [
+            "KWin/Aurorae"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Alba.P",
+        "Description" : "alba theme",
+        "Id": "Alba.P",
+        "Version": "2.0",
+        "License": "GPL-2.0+",
+        "X-KPackage-Dependencies": [
+        ]
+    }
+}
+

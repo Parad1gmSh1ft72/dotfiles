@@ -1,0 +1,18 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "bojidar.marinov.bg@gmail.com",
+                "Name": "Bojidar Marinov"
+            }
+        ],
+        "Description": "Parallax desktop wallpaper",
+        "Icon": "preferences-desktop-wallpaper",
+        "Id": "com.github.bojidar-bg.parallax",
+        "License": "GPL-2.0+",
+        "Name": "Parallax",
+        "Version": "0.4.2",
+        "Website": "https://github.com/bojidar-bg/plasma-parallax-wallpaper"
+    }
+}

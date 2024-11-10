@@ -1,0 +1,38 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zayronxio@gmail.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Category": "",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Description": "theme that imitates the appearance of macos ventura and later versions",
+        "Id": "Frosted.Windows",
+        "License": "GPLv3+",
+        "Name": "Frosted Windows",
+        "Website": "https://store.kde.org/p/2212296"
+        },
+        "X-KPackage-Dependencies": [
+        "kns://icons.knsrc/api.kde-look.org/2008298",
+        "kns://colorschemes.knsrc/api.kde-look.org/1408712",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1980674",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2023421",
+        "kns://plasmoids.knsrc/api.kde-look.org/2183258",
+        "kns://plasmoids.knsrc/api.kde-look.org/2137418",
+        "kns://aurorae.knsrc/api.kde-look.org/1977804",
+        "kns://plasmoids.knsrc/api.kde-look.org/2179317",
+        "kns://plasmoids.knsrc/api.kde-look.org/2161461",
+        "kns://plasmoids.knsrc/api.kde-look.org/2139890",
+        "kns://plasmoids.knsrc/api.kde-look.org/2147882",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136636",
+        "kns://wallpaper.knsrc/api.kde-look.org/2210816",
+        "kns://xcursor.knsrc/api.kde-look.org/2083798",
+        "kns://plasmoids.knsrc/api.kde-look.org/2199942",
+        "kns://plasmoids.knsrc/api.kde-look.org/2163368"
+         ]
+         }

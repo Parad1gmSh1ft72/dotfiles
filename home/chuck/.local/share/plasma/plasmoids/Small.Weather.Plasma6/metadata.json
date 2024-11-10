@@ -1,0 +1,23 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "zayronxio"
+            }
+        ],
+        "Name": "Small Weather",
+        "Id": "Small.Weather.Plasma6",
+        "Description": "Small desktop widget with information on the current temperature, weather conditions, and the day's maximum and minimum temperatures.",
+        "Category": "Utilities",
+        "Icon": "weather",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0+",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "0.5.3",
+        "Website": ""
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}

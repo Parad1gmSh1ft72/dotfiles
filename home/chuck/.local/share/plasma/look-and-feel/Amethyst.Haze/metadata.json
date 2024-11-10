@@ -1,0 +1,41 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zayronxio@gmail.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Category": "",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Description": "",
+        "Id": "Amethyst.Haze",
+        "License": "GPLv3+",
+        "Name": "Amethyst.Haze",
+        "Website": ""
+        },
+        "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/2218602",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2218601",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2023421",
+        "kns://xcursor.knsrc/api.kde-look.org/2083798",
+        "kns://plasmoids.knsrc/api.kde-look.org/2137418",
+        "kns://plasmoids.knsrc/api.kde-look.org/2139890",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136299",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136321",
+        "kns://plasmoids.knsrc/api.kde-look.org/2141133",
+        "kns://plasmoids.knsrc/api.kde-look.org/2174265",
+        "kns://aurorae.knsrc/api.kde-look.org/2091545",
+        "kns://wallpaper.knsrc/api.kde-look.org/2102669",
+        "kns://wallpaper.knsrc/api.kde-look.org/2093202",
+        "kns://wallpaper.knsrc/api.kde-look.org/2128987",
+        "kns://icons.knsrc/api.kde-look.org/1977340",
+        "kns://icons.knsrc/api.kde-look.org/2008298",
+        "kns://plasmoids.knsrc/api.kde-look.org/2179317",
+        "kns://plasmoids.knsrc/api.kde-look.org/2199942",
+        "kns://plasmoids.knsrc/api.kde-look.org/2175475"
+         ]
+         }

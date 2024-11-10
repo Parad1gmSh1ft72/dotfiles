@@ -1,0 +1,33 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "eliverlara@gmail.com",
+                "Name": "EliverLara"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "EnabledByDefault": true,
+        "Id": "Nordic-darker",
+        "License": "GPL 3+",
+        "Name": "Nordic-darker",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "0.1",
+        "Website": "https://github.com/EliverLara/Nordic"
+    },
+    "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/1629062",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1633673",
+        "kns://aurorae.knsrc/api.kde-look.org/1326274",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2146572",
+        "kns://xcursor.knsrc/api.kde-look.org/1662218",
+        "kns://wallpaper.knsrc/api.kde-look.org/1683121",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1704303",
+        "kns://icons.knsrc/api.kde-look.org/1733012",
+        "kns://plasmoids.knsrc/api.kde-look.org/2144212",
+        "kns://wallpaper.knsrc/api.kde-look.org/2086140"
+    ]
+}

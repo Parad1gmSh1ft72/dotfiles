@@ -1,0 +1,42 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zayronxio@gmail.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Category": "",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Description": "theme that imitates the appearance of windows 12",
+        "Id": "windows.12.Dark.P6",
+        "License": "GPLv3+",
+        "Name": "windows 12 Dark Plasma 6",
+        "Website": "https://store.kde.org/p/2179334"
+        },
+        "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/2083780",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2218601",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2012185",
+        "kns://icons.knsrc/api.kde-look.org/2008298",
+        "kns://plasmoids.knsrc/api.kde-look.org/2137418",
+        "kns://plasmoids.knsrc/api.kde-look.org/2139890",
+        "kns://plasmoids.knsrc/api.kde-look.org/2174265",
+        "kns://plasmoids.knsrc/api.kde-look.org/2161461",
+        "kns://plasmoids.knsrc/api.kde-look.org/2168131",
+        "kns://aurorae.knsrc/api.kde-look.org/1984455",
+        "kns://plasmoids.knsrc/api.kde-look.org/2175475",
+        "kns://plasmoids.knsrc/api.kde-look.org/2179317",
+        "kns://wallpaper.knsrc/api.kde-look.org/2079222",
+        "kns://wallpaper.knsrc/api.kde-look.org/2125613",
+        "kns://icons.knsrc/api.kde-look.org/2008298",
+        "kns://plasmoids.knsrc/api.kde-look.org/2163368",
+        "kns://plasmoids.knsrc/api.kde-look.org/2186442",
+        "kns://plasmoids.knsrc/api.kde-look.org/2199942",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136288",
+        "kns://plasmoids.knsrc/api.kde-look.org/2201084"
+         ]
+         }

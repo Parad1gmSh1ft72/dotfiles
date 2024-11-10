@@ -1,0 +1,38 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "l4k1987@gmail.com",
+                "Name": "l4k1"
+            }
+        ],
+        "Category": "Global Themes (Plasma 6)",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "EnabledByDefault": true,
+        "Name": "KDE-Story-Dark-Global-6",
+        "Description": "KDE-Story-Dark-Global-6 by l4k1",
+        "Id": "KDE-Story-Dark-Global-6",
+        "Version": "1.1",
+        "License": "GPLv3",
+        "Website": "https://github.com/L4ki/KDE-Story"
+    },
+    "X-KPackage-Dependencies": [
+        "kns://window-decorations.knsrc/api.kde-look.org/2137056",
+        "kns://window-decorations.knsrc/api.kde-look.org/2134953",
+        "kns://colorschemes.knsrc/api.kde-look.org/1307864",
+        "kns://colorschemes.knsrc/api.kde-look.org/1354406",
+        "kns://icons.knsrc/api.kde-look.org/1339434",
+        "kns://icons.knsrc/api.kde-look.org/1334700",
+        "kns://icons.knsrc/api.kde-look.org/1339435",
+        "kns://icons.knsrc/api.kde-look.org/1335436",
+        "kns://plasma-themes.knsrc/api.kde-look.org/1307855",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2216336",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2155040",
+        "kns://wallpaper.knsrc/api.kde-look.org/1363184",
+        "kns://wallpaper.knsrc/api.kde-look.org/1311644",
+        "kns://wallpaper.knsrc/api.kde-look.org/1363181"
+    ]
+}

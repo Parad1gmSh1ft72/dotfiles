@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "gicalucejo@gmail.com",
+                "Name": "jomada"
+            }
+        ],
+        "Category": "",
+        "Description": "Apus for Plasma",
+        "EnabledByDefault": true,
+        "Id": "Apus",
+        "License": "LGPL",
+        "Name": "Apus",
+        "Version": "2.4",
+        "Website": "https://seduccionlinux.wordpress.com"
+    },
+    "X-Plasma-API": "5.0"
+}

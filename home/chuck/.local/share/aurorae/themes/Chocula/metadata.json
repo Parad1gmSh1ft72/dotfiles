@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "KWin/Aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "susan.donham@pm.me",
+                "Name": "Sue Donham"
+            }
+        ],
+        "Category": "Plasma 6 Window Decorations",
+        "ServiceTypes": [
+            "KWin/Aurorae"
+        ],
+        "EnabledByDefault": true,
+        "Name": "Chocula",
+        "Description" : "A dark brown theme with bright accents",
+        "Id": "Chocula",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "X-KDE-PluginInfo-blur": false,
+        "X-KPackage-Dependencies": [
+        ]
+    }
+}

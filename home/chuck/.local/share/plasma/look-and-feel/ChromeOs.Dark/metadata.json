@@ -1,0 +1,40 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zayronxio@gmail.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Category": "",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Description": "theme that imitates the appearance of chromeOs",
+        "Id": "ChromeOs.Dark",
+        "License": "GPLv3+",
+        "Name": "ChromeOs Dark",
+        "Website": ""
+        },
+        "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/2055535",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2185968",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2055521",
+        "kns://plasmoids.knsrc/api.kde-look.org/2185962",
+        "kns://plasmoids.knsrc/api.kde-look.org/2139890",
+        "kns://plasmoids.knsrc/api.kde-look.org/2179317",
+        "kns://plasmoids.knsrc/api.kde-look.org/2185174",
+        "kns://aurorae.knsrc/api.kde-look.org/1414438",
+        "kns://plasmoids.knsrc/api.kde-look.org/2175475",
+        "kns://wallpaper.knsrc/api.kde-look.org/2066865",
+        "kns://icons.knsrc/api.kde-look.org/1683734",
+        "kns://wallpaper.knsrc/api.kde-look.org/2055531",
+        "kns://plasmoids.knsrc/api.kde-look.org/2184730",
+        "kns://plasmoids.knsrc/api.kde-look.org/2188581",
+        "kns://plasmoids.knsrc/api.kde-look.org/2199942",
+        "kns://plasmoids.knsrc/api.kde-look.org/2186442",
+        "kns://plasmoids.knsrc/api.kde-look.org/2189637",
+        "kns://plasmoids.knsrc/api.kde-look.org/2168466"
+         ]
+         }

@@ -1,0 +1,44 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zayronxio@gmail.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Category": "",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Description": "",
+        "Id": "YaruPlasma.V1.Plasma6",
+        "License": "GPLv3+",
+        "Name": "YaruPlasma V1",
+        "Website": ""
+        },
+        "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/2001735",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2055521",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2023421",
+        "kns://xcursor.knsrc/api.kde-look.org/2083798",
+        "kns://wallpaper.knsrc/api.kde-look.org/2084701",
+        "kns://plasmoids.knsrc/api.kde-look.org/2137418",
+        "kns://plasmoids.knsrc/api.kde-look.org/2161461",
+        "kns://plasmoids.knsrc/api.kde-look.org/2139890",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136299",
+        "kns://plasmoids.knsrc/api.kde-look.org/2141133",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136636",
+        "kns://plasmoids.knsrc/api.kde-look.org/2144212",
+        "kns://plasmoids.knsrc/api.kde-look.org/2147882",
+        "kns://plasmoids.knsrc/api.kde-look.org/2136291",
+        "kns://aurorae.knsrc/api.kde-look.org/1331950",
+        "kns://wallpaper.knsrc/api.kde-look.org/2130013",
+        "kns://icons.knsrc/api.kde-look.org/2001728",
+        "kns://plasmoids.knsrc/api.kde-look.org/2183258",
+        "kns://plasmoids.knsrc/api.kde-look.org/2163368",
+        "kns://plasmoids.knsrc/api.kde-look.org/2199942",
+        "kns://plasmoids.knsrc/api.kde-look.org/2201084",
+        "kns://plasmoids.knsrc/api.kde-look.org/2189637"
+         ]
+         }

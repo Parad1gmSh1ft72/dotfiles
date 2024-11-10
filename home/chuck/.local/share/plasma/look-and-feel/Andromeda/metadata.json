@@ -1,0 +1,29 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "eliverlara@gmail.com",
+                "Name": "EliverLara"
+            }
+        ],
+        "Category": "Plasma Look And Feel",
+        "EnabledByDefault": true,
+        "Id": "Andromeda",
+        "License": "GPL 3+",
+        "Name": "Andromeda",
+        "ServiceTypes": [
+            "Plasma/LookAndFeel"
+        ],
+        "Version": "0.1",
+        "Website": "https://github.com/EliverLara/Andromeda-kde"
+    },
+    "X-KPackage-Dependencies": [
+        "kns://colorschemes.knsrc/api.kde-look.org/2036822",
+        "kns://plasma-themes.knsrc/api.kde-look.org/2036834",
+        "kns://aurorae.knsrc/api.kde-look.org/2036828",
+        "kns://sddmtheme.knsrc/api.kde-look.org/2144475",
+        "kns://plasmoids.knsrc/api.kde-look.org/2144212",
+        "kns://plasmoids.knsrc/api.kde-look.org/2196105"
+    ]
+}
