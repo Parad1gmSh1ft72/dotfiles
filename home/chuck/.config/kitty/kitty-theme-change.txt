@@ -1,0 +1,1 @@
+ln -s ./kitty-themes/themes/gruvbox_dark.conf ~/.config/kitty/theme.conf

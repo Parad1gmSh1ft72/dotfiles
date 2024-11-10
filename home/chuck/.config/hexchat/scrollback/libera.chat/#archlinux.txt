@@ -1,0 +1,234 @@
+T 1730945284 19*	Now talking on 22#archlinux
+T 1730945284 22*	Topic for 22#archlinux is: Welcome to Arch Linux, https://archlinux.org | Rules: https://coc.archlinux.org | restart sshd after 2024-07-01 upgrade https://gitlab.archlinux.org/archlinux/packaging/packages/openssh/-/issues/5 | Pastebins: !paste | https://status.archlinux.org | Keyring problems? pacman -Sy archlinux-keyring && pacman -Su
+T 1730945284 22*	Topic for 22#archlinux set by 26phrik!~phrik@phrik.archlinux.org (24Sat Jul 13 09:47:58 2024)
+T 1730945314 23*	leming (~kevin@user/leming23) has joined
+T 1730945379 24*	kilobyte22 has quit (Ping timeout: 252 seconds)
+T 1730945379 24*	jackie has quit (Ping timeout: 252 seconds)
+T 1730945404 23*	gnarchie (gnarchie@user/gnarchie23) has joined
+T 1730945409 24*	vysn has quit (Remote host closed the connection)
+T 1730945431 23*	kilobyte22 (~kilobyte2@banana-new.kilobyte22.de23) has joined
+T 1730945496 23*	jackie (~jackie@banana-new.kilobyte22.de23) has joined
+T 1730945569 24*	Traneptora has quit (Quit: Quit)
+T 1730945624 23*	tsal (~tsal@user/tsal23) has joined
+T 1730945653 24*	tsal_ has quit (Ping timeout: 244 seconds)
+T 1730945680 24*	spew has quit (Quit: spew)
+T 1730945870 24*	jahpex has quit (Ping timeout: 255 seconds)
+T 1730945872 23*	adnidor (~adnidor@p5dc35a14.dip0.t-ipconnect.de23) has joined
+T 1730945932 24*	kolewu has quit (Quit: kolewu)
+T 1730945952 24*	eirik__ has quit (Ping timeout: 276 seconds)
+T 1730946162 23*	alkesran (~alkersan@bras-base-toroon0648w-grc-12-142-198-75-206.dsl.bell.ca23) has joined
+T 1730946216 24*	alkersan (~alkersan@142.198.75.20624) has left
+T 1730946315 24*	akibageek has quit (Ping timeout: 246 seconds)
+T 1730946664 24*	sevu has quit (Ping timeout: 260 seconds)
+T 1730946677 24*	ddxtanx_ has quit (Remote host closed the connection)
+T 1730946753 23*	sevu (~sevu@wesnoth/developer/sevu23) has joined
+T 1730946978 18<Numero18>	okay, everyone - i still have this dell optiplex 3040 that can't seem to start grub after power-up. it says "press f1 to retry, f2 for setup" etc. my grub installation shows up in the bios and shows up when i hit F12 after powerup but if i select it i get that same prompt. 
+T 1730947040 24*	kaatayra935 has quit (Quit: The Lounge - https://thelounge.chat)
+T 1730947046 18<Numero18>	 /boot is sda2 and it is type "EFI System" and is formatted fat32
+T 1730947080 18<Numero18>	secure boot is disabled and UEFI is enabled. sda is a GPT device
+T 1730947150 24*	|AhIoRoS| has quit (Quit: |AhIoRoS|)
+T 1730947156 24*	shibboleth has quit (Quit: shibboleth)
+T 1730947282 24*	DragonB0rn has quit (Quit: Leaving)
+T 1730947374 24*	thingfish has quit (Quit: Leaving.)
+T 1730947376 18<alkesran18>	Numero: can you try booting from any other media, like a usb drive?
+T 1730947423 18<Numero18>	alkesran: oh yes - the whole system is installed and ready to boot into if it would only work. booting to arch live iso and working with drives all works fine.
+T 1730947497 18<Scimmia18>	Numero: try the fallback path
+T 1730947554 24*	ss has quit ()
+T 1730947558 18<alkesran18>	Numero, was grub installed with x86_64-efi target?
+T 1730947572 18<Numero18>	alkesran: yes - i'm sure of it
+T 1730947601 24*	joey has quit (Quit: WeeChat 4.4.3)
+T 1730947660 18<alkesran18>	Numero, hm... i would also double check in the bios that sata drives are in AHCI mode, not any sort of raid or legacy
+T 1730947671 23*	joey (~joey@103.3.120.19023) has joined
+T 1730947689 24*	mrjones has quit (Ping timeout: 260 seconds)
+T 1730947730 24*	Smiles has quit (Quit: Connection closed for inactivity)
+T 1730947781 23*	mrjones (~mrjones@c-69-143-49-238.hsd1.md.comcast.net23) has joined
+T 1730947788 23*	printfdebugging (~Thunderbi@user/printfdebugging23) has joined
+T 1730947795 18<alkesran18>	Numero, also maybe try booting into EFI Shell, and execute the grub's bootx64.efi manually
+T 1730947818 18<Numero18>	alkesran: AHCI mode confirmed
+T 1730947819 24*	tpowa has quit (Ping timeout: 260 seconds)
+T 1730947844 18<Numero18>	alkesran: ok, i may need to be talked through that
+T 1730947873 23*	tpowa (~tpowa@archlinux/developer/tpowa23) has joined
+T 1730947936 24*	lunarequest has quit (Remote host closed the connection)
+T 1730947976 18<alkesran18>	you can boot into UEFI shell from arch install iso or usb drive
+T 1730948015 18<Numero18>	alkesran: BTW, the bios lets me edit boot entries and it lets me browse to and speciify a file. have selected /EFI/BOOT/BOOTX64.EFI
+T 1730948094 18<alkesran18>	yeah, that could be possible. I don't remember the dell's bios quirks 
+T 1730948113 24*	cloudowind has quit (Ping timeout: 248 seconds)
+T 1730948143 18<alkesran18>	basically, from the UEFI shell you need to find that bootx64.efi file and execute it, like if you were in a regular bash 
+T 1730948157 18<alkesran18>	just to see if it error out or smth
+T 1730948197 18<alkesran18>	https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface#UEFI_Shell
+T 1730948199 18<phrik18>	Title: Unified Extensible Firmware Interface - ArchWiki (at wiki.archlinux.org)
+T 1730948378 24*	TrentP has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+T 1730948400 24*	smallville7123 has quit (Ping timeout: 252 seconds)
+T 1730948418 24*	Celsiuss373 has quit (Quit: Celsiuss373)
+T 1730948433 24*	Fhraze has quit (Remote host closed the connection)
+T 1730948435 24*	IZEASG has quit (Ping timeout: 255 seconds)
+T 1730948456 23*	Fhraze (~Fhraze@user/Fhraze23) has joined
+T 1730948469 23*	Celsiuss373 (~celsiuss@216.81-167-102.customer.lyse.net23) has joined
+T 1730948479 18<Numero18>	alkesran: tell me something - when i power up and hit F12 to see what i can boot to, i see "GRUB-I" (the identifier i used) and "UEFI: SanDisk SDDr-113..." which is mmy usb boot media. does it mean anything that "GRUB-I" isn't also preceded by "UEFI"?
+T 1730948481 23*	lunarequest (~lunareque@user/lunarequest23) has joined
+T 1730948544 23*	cloudowind (~cloudowin@user/cloudowind23) has joined
+T 1730948670 23*	e^pi-1 (~e@2a01:7e03:e001:dd::223) has joined
+T 1730948744 23*	Traneptora (~Traneptor@c-107-5-239-114.hsd1.mi.comcast.net23) has joined
+T 1730948745 23*	Traneptora_ (~Traneptor@c-107-5-239-114.hsd1.mi.comcast.net23) has joined
+T 1730948755 24*	Traneptora_ has quit (Remote host closed the connection)
+T 1730948975 24*	lmat has quit (Ping timeout: 255 seconds)
+T 1730949572 23*	IZEASG (~gfv@pc-5-153-164-190.cm.vtr.net23) has joined
+T 1730949660 24*	tastenquaeler has quit (Remote host closed the connection)
+T 1730949672 23*	pks_ (~pks@user/pks23) has joined
+T 1730949692 24*	pks has quit (Ping timeout: 272 seconds)
+T 1730949692 24*	28pks_ is now known as 18pks
+T 1730949739 23*	smallville7123 (~smallvill@user/androidui23) has joined
+T 1730949795 23*	tastenquaeler_ (~horst@gateway/tor-sasl/tastenquaeler23) has joined
+T 1730949977 23*	lmat (~Lmat@64.38.158.6523) has joined
+T 1730949991 23*	thingfish (~thingfish@user/thingfish23) has joined
+T 1730950050 23*	ddxtanx (~ddxtanx@user/ddxtanx23) has joined
+T 1730950148 24*	chaky has quit (Ping timeout: 272 seconds)
+T 1730950255 23*	chaky (~chaky@93-143-102-114.adsl.net.t-com.hr23) has joined
+T 1730950377 23*	TrentP (~quassel@c-76-105-170-67.hsd1.or.comcast.net23) has joined
+T 1730950384 24*	Fhraze has quit (Ping timeout: 260 seconds)
+T 1730950389 24*	Luker has quit (Ping timeout: 248 seconds)
+T 1730950421 24*	alerque has quit (Ping timeout: 248 seconds)
+T 1730950454 24*	panwolfram has quit (Ping timeout: 260 seconds)
+T 1730950454 24*	chris64 has quit (Ping timeout: 260 seconds)
+T 1730950558 23*	arcane (~arcane@user/arcane23) has joined
+T 1730950690 24*	hdh has quit (Quit: WeeChat 4.4.2)
+T 1730950773 23*	BillyZane (~BillyZane@user/BillyZane23) has joined
+T 1730950793 23*	Daanct12 (~danct12@user/danct1223) has joined
+T 1730950832 23*	chris64 (~chris@user/chris6423) has joined
+T 1730950852 24*	tastenquaeler_ has quit (*.net *.split)
+T 1730950852 24*	BoBeR182 has quit (*.net *.split)
+T 1730950852 24*	FinnElija has quit (*.net *.split)
+T 1730950852 24*	Komb0sIRC has quit (*.net *.split)
+T 1730950852 24*	chiselfuse has quit (*.net *.split)
+T 1730950852 24*	drathir_tor has quit (*.net *.split)
+T 1730950852 24*	Epsilon has quit (*.net *.split)
+T 1730950852 24*	wofA has quit (*.net *.split)
+T 1730950852 24*	gildasio has quit (*.net *.split)
+T 1730950852 24*	xnovax- has quit (*.net *.split)
+T 1730950852 24*	filohuhum has quit (*.net *.split)
+T 1730950852 24*	verbotron has quit (*.net *.split)
+T 1730950852 24*	infertux has quit (*.net *.split)
+T 1730950852 24*	th3voic3_ has quit (*.net *.split)
+T 1730950852 24*	gnurp has quit (*.net *.split)
+T 1730950852 24*	makidoll has quit (*.net *.split)
+T 1730950852 24*	tolnanwo has quit (*.net *.split)
+T 1730950852 24*	b2ag has quit (*.net *.split)
+T 1730950852 24*	iusr has quit (*.net *.split)
+T 1730950852 24*	_ngn has quit (*.net *.split)
+T 1730950852 24*	bindu has quit (*.net *.split)
+T 1730950852 24*	arcturus has quit (*.net *.split)
+T 1730950852 24*	joey7 has quit (*.net *.split)
+T 1730950852 24*	cmc has quit (*.net *.split)
+T 1730950852 24*	clueminati has quit (*.net *.split)
+T 1730950852 24*	zer0bitz- has quit (*.net *.split)
+T 1730950852 24*	martian67 has quit (*.net *.split)
+T 1730950865 23*	adv8tor (~adv8tor@2405:201:1007:10e5:9418:8c54:ed56:f90b23) has joined
+T 1730950874 24*	RealFloridaMan has quit (Ping timeout: 260 seconds)
+T 1730950989 24*	Fingel has quit (Quit: Fingel)
+T 1730951010 23*	Fingel (~Fingel@user/fingel23) has joined
+T 1730951014 24*	Fingel has quit (Remote host closed the connection)
+T 1730951030 23*	Luker (~Luker@codepedia.eu23) has joined
+T 1730951031 23*	Fingel (~Fingel@user/fingel23) has joined
+T 1730951057 23*	Ximo (~Ximo@user/Ximo23) has joined
+T 1730951098 23*	panwolfram (~panwolfra@176.9.59.5523) has joined
+T 1730951157 23*	alerque (~caleb@2a01:4f8:150:6366::223) has joined
+T 1730951166 24*	Hunker has quit (Ping timeout: 246 seconds)
+T 1730951185 23*	BoBeR182 (~BoBeR182@gateway/tor-sasl/bober18223) has joined
+T 1730951192 23*	zer0bitz- (~zer0bitz-@user/zer0bitz-23) has joined
+T 1730951193 23*	_ngn (~ngn@user/ngn/x-993206823) has joined
+T 1730951193 23*	wofA (~wofA@user/wofA23) has joined
+T 1730951193 23*	b2ag (~b2ag@user/b2ag23) has joined
+T 1730951195 23*	Epsilon (~Epsilon@user/epsilon23) has joined
+T 1730951197 23*	martian67 (~martian67@user/meow/martian6723) has joined
+T 1730951264 23*	tastenquaeler_ (~horst@gateway/tor-sasl/tastenquaeler23) has joined
+T 1730951294 23*	Hunker (jirido@gateway/vpn/protonvpn/hunker23) has joined
+T 1730951347 23*	iusr (~IUSR@gateway/tor-sasl/iusr23) has joined
+T 1730951356 23*	cmc (~methos@gateway/tor-sasl/cmc23) has joined
+T 1730951365 23*	arcturus (~arcturus@user/arcturus23) has joined
+T 1730951368 23*	bindu (~bindu@user/bindu23) has joined
+T 1730951382 23*	gildasio (~gildasio@gateway/tor-sasl/gildasio23) has joined
+T 1730951387 23*	clueminati (~clueminat@gateway/tor-sasl/clueminati23) has joined
+T 1730951391 23*	FinnElija (~finn_elij@user/finn-elija/x-008564323) has joined
+T 1730951392 23*	infertux (~infertux@gateway/tor-sasl/infertux23) has joined
+T 1730951396 23*	tolnanwo (~tolnanwo@user/tolnanwo23) has joined
+T 1730951429 23*	drathir_tor (~drathir@wireguard/tunneler/drathir23) has joined
+T 1730951437 23*	chiselfuse (~chiselfus@user/chiselfuse23) has joined
+T 1730951481 23*	joey7 (~joey@gateway/tor-sasl/joey723) has joined
+T 1730951579 24*	kescher has quit (Quit: Bye)
+T 1730951632 23*	MyNetAz (~MyNetAz@user/MyNetAz23) has joined
+T 1730951643 23*	kescher (~kescher@107.189.7.17823) has joined
+T 1730951747 23*	daemonspudguy_ (~spuddesk@173.81.51.21123) has joined
+T 1730951760 23*	Komb0sIRC (~Komb0sIRC@user/Komb0sIRC23) has joined
+T 1730951769 23*	gokkun (~gokkun@2a0b:6204:34eb:5700:2c70:4f44:a9c8:fd1923) has joined
+T 1730951774 24*	daemonspudguy has quit (Read error: Connection reset by peer)
+T 1730951862 23*	gokkun_ (~gokkun@2a0b:6204:34eb:5700:2c70:4f44:a9c8:fd1923) has joined
+T 1730951871 24*	gokkun_ has quit (Remote host closed the connection)
+T 1730952056 18<Numero18>	does it mean anything when, in UEFI boot seqence list in setup, the entry for file system starts with "VenHw(..."
+T 1730952064 24*	gokkun has quit (Ping timeout: 260 seconds)
+T 1730952168 23*	aziz (~Thunderbi@31.223.97.8523) has joined
+T 1730952171 24*	aziz has quit (Client Quit)
+T 1730952218 23*	aziz (~Thunderbi@85.99.112.11823) has joined
+T 1730952288 24*	sunyour has quit (Quit: sunyour)
+T 1730952309 24*	IZEASG has quit (Ping timeout: 260 seconds)
+T 1730952581 24*	joda has quit (Quit: .)
+T 1730952593 24*	lmat has quit (Ping timeout: 255 seconds)
+T 1730952600 24*	jonakeys has quit (Quit: WeeChat 4.3.1)
+T 1730952620 23*	jonakeys (~jonathan@80-115-173-185.cable.dynamic.v4.ziggo.nl23) has joined
+T 1730952717 24*	hackbug has quit (Remote host closed the connection)
+T 1730952770 23*	joda (~joda@user/joda23) has joined
+T 1730952852 23*	kts (~kts@103.73.237.7623) has joined
+T 1730952868 23*	gokkun (~gokkun@2a0b:6204:34eb:5700:2c70:4f44:a9c8:fd1923) has joined
+T 1730952922 23*	eirik__ (~eirik@85.190.238.22323) has joined
+T 1730952994 23*	hackbug (~hackbug@c-73-83-116-167.hsd1.wa.comcast.net23) has joined
+T 1730953043 23*	CarloWood (~LdK13@94-208-89-57.cable.dynamic.v4.ziggo.nl23) has joined
+T 1730953146 24*	gaku has quit (Quit: rebooting)
+T 1730953160 23*	mxz__ (~mxz@user/mxz23) has joined
+T 1730953181 23*	IZEASG (~gfv@pc-5-153-164-190.cm.vtr.net23) has joined
+T 1730953202 24*	eirik__ has quit (Ping timeout: 248 seconds)
+T 1730953211 24*	mxz_ has quit (Ping timeout: 252 seconds)
+T 1730953241 24*	MyNetAz has quit (Remote host closed the connection)
+T 1730953268 24*	mxz has quit (Ping timeout: 255 seconds)
+T 1730953268 24*	28mxz__ is now known as 18mxz
+T 1730953270 23*	verbotron (~verbotron@gateway/tor-sasl/verbotron23) has joined
+T 1730953277 24*	Ar|stote|is has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+T 1730953294 23*	Ar|stote|is (~linx@149.210.17.623) has joined
+T 1730953312 23*	MyNetAz (~MyNetAz@user/MyNetAz23) has joined
+T 1730953316 23*	gaku (~GaKu999@user/gaku99923) has joined
+T 1730953356 24*	gokkun has quit (Quit: Leaving)
+T 1730953360 24*	MyNetAz has quit (Remote host closed the connection)
+T 1730953401 23*	MyNetAz (~MyNetAz@user/MyNetAz23) has joined
+T 1730953448 24*	IZEASG has quit (Ping timeout: 245 seconds)
+T 1730953473 23*	ryther8766 (~Ryther@user/ryther23) has joined
+T 1730953594 23*	lmat (~Lmat@64.38.158.6523) has joined
+T 1730953604 24*	ryther876 has quit (Ping timeout: 260 seconds)
+T 1730953604 24*	28ryther8766 is now known as 18ryther876
+T 1730953665 23*	gokkun (~gokkun@2a0b:6204:34eb:5700:21de:4586:c5ba:f41c23) has joined
+T 1730953711 23*	mistersmee (~Thunderbi@2405:201:1002:487e:e18b:1fc3:35a8:749723) has joined
+T 1730953740 23*	evprok (~evprok@134.249.146.7623) has joined
+T 1730953765 23*	Kaptan (~Thunderbi@2a02:4e0:2d3e:1b23:a144:e1e4:90d6:bf7923) has joined
+T 1730953781 24*	gokkun has quit (Client Quit)
+T 1730953821 24*	th3r00t has quit (Quit: Lost terminal)
+T 1730953845 23*	th3r00t (~th3r00t@user/th3r00t23) has joined
+T 1730953894 24*	Nei has quit (Ping timeout: 252 seconds)
+T 1730953992 24*	another| has quit (Ping timeout: 244 seconds)
+T 1730954010 24*	ChrisTX has quit (Ping timeout: 252 seconds)
+T 1730954073 24*	e^pi-1 has quit (Ping timeout: 245 seconds)
+T 1730954086 24*	verbotron has quit (Quit: Leaving)
+T 1730954180 24*	CubeTheThird has quit (Ping timeout: 252 seconds)
+T 1730954212 24*	th3r00t has quit (Quit: Lost terminal)
+T 1730954234 23*	th3r00t (~th3r00t@user/th3r00t23) has joined
+T 1730954339 24*	Daanct12 has quit (Ping timeout: 260 seconds)
+T 1730954363 24*	mrpops2ko has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+T 1730954453 24*	th3r00t has quit (Client Quit)
+T 1730954472 23*	th3r00t (~th3r00t@user/th3r00t23) has joined
+T 1730954550 23*	th3r00t_ (~th3r00t@user/th3r00t23) has joined
+T 1730954618 23*	Nei (~ailin@openSUSE/member/ailin-nemui23) has joined
+T 1730954659 23*	oandrew (~oandrew@user/oandrew23) has joined
+T 1730954682 23*	Daanct12 (~danct12@user/danct1223) has joined
+T 1730954747 24*	th3r00t_ has quit (Client Quit)
+T 1730954747 24*	th3r00t has quit (Client Quit)
+T 1730954758 23*	IZEASG (~gfv@pc-5-153-164-190.cm.vtr.net23) has joined
+T 1730954766 23*	th3r00t (~th3r00t@user/th3r00t23) has joined
+T 1730954839 23*	another| (~another@wireguard/tunneler/another23) has joined
+T 1730954904 *	Error starting identd server: Error binding to address [::]:113: Permission denied
+T 1730954926 FiSHLiM plugin unloaded

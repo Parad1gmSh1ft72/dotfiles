@@ -1,0 +1,21 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_material_medium_dark.toml"
+]
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrainsMono NF"
+style = "Regular"
+
+[window]
+opacity = 0.97
+
+[window.padding]
+x = 8
+y = 5
+
+[selection]
+save_to_clipboard = true

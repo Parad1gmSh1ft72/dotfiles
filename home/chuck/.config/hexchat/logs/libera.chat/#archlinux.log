@@ -1,0 +1,242 @@
+**** BEGIN LOGGING AT Wed Nov  6 20:08:05 2024
+
+Nov 06 20:08:04 *	Now talking on #archlinux
+Nov 06 20:08:04 *	Topic for #archlinux is: Welcome to Arch Linux, https://archlinux.org | Rules: https://coc.archlinux.org | restart sshd after 2024-07-01 upgrade https://gitlab.archlinux.org/archlinux/packaging/packages/openssh/-/issues/5 | Pastebins: !paste | https://status.archlinux.org | Keyring problems? pacman -Sy archlinux-keyring && pacman -Su
+Nov 06 20:08:04 *	Topic for #archlinux set by phrik!~phrik@phrik.archlinux.org (Sat Jul 13 09:47:58 2024)
+Nov 06 20:08:34 *	leming (~kevin@user/leming) has joined
+Nov 06 20:09:39 *	kilobyte22 has quit (Ping timeout: 252 seconds)
+Nov 06 20:09:39 *	jackie has quit (Ping timeout: 252 seconds)
+Nov 06 20:10:04 *	gnarchie (gnarchie@user/gnarchie) has joined
+Nov 06 20:10:09 *	vysn has quit (Remote host closed the connection)
+Nov 06 20:10:31 *	kilobyte22 (~kilobyte2@banana-new.kilobyte22.de) has joined
+Nov 06 20:11:36 *	jackie (~jackie@banana-new.kilobyte22.de) has joined
+Nov 06 20:12:49 *	Traneptora has quit (Quit: Quit)
+Nov 06 20:13:44 *	tsal (~tsal@user/tsal) has joined
+Nov 06 20:14:13 *	tsal_ has quit (Ping timeout: 244 seconds)
+Nov 06 20:14:40 *	spew has quit (Quit: spew)
+Nov 06 20:17:50 *	jahpex has quit (Ping timeout: 255 seconds)
+Nov 06 20:17:52 *	adnidor (~adnidor@p5dc35a14.dip0.t-ipconnect.de) has joined
+Nov 06 20:18:52 *	kolewu has quit (Quit: kolewu)
+Nov 06 20:19:12 *	eirik__ has quit (Ping timeout: 276 seconds)
+Nov 06 20:22:42 *	alkesran (~alkersan@bras-base-toroon0648w-grc-12-142-198-75-206.dsl.bell.ca) has joined
+Nov 06 20:23:36 *	alkersan (~alkersan@142.198.75.206) has left
+Nov 06 20:25:15 *	akibageek has quit (Ping timeout: 246 seconds)
+Nov 06 20:31:04 *	sevu has quit (Ping timeout: 260 seconds)
+Nov 06 20:31:17 *	ddxtanx_ has quit (Remote host closed the connection)
+Nov 06 20:32:33 *	sevu (~sevu@wesnoth/developer/sevu) has joined
+Nov 06 20:36:18 <Numero>	okay, everyone - i still have this dell optiplex 3040 that can't seem to start grub after power-up. it says "press f1 to retry, f2 for setup" etc. my grub installation shows up in the bios and shows up when i hit F12 after powerup but if i select it i get that same prompt. 
+Nov 06 20:37:20 *	kaatayra935 has quit (Quit: The Lounge - https://thelounge.chat)
+Nov 06 20:37:26 <Numero>	 /boot is sda2 and it is type "EFI System" and is formatted fat32
+Nov 06 20:38:00 <Numero>	secure boot is disabled and UEFI is enabled. sda is a GPT device
+Nov 06 20:39:10 *	|AhIoRoS| has quit (Quit: |AhIoRoS|)
+Nov 06 20:39:16 *	shibboleth has quit (Quit: shibboleth)
+Nov 06 20:41:22 *	DragonB0rn has quit (Quit: Leaving)
+Nov 06 20:42:54 *	thingfish has quit (Quit: Leaving.)
+Nov 06 20:42:56 <alkesran>	Numero: can you try booting from any other media, like a usb drive?
+Nov 06 20:43:43 <Numero>	alkesran: oh yes - the whole system is installed and ready to boot into if it would only work. booting to arch live iso and working with drives all works fine.
+Nov 06 20:44:57 <Scimmia>	Numero: try the fallback path
+Nov 06 20:45:54 *	ss has quit ()
+Nov 06 20:45:58 <alkesran>	Numero, was grub installed with x86_64-efi target?
+Nov 06 20:46:12 <Numero>	alkesran: yes - i'm sure of it
+Nov 06 20:46:41 *	joey has quit (Quit: WeeChat 4.4.3)
+Nov 06 20:47:40 <alkesran>	Numero, hm... i would also double check in the bios that sata drives are in AHCI mode, not any sort of raid or legacy
+Nov 06 20:47:51 *	joey (~joey@103.3.120.190) has joined
+Nov 06 20:48:09 *	mrjones has quit (Ping timeout: 260 seconds)
+Nov 06 20:48:50 *	Smiles has quit (Quit: Connection closed for inactivity)
+Nov 06 20:49:41 *	mrjones (~mrjones@c-69-143-49-238.hsd1.md.comcast.net) has joined
+Nov 06 20:49:48 *	printfdebugging (~Thunderbi@user/printfdebugging) has joined
+Nov 06 20:49:55 <alkesran>	Numero, also maybe try booting into EFI Shell, and execute the grub's bootx64.efi manually
+Nov 06 20:50:18 <Numero>	alkesran: AHCI mode confirmed
+Nov 06 20:50:19 *	tpowa has quit (Ping timeout: 260 seconds)
+Nov 06 20:50:44 <Numero>	alkesran: ok, i may need to be talked through that
+Nov 06 20:51:13 *	tpowa (~tpowa@archlinux/developer/tpowa) has joined
+Nov 06 20:52:16 *	lunarequest has quit (Remote host closed the connection)
+Nov 06 20:52:56 <alkesran>	you can boot into UEFI shell from arch install iso or usb drive
+Nov 06 20:53:35 <Numero>	alkesran: BTW, the bios lets me edit boot entries and it lets me browse to and speciify a file. have selected /EFI/BOOT/BOOTX64.EFI
+Nov 06 20:54:54 <alkesran>	yeah, that could be possible. I don't remember the dell's bios quirks 
+Nov 06 20:55:13 *	cloudowind has quit (Ping timeout: 248 seconds)
+Nov 06 20:55:43 <alkesran>	basically, from the UEFI shell you need to find that bootx64.efi file and execute it, like if you were in a regular bash 
+Nov 06 20:55:57 <alkesran>	just to see if it error out or smth
+Nov 06 20:56:37 <alkesran>	https://wiki.archlinux.org/title/Unified_Extensible_Firmware_Interface#UEFI_Shell
+Nov 06 20:56:39 <phrik>	Title: Unified Extensible Firmware Interface - ArchWiki (at wiki.archlinux.org)
+Nov 06 20:59:38 *	TrentP has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+Nov 06 21:00:00 *	smallville7123 has quit (Ping timeout: 252 seconds)
+Nov 06 21:00:18 *	Celsiuss373 has quit (Quit: Celsiuss373)
+Nov 06 21:00:33 *	Fhraze has quit (Remote host closed the connection)
+Nov 06 21:00:35 *	IZEASG has quit (Ping timeout: 255 seconds)
+Nov 06 21:00:56 *	Fhraze (~Fhraze@user/Fhraze) has joined
+Nov 06 21:01:09 *	Celsiuss373 (~celsiuss@216.81-167-102.customer.lyse.net) has joined
+Nov 06 21:01:19 <Numero>	alkesran: tell me something - when i power up and hit F12 to see what i can boot to, i see "GRUB-I" (the identifier i used) and "UEFI: SanDisk SDDr-113..." which is mmy usb boot media. does it mean anything that "GRUB-I" isn't also preceded by "UEFI"?
+Nov 06 21:01:21 *	lunarequest (~lunareque@user/lunarequest) has joined
+Nov 06 21:02:24 *	cloudowind (~cloudowin@user/cloudowind) has joined
+Nov 06 21:04:30 *	e^pi-1 (~e@2a01:7e03:e001:dd::2) has joined
+Nov 06 21:05:44 *	Traneptora (~Traneptor@c-107-5-239-114.hsd1.mi.comcast.net) has joined
+Nov 06 21:05:45 *	Traneptora_ (~Traneptor@c-107-5-239-114.hsd1.mi.comcast.net) has joined
+Nov 06 21:05:55 *	Traneptora_ has quit (Remote host closed the connection)
+Nov 06 21:09:35 *	lmat has quit (Ping timeout: 255 seconds)
+Nov 06 21:19:32 *	IZEASG (~gfv@pc-5-153-164-190.cm.vtr.net) has joined
+Nov 06 21:21:00 *	tastenquaeler has quit (Remote host closed the connection)
+Nov 06 21:21:12 *	pks_ (~pks@user/pks) has joined
+Nov 06 21:21:32 *	pks has quit (Ping timeout: 272 seconds)
+Nov 06 21:21:32 *	pks_ is now known as pks
+Nov 06 21:22:19 *	smallville7123 (~smallvill@user/androidui) has joined
+Nov 06 21:23:15 *	tastenquaeler_ (~horst@gateway/tor-sasl/tastenquaeler) has joined
+Nov 06 21:26:17 *	lmat (~Lmat@64.38.158.65) has joined
+Nov 06 21:26:31 *	thingfish (~thingfish@user/thingfish) has joined
+Nov 06 21:27:30 *	ddxtanx (~ddxtanx@user/ddxtanx) has joined
+Nov 06 21:29:08 *	chaky has quit (Ping timeout: 272 seconds)
+Nov 06 21:30:55 *	chaky (~chaky@93-143-102-114.adsl.net.t-com.hr) has joined
+Nov 06 21:32:57 *	TrentP (~quassel@c-76-105-170-67.hsd1.or.comcast.net) has joined
+Nov 06 21:33:04 *	Fhraze has quit (Ping timeout: 260 seconds)
+Nov 06 21:33:09 *	Luker has quit (Ping timeout: 248 seconds)
+Nov 06 21:33:41 *	alerque has quit (Ping timeout: 248 seconds)
+Nov 06 21:34:14 *	panwolfram has quit (Ping timeout: 260 seconds)
+Nov 06 21:34:14 *	chris64 has quit (Ping timeout: 260 seconds)
+Nov 06 21:35:58 *	arcane (~arcane@user/arcane) has joined
+Nov 06 21:38:10 *	hdh has quit (Quit: WeeChat 4.4.2)
+Nov 06 21:39:33 *	BillyZane (~BillyZane@user/BillyZane) has joined
+Nov 06 21:39:53 *	Daanct12 (~danct12@user/danct12) has joined
+Nov 06 21:40:32 *	chris64 (~chris@user/chris64) has joined
+Nov 06 21:40:52 *	tastenquaeler_ has quit (*.net *.split)
+Nov 06 21:40:52 *	BoBeR182 has quit (*.net *.split)
+Nov 06 21:40:52 *	FinnElija has quit (*.net *.split)
+Nov 06 21:40:52 *	Komb0sIRC has quit (*.net *.split)
+Nov 06 21:40:52 *	chiselfuse has quit (*.net *.split)
+Nov 06 21:40:52 *	drathir_tor has quit (*.net *.split)
+Nov 06 21:40:52 *	Epsilon has quit (*.net *.split)
+Nov 06 21:40:52 *	wofA has quit (*.net *.split)
+Nov 06 21:40:52 *	gildasio has quit (*.net *.split)
+Nov 06 21:40:52 *	xnovax- has quit (*.net *.split)
+Nov 06 21:40:52 *	filohuhum has quit (*.net *.split)
+Nov 06 21:40:52 *	verbotron has quit (*.net *.split)
+Nov 06 21:40:52 *	infertux has quit (*.net *.split)
+Nov 06 21:40:52 *	th3voic3_ has quit (*.net *.split)
+Nov 06 21:40:52 *	gnurp has quit (*.net *.split)
+Nov 06 21:40:52 *	makidoll has quit (*.net *.split)
+Nov 06 21:40:52 *	tolnanwo has quit (*.net *.split)
+Nov 06 21:40:52 *	b2ag has quit (*.net *.split)
+Nov 06 21:40:52 *	iusr has quit (*.net *.split)
+Nov 06 21:40:52 *	_ngn has quit (*.net *.split)
+Nov 06 21:40:52 *	bindu has quit (*.net *.split)
+Nov 06 21:40:52 *	arcturus has quit (*.net *.split)
+Nov 06 21:40:52 *	joey7 has quit (*.net *.split)
+Nov 06 21:40:52 *	cmc has quit (*.net *.split)
+Nov 06 21:40:52 *	clueminati has quit (*.net *.split)
+Nov 06 21:40:52 *	zer0bitz- has quit (*.net *.split)
+Nov 06 21:40:52 *	martian67 has quit (*.net *.split)
+Nov 06 21:41:05 *	adv8tor (~adv8tor@2405:201:1007:10e5:9418:8c54:ed56:f90b) has joined
+Nov 06 21:41:14 *	RealFloridaMan has quit (Ping timeout: 260 seconds)
+Nov 06 21:43:09 *	Fingel has quit (Quit: Fingel)
+Nov 06 21:43:30 *	Fingel (~Fingel@user/fingel) has joined
+Nov 06 21:43:34 *	Fingel has quit (Remote host closed the connection)
+Nov 06 21:43:50 *	Luker (~Luker@codepedia.eu) has joined
+Nov 06 21:43:51 *	Fingel (~Fingel@user/fingel) has joined
+Nov 06 21:44:17 *	Ximo (~Ximo@user/Ximo) has joined
+Nov 06 21:44:58 *	panwolfram (~panwolfra@176.9.59.55) has joined
+Nov 06 21:45:57 *	alerque (~caleb@2a01:4f8:150:6366::2) has joined
+Nov 06 21:46:06 *	Hunker has quit (Ping timeout: 246 seconds)
+Nov 06 21:46:25 *	BoBeR182 (~BoBeR182@gateway/tor-sasl/bober182) has joined
+Nov 06 21:46:32 *	zer0bitz- (~zer0bitz-@user/zer0bitz-) has joined
+Nov 06 21:46:33 *	_ngn (~ngn@user/ngn/x-9932068) has joined
+Nov 06 21:46:33 *	wofA (~wofA@user/wofA) has joined
+Nov 06 21:46:33 *	b2ag (~b2ag@user/b2ag) has joined
+Nov 06 21:46:35 *	Epsilon (~Epsilon@user/epsilon) has joined
+Nov 06 21:46:37 *	martian67 (~martian67@user/meow/martian67) has joined
+Nov 06 21:47:44 *	tastenquaeler_ (~horst@gateway/tor-sasl/tastenquaeler) has joined
+Nov 06 21:48:14 *	Hunker (jirido@gateway/vpn/protonvpn/hunker) has joined
+Nov 06 21:49:07 *	iusr (~IUSR@gateway/tor-sasl/iusr) has joined
+Nov 06 21:49:16 *	cmc (~methos@gateway/tor-sasl/cmc) has joined
+Nov 06 21:49:25 *	arcturus (~arcturus@user/arcturus) has joined
+Nov 06 21:49:28 *	bindu (~bindu@user/bindu) has joined
+Nov 06 21:49:42 *	gildasio (~gildasio@gateway/tor-sasl/gildasio) has joined
+Nov 06 21:49:47 *	clueminati (~clueminat@gateway/tor-sasl/clueminati) has joined
+Nov 06 21:49:51 *	FinnElija (~finn_elij@user/finn-elija/x-0085643) has joined
+Nov 06 21:49:52 *	infertux (~infertux@gateway/tor-sasl/infertux) has joined
+Nov 06 21:49:56 *	tolnanwo (~tolnanwo@user/tolnanwo) has joined
+Nov 06 21:50:29 *	drathir_tor (~drathir@wireguard/tunneler/drathir) has joined
+Nov 06 21:50:37 *	chiselfuse (~chiselfus@user/chiselfuse) has joined
+Nov 06 21:51:21 *	joey7 (~joey@gateway/tor-sasl/joey7) has joined
+Nov 06 21:52:59 *	kescher has quit (Quit: Bye)
+Nov 06 21:53:52 *	MyNetAz (~MyNetAz@user/MyNetAz) has joined
+Nov 06 21:54:03 *	kescher (~kescher@107.189.7.178) has joined
+Nov 06 21:55:47 *	daemonspudguy_ (~spuddesk@173.81.51.211) has joined
+Nov 06 21:56:00 *	Komb0sIRC (~Komb0sIRC@user/Komb0sIRC) has joined
+Nov 06 21:56:09 *	gokkun (~gokkun@2a0b:6204:34eb:5700:2c70:4f44:a9c8:fd19) has joined
+Nov 06 21:56:14 *	daemonspudguy has quit (Read error: Connection reset by peer)
+Nov 06 21:57:42 *	gokkun_ (~gokkun@2a0b:6204:34eb:5700:2c70:4f44:a9c8:fd19) has joined
+Nov 06 21:57:51 *	gokkun_ has quit (Remote host closed the connection)
+Nov 06 22:00:56 <Numero>	does it mean anything when, in UEFI boot seqence list in setup, the entry for file system starts with "VenHw(..."
+Nov 06 22:01:04 *	gokkun has quit (Ping timeout: 260 seconds)
+Nov 06 22:02:48 *	aziz (~Thunderbi@31.223.97.85) has joined
+Nov 06 22:02:51 *	aziz has quit (Client Quit)
+Nov 06 22:03:38 *	aziz (~Thunderbi@85.99.112.118) has joined
+Nov 06 22:04:48 *	sunyour has quit (Quit: sunyour)
+Nov 06 22:05:09 *	IZEASG has quit (Ping timeout: 260 seconds)
+Nov 06 22:09:41 *	joda has quit (Quit: .)
+Nov 06 22:09:53 *	lmat has quit (Ping timeout: 255 seconds)
+Nov 06 22:10:00 *	jonakeys has quit (Quit: WeeChat 4.3.1)
+Nov 06 22:10:20 *	jonakeys (~jonathan@80-115-173-185.cable.dynamic.v4.ziggo.nl) has joined
+Nov 06 22:11:57 *	hackbug has quit (Remote host closed the connection)
+Nov 06 22:12:50 *	joda (~joda@user/joda) has joined
+Nov 06 22:14:12 *	kts (~kts@103.73.237.76) has joined
+Nov 06 22:14:28 *	gokkun (~gokkun@2a0b:6204:34eb:5700:2c70:4f44:a9c8:fd19) has joined
+Nov 06 22:15:22 *	eirik__ (~eirik@85.190.238.223) has joined
+Nov 06 22:16:34 *	hackbug (~hackbug@c-73-83-116-167.hsd1.wa.comcast.net) has joined
+Nov 06 22:17:23 *	CarloWood (~LdK13@94-208-89-57.cable.dynamic.v4.ziggo.nl) has joined
+Nov 06 22:19:06 *	gaku has quit (Quit: rebooting)
+Nov 06 22:19:20 *	mxz__ (~mxz@user/mxz) has joined
+Nov 06 22:19:41 *	IZEASG (~gfv@pc-5-153-164-190.cm.vtr.net) has joined
+Nov 06 22:20:02 *	eirik__ has quit (Ping timeout: 248 seconds)
+Nov 06 22:20:11 *	mxz_ has quit (Ping timeout: 252 seconds)
+Nov 06 22:20:41 *	MyNetAz has quit (Remote host closed the connection)
+Nov 06 22:21:08 *	mxz has quit (Ping timeout: 255 seconds)
+Nov 06 22:21:08 *	mxz__ is now known as mxz
+Nov 06 22:21:10 *	verbotron (~verbotron@gateway/tor-sasl/verbotron) has joined
+Nov 06 22:21:17 *	Ar|stote|is has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+Nov 06 22:21:34 *	Ar|stote|is (~linx@149.210.17.6) has joined
+Nov 06 22:21:52 *	MyNetAz (~MyNetAz@user/MyNetAz) has joined
+Nov 06 22:21:56 *	gaku (~GaKu999@user/gaku999) has joined
+Nov 06 22:22:36 *	gokkun has quit (Quit: Leaving)
+Nov 06 22:22:40 *	MyNetAz has quit (Remote host closed the connection)
+Nov 06 22:23:21 *	MyNetAz (~MyNetAz@user/MyNetAz) has joined
+Nov 06 22:24:08 *	IZEASG has quit (Ping timeout: 245 seconds)
+Nov 06 22:24:33 *	ryther8766 (~Ryther@user/ryther) has joined
+Nov 06 22:26:34 *	lmat (~Lmat@64.38.158.65) has joined
+Nov 06 22:26:44 *	ryther876 has quit (Ping timeout: 260 seconds)
+Nov 06 22:26:44 *	ryther8766 is now known as ryther876
+Nov 06 22:27:45 *	gokkun (~gokkun@2a0b:6204:34eb:5700:21de:4586:c5ba:f41c) has joined
+Nov 06 22:28:31 *	mistersmee (~Thunderbi@2405:201:1002:487e:e18b:1fc3:35a8:7497) has joined
+Nov 06 22:29:00 *	evprok (~evprok@134.249.146.76) has joined
+Nov 06 22:29:25 *	Kaptan (~Thunderbi@2a02:4e0:2d3e:1b23:a144:e1e4:90d6:bf79) has joined
+Nov 06 22:29:41 *	gokkun has quit (Client Quit)
+Nov 06 22:30:21 *	th3r00t has quit (Quit: Lost terminal)
+Nov 06 22:30:45 *	th3r00t (~th3r00t@user/th3r00t) has joined
+Nov 06 22:31:34 *	Nei has quit (Ping timeout: 252 seconds)
+Nov 06 22:33:12 *	another| has quit (Ping timeout: 244 seconds)
+Nov 06 22:33:30 *	ChrisTX has quit (Ping timeout: 252 seconds)
+Nov 06 22:34:33 *	e^pi-1 has quit (Ping timeout: 245 seconds)
+Nov 06 22:34:46 *	verbotron has quit (Quit: Leaving)
+Nov 06 22:36:20 *	CubeTheThird has quit (Ping timeout: 252 seconds)
+Nov 06 22:36:52 *	th3r00t has quit (Quit: Lost terminal)
+Nov 06 22:37:14 *	th3r00t (~th3r00t@user/th3r00t) has joined
+Nov 06 22:38:59 *	Daanct12 has quit (Ping timeout: 260 seconds)
+Nov 06 22:39:23 *	mrpops2ko has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+Nov 06 22:40:53 *	th3r00t has quit (Client Quit)
+Nov 06 22:41:12 *	th3r00t (~th3r00t@user/th3r00t) has joined
+Nov 06 22:42:30 *	th3r00t_ (~th3r00t@user/th3r00t) has joined
+Nov 06 22:43:38 *	Nei (~ailin@openSUSE/member/ailin-nemui) has joined
+Nov 06 22:44:19 *	oandrew (~oandrew@user/oandrew) has joined
+Nov 06 22:44:42 *	Daanct12 (~danct12@user/danct12) has joined
+Nov 06 22:45:47 *	th3r00t_ has quit (Client Quit)
+Nov 06 22:45:47 *	th3r00t has quit (Client Quit)
+Nov 06 22:45:58 *	IZEASG (~gfv@pc-5-153-164-190.cm.vtr.net) has joined
+Nov 06 22:46:06 *	th3r00t (~th3r00t@user/th3r00t) has joined
+Nov 06 22:47:19 *	another| (~another@wireguard/tunneler/another) has joined
+**** ENDING LOGGING AT Wed Nov  6 22:48:24 2024
+
+**** BEGIN LOGGING AT Wed Nov  6 22:48:24 2024
+
+Nov 06 22:48:24 *	Error starting identd server: Error binding to address [::]:113: Permission denied
+Nov 06 22:48:46 FiSHLiM plugin unloaded
+**** ENDING LOGGING AT Wed Nov  6 22:48:46 2024
+
