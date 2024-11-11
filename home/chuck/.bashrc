@@ -101,7 +101,7 @@ alias gcredential="git config credential.helper store"
 
 # bare git repo alias for managing my dotfiles
 #alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
-alias dotfiles='/usr/bin/git --git-dir="$HOME/dotfiles/" --work-tree=/'
+alias dotfiles='/usr/bin/git --git-dir="/home/chuck/dotfiles" --work-tree=/'
 alias dtig='GIT_DIR=/home/chuck/dotfiles GIT_WORK_TREE=/ tig'
 
 # vim and emacs
