@@ -187,6 +187,3 @@ dot() {
         dotfiles $*
     fi
 }
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/chuck/.cache/lm-studio/bin"
