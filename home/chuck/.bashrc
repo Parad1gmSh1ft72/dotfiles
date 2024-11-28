@@ -17,8 +17,8 @@ PS1='[\u@\h \W]\$ '
 export PS1='\[\e[0;36m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;35m\]\w\[\e[0m\]>'
 
 # Use bash-completion, if available
-#[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] &&
-#    . /usr/share/bash-completion/bash_completion
+[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] &&
+    . /usr/share/bash-completion/bash_completion
 
 export GPG_TTY=$TTY
 export EDITOR=nano
@@ -187,3 +187,6 @@ dot() {
         dotfiles $*
     fi
 }
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/chuck/.cache/lm-studio/bin"

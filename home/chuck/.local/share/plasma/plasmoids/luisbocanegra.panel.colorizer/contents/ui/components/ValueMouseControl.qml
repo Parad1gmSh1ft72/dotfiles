@@ -12,11 +12,20 @@ Item {
 
     Rectangle {
         anchors.fill: parent
-        Kirigami.Theme.colorSet: Kirigami.Theme.Button
+        Kirigami.Theme.colorSet: root.Kirigami.Theme.Button
         Kirigami.Theme.inherit: false
         color: Kirigami.Theme.backgroundColor
         opacity: 1
         radius: 2
+    }
+
+    function up() {
+        if (value < to) value += stepSize
+        value = Math.max(from, Math.min(to, value)).toFixed(decimals)
+    }
+    function down() {
+        if (value > from) value -= stepSize
+        value = Math.max(from, Math.min(to, value)).toFixed(decimals)
     }
 
     Kirigami.Icon {
@@ -31,10 +40,17 @@ Item {
             id: upMouse
             anchors.fill: parent
             hoverEnabled: true
-            onClicked: {
-                root.parent.forceActiveFocus()
-                if (value < to) value += stepSize
-                value = Math.max(from, Math.min(to, value)).toFixed(decimals)
+            onPressed: { timerUp.start() }
+            onReleased: { timerUp.stop() }
+        }
+        Timer {
+            id: timerUp
+            interval: 150
+            repeat: true
+            triggeredOnStart: true
+            running: false
+            onTriggered: {
+                up()
             }
         }
     }
@@ -51,10 +67,17 @@ Item {
             id: downMouse
             anchors.fill: parent
             hoverEnabled: true
-            onClicked: {
-                root.parent.forceActiveFocus()
-                if (value > from) value -= stepSize
-                value = Math.max(from, Math.min(to, value)).toFixed(decimals)
+            onPressed: { timerDown.start() }
+            onReleased: { timerDown.stop() }
+        }
+        Timer {
+            id: timerDown
+            interval: 150
+            repeat: true
+            triggeredOnStart: true
+            running: false
+            onTriggered: {
+                down()
             }
         }
     }
@@ -62,7 +85,8 @@ Item {
     MouseArea {
         anchors.fill: parent
         propagateComposedEvents: true
-        onWheel: {
+        acceptedButtons: Qt.MiddleButton
+        onWheel: (wheel) => {
             root.parent.forceActiveFocus()
             if(wheel.angleDelta.y > 0 && value < to) {
                 value += stepSize

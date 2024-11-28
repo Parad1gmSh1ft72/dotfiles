@@ -270,3 +270,5 @@ error-message {
     background-color:            @background;
     text-color:                  @foreground;
 }
+
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"

@@ -10,9 +10,14 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:wq
+|2,0,1732643090,,"wq"
 :q
-|2,0,1729576804,,"q"
+|2,0,1732642797,,"q"
 :qa
 |2,0,1722584260,,"qa"
 :help
@@ -29,172 +34,290 @@
 # Registers:
 
 # File marks:
-'0  99  0  /etc/pacman.conf
-|4,48,99,0,1729576804,"/etc/pacman.conf"
-'1  50  0  /etc/pacman.conf
-|4,49,50,0,1729574141,"/etc/pacman.conf"
-'2  50  0  /etc/pacman.conf
-|4,50,50,0,1729574141,"/etc/pacman.conf"
-'3  1  0  /tmp/fz3temp-2/log.smbd
-|4,51,1,0,1725169295,"/tmp/fz3temp-2/log.smbd"
-'4  1  0  /tmp/fz3temp-2/log.smbd
-|4,52,1,0,1725169113,"/tmp/fz3temp-2/log.smbd"
-'5  3  1  ~/Documents/Arch Commands.txt
-|4,53,3,1,1722584260,"~/Documents/Arch Commands.txt"
+'0  36  19  ~/.zshrc
+|4,48,36,19,1732643090,"~/.zshrc"
+'1  36  14  ~/.zshrc
+|4,49,36,14,1732642999,"~/.zshrc"
+'2  9  16  ~/.Xresources
+|4,50,9,16,1732642938,"~/.Xresources"
+'3  1  0  ~/.bashrc
+|4,51,1,0,1732642797,"~/.bashrc"
+'4  8  0  ~/.config/hypr/conf
+|4,52,8,0,1732638569,"~/.config/hypr/conf"
+'5  25  0  /etc/X11/xinit/xinitrc
+|4,53,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+'6  99  0  /etc/pacman.conf
+|4,54,99,0,1729576804,"/etc/pacman.conf"
+'7  50  0  /etc/pacman.conf
+|4,55,50,0,1729574141,"/etc/pacman.conf"
+'8  50  0  /etc/pacman.conf
+|4,56,50,0,1729574141,"/etc/pacman.conf"
+'9  1  0  /tmp/fz3temp-2/log.smbd
+|4,57,1,0,1725169295,"/tmp/fz3temp-2/log.smbd"
 
 # Jumplist (newest first):
--'  99  0  /etc/pacman.conf
-|4,39,99,0,1729576804,"/etc/pacman.conf"
--'  50  0  /etc/pacman.conf
-|4,39,50,0,1729574141,"/etc/pacman.conf"
--'  50  0  /etc/pacman.conf
-|4,39,50,0,1729574141,"/etc/pacman.conf"
--'  1  0  /tmp/fz3temp-2/log.smbd
-|4,39,1,0,1725169295,"/tmp/fz3temp-2/log.smbd"
--'  1  0  /tmp/fz3temp-2/log.smbd
-|4,39,1,0,1725169295,"/tmp/fz3temp-2/log.smbd"
--'  1  0  /tmp/fz3temp-2/log.smbd
-|4,39,1,0,1725169295,"/tmp/fz3temp-2/log.smbd"
--'  1  0  /tmp/fz3temp-2/log.smbd
-|4,39,1,0,1725169295,"/tmp/fz3temp-2/log.smbd"
--'  1  0  /tmp/fz3temp-2/log.smbd
-|4,39,1,0,1725169113,"/tmp/fz3temp-2/log.smbd"
--'  1  0  /tmp/fz3temp-2/log.smbd
-|4,39,1,0,1725169113,"/tmp/fz3temp-2/log.smbd"
--'  1  0  /tmp/fz3temp-2/log.smbd
-|4,39,1,0,1725169113,"/tmp/fz3temp-2/log.smbd"
--'  1  0  /tmp/fz3temp-2/log.smbd
-|4,39,1,0,1725169113,"/tmp/fz3temp-2/log.smbd"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  3  1  ~/Documents/Arch Commands.txt
-|4,39,3,1,1722584260,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
--'  1  0  ~/Documents/Arch Commands.txt
-|4,39,1,0,1722584235,"~/Documents/Arch Commands.txt"
+-'  36  19  ~/.zshrc
+|4,39,36,19,1732643090,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1732643060,"~/.zshrc"
+-'  36  14  ~/.zshrc
+|4,39,36,14,1732642999,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1732642973,"~/.zshrc"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  8  0  ~/.config/hypr/conf
+|4,39,8,0,1732638569,"~/.config/hypr/conf"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  25  0  /etc/X11/xinit/xinitrc
+|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
+-'  1  0  /etc/X11/xinit/xinitrc
+|4,39,1,0,1732075589,"/etc/X11/xinit/xinitrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	*	1732643086	0
+	"	36	19
+	^	36	20
+	.	36	19
+	+	36	19
+
+> ~/.Xresources
+	*	1732642931	0
+	"	9	16
+	^	9	17
+	.	9	16
+	+	4	18
+	+	5	23
+	+	9	16
+
+> ~/.bashrc
+	*	1732642793	0
+	"	1	0
+
+> ~/.config/hypr/environment.conf
+	*	1732638555	0
+	"	1	0
+
+> ~/.config/hypr/hyprland.conf
+	*	1732638555	0
+	"	1	0
+
+> ~/.config/hypr/hyprlock.conf
+	*	1732638555	0
+	"	1	0
+
+> ~/.config/hypr/hyprpaper.conf
+	*	1732638555	0
+	"	1	0
+
+> ~/.config/hypr/input.conf
+	*	1732638555	0
+	"	1	0
+
+> ~/.config/hypr/keybinds.conf
+	*	1732638555	0
+	"	1	0
+
+> ~/.config/hypr/keybinds.conf.save
+	*	1732638555	0
+	"	1	0
+
+> ~/.config/hypr/mocha.conf
+	*	1732638555	0
+	"	1	0
+
+> ~/.config/hypr/rules.conf
+	*	1732638555	0
+	"	1	0
+
+> /etc/X11/xinit/xinitrc
+	*	1732076005	0
+	"	25	0
 
 > /etc/pacman.conf
 	*	1729576786	0

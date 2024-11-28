@@ -1,12 +1,12 @@
 [Appearance]
-ColorScheme=Gruvbox
+ColorScheme=Gruvbox Material Hard Dark
 Font=JetBrainsMono NF,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
 TabColor=255,0,0
 UseFontLineChararacters=true
 
 [General]
 Command=/usr/bin/zsh
-DimWhenInactive=true
+DimWhenInactive=false
 InvertSelectionColors=true
 LocalTabTitleFormat=%D
 Name=chuck
@@ -25,7 +25,8 @@ TrimTrailingSpacesInSelectedText=true
 UnderlineFilesEnabled=true
 
 [Scrolling]
-HistorySize=20000
+HistorySize=8000
+ReflowLines=false
 
 [Terminal Features]
 BellMode=0

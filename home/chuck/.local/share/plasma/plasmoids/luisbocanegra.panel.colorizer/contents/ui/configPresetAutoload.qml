@@ -7,67 +7,66 @@ import org.kde.kirigami as Kirigami
 import org.kde.plasma.plasmoid
 import org.kde.plasma.plasma5support as P5Support
 import "components" as Components
+import "code/utils.js" as Utils
 
 KCM.SimpleKCM {
     id:root
-    property bool cfg_isEnabled
+    property alias cfg_isEnabled: headerComponent.isEnabled
     property string presetsDir: StandardPaths.writableLocation(
-                    StandardPaths.HomeLocation).toString().substring(7) + "/.config/panel-colorizer/"
+                    StandardPaths.HomeLocation).toString().substring(7) + "/.config/panel-colorizer/presets"
     property string cratePresetsDirCmd: "mkdir -p " + presetsDir
-    property string listPresetsCmd: "find "+presetsDir+" -type f -print0 | while IFS= read -r -d '' file; do basename \"$file\"; done | sort"
+    property string presetsBuiltinDir: Qt.resolvedUrl("./presets").toString().substring(7) + "/"
+    property string toolsDir: Qt.resolvedUrl("./tools").toString().substring(7) + "/"
+    property string listUserPresetsCmd: "'" + toolsDir + "list_presets.sh' '" + presetsDir + "'"
+    property string listBuiltinPresetsCmd: "'" + toolsDir + "list_presets.sh' '" + presetsBuiltinDir + "' b"
+    property string listPresetsCmd: listBuiltinPresetsCmd+";"+listUserPresetsCmd
 
-    property string cfg_normalPreset
-    property string cfg_floatingPreset
-    property string cfg_touchingWindowPreset
-    property string cfg_maximizedPreset
+    property string cfg_presetAutoloading
+    property var autoLoadConfig: JSON.parse(cfg_presetAutoloading)
+
+    function updateConfig() {
+        cfg_presetAutoloading = JSON.stringify(autoLoadConfig, null, null)
+    }
 
     ListModel {
         id: presetsModel
     }
 
-    P5Support.DataSource {
+    RunCommand {
         id: runCommand
-        engine: "executable"
-        connectedSources: []
-
-        onNewData: function (source, data) {
-            var exitCode = data["exit code"]
-            var exitStatus = data["exit status"]
-            var stdout = data["stdout"]
-            var stderr = data["stderr"]
-            exited(source, exitCode, exitStatus, stdout, stderr)
-            disconnectSource(source) // cmd finished
-        }
-
-        function exec(cmd) {
-            runCommand.connectSource(cmd)
-        }
-
-        signal exited(string cmd, int exitCode, int exitStatus, string stdout, string stderr)
     }
 
     Connections {
         target: runCommand
         function onExited(cmd, exitCode, exitStatus, stdout, stderr) {
-            // console.log(cmd);
+            console.error(cmd, exitCode, exitStatus, stdout, stderr)
             if (exitCode!==0) return
             // console.log(stdout);
-            var presets = []
             if(cmd === listPresetsCmd) {
-                if (stdout.length < 1) return
+                if (stdout.length === 0) return
                 presetsModel.append(
                     {
                         "name": i18n("Do nothing"),
-                        "value": ""
+                        "value": "",
                     }
                 )
-                presets = stdout.trim().split("\n")
-                for (let i = 0; i < presets.length; i++) {
-                    presets[i]
+
+                const out = stdout.trim().split("\n")
+                for (const line of out) {
+                    let builtin = false
+                    const parts = line.split(":")
+                    const path = parts[parts.length -1]
+                    let name = path.split("/")
+                    name = name[name.length-1]
+                    const dir = parts[1]
+                    if (line.startsWith("b:")) {
+                        builtin = true
+                    }
+                    console.error(dir)
                     presetsModel.append(
                         {
-                            "name": presets[i],
-                            "value": presets[i],
+                            "name": name,
+                            "value": dir,
                         }
                     )
                 }
@@ -81,103 +80,107 @@ KCM.SimpleKCM {
                 return i;
             }
         }
-        return -1;
-    }
-
-    function dumpProps(obj) {
-        console.error("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-        for (var k of Object.keys(obj)) {
-            print(k + "=" + obj[k]+"\n")
-        }
+        return 0;
     }
 
     Component.onCompleted: {
-        runCommand.exec(cratePresetsDirCmd)
-        runCommand.exec(listPresetsCmd)
+        runCommand.run(cratePresetsDirCmd)
+        runCommand.run(listPresetsCmd)
     }
 
-    header: RowLayout {
-        RowLayout {
+    header: ColumnLayout {
+        Components.Header {
+            id: headerComponent
             Layout.leftMargin: Kirigami.Units.mediumSpacing
-            Layout.rightMargin: Kirigami.Units.smallSpacing
-            Item {
-                Layout.fillWidth: true
-            }
-            RowLayout {
-                Layout.alignment: Qt.AlignRight
-                Label {
-                    text: i18n("Last preset loaded:")
-                }
-                Label {
-                    text: plasmoid.configuration.lastPreset || "None"
-                    font.weight: Font.DemiBold
-                }
-            }
+            Layout.rightMargin: Kirigami.Units.mediumSpacing
         }
     }
 
     ColumnLayout {
-        visible: cfg_isEnabled
+        enabled: cfg_isEnabled
+        Kirigami.InlineMessage {
+            Layout.fillWidth: true
+            text: i18n("Disable preset auto-loading when making changes to presets, unsaved preset settings will be lost when presets change!")
+            visible: true
+            type: Kirigami.MessageType.Information
+        }
         Label {
-            text: i18n("Here you can switch between different panel presets based on the Panel and window states below.")
+            text: i18n("Switch between different panel presets based on the Panel and window states")
             Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 2)
             wrapMode: Text.Wrap
         }
 
-        Label {
-            text: i18n("Priorities go from lowest to highest. E.g. if both <b>Maximized window is shown</b> and <b>Panel touching window</b> have a preset selected, and there is a maximized window on the screen, the <b>Maximized</b> preset will be applied.")
-            Layout.maximumWidth: root.width - (Kirigami.Units.gridUnit * 2)
-            wrapMode: Text.Wrap
-        }
         Kirigami.FormLayout {
-
+            CheckBox {
+                id: enabledCheckbox
+                Kirigami.FormData.label: i18n("Enabled:")
+                checked: autoLoadConfig.enabled
+                onCheckedChanged: {
+                    autoLoadConfig.enabled = checked
+                    updateConfig()
+                }
+            }
+            Kirigami.ContextualHelpButton {
+                toolTipText: i18n("Priorities go in descending order. E.g. if both <b>Maximized window is shown</b> and <b>Panel touching window</b> have a preset selected, and there is a maximized window on the screen, the <b>Maximized</b> preset will be applied.")
+            }
             ComboBox {
-                id: normalPreset
                 model: presetsModel
                 textRole: "name"
-                Kirigami.FormData.label: i18n("Normal:")
+                Kirigami.FormData.label: i18n("Maximized window:")
                 onCurrentIndexChanged: {
-                    cfg_normalPreset = model.get(currentIndex)["value"]
+                    autoLoadConfig.maximized = model.get(currentIndex)["value"]
+                    updateConfig()
                 }
-                currentIndex: getIndex(model, cfg_normalPreset)
+                currentIndex: getIndex(model, autoLoadConfig.maximized)
+                enabled: enabledCheckbox.checked
+            }
+
+            CheckBox {
+                // Kirigami.FormData.label: i18n("Active window only:")
+                text: i18n("Active window only")
+                checked: autoLoadConfig.maximizedFilterByActive
+                onCheckedChanged: {
+                    autoLoadConfig.maximizedFilterByActive = checked
+                    updateConfig()
+                }
+                enabled: (autoLoadConfig.maximized ?? "" !== "") && enabledCheckbox.checked
             }
 
             ComboBox {
-                id: floatingPreset
-                model: presetsModel
-                textRole: "name"
-                Kirigami.FormData.label: i18n("Floating panel:")
-                onCurrentIndexChanged: {
-                    cfg_floatingPreset = model.get(currentIndex)["value"]
-                }
-                currentIndex: getIndex(model, cfg_floatingPreset)
-            }
-
-            ComboBox {
-                id: touchingWindowPreset
                 model: presetsModel
                 textRole: "name"
                 Kirigami.FormData.label: i18n("Window touching panel:")
                 onCurrentIndexChanged: {
-                    cfg_touchingWindowPreset = model.get(currentIndex)["value"]
+                    autoLoadConfig.touchingWindow = model.get(currentIndex)["value"]
+                    updateConfig()
                 }
-                currentIndex: getIndex(model, cfg_touchingWindowPreset)
+                currentIndex: getIndex(model, autoLoadConfig.touchingWindow)
+                enabled: enabledCheckbox.checked
             }
 
             ComboBox {
-                id: maximizedPreset
                 model: presetsModel
                 textRole: "name"
-                Kirigami.FormData.label: i18n("Maximized window is shown:")
+                Kirigami.FormData.label: i18n("Floating panel:")
                 onCurrentIndexChanged: {
-                    cfg_maximizedPreset = model.get(currentIndex)["value"]
+                    autoLoadConfig.floating = model.get(currentIndex)["value"]
+                    updateConfig()
                 }
-                currentIndex: getIndex(model, cfg_maximizedPreset)
+                currentIndex: getIndex(model, autoLoadConfig.floating)
+                enabled: enabledCheckbox.checked
+            }
+
+            ComboBox {
+                model: presetsModel
+                textRole: "name"
+                Kirigami.FormData.label: i18n("Normal:")
+                onCurrentIndexChanged: {
+                    autoLoadConfig.normal = model.get(currentIndex)["value"]
+                    updateConfig()
+                }
+                currentIndex: getIndex(model, autoLoadConfig.normal)
+                enabled: enabledCheckbox.checked
             }
         }
-    }
-
-    Components.CategoryDisabled {
-        visible: !cfg_isEnabled
     }
 }

@@ -1,356 +1,230 @@
-/*
- * __        __          _                  ____  _         _       
- * \ \      / /_ _ _   _| |__   __ _ _ __  / ___|| |_ _   _| | ___  
- *  \ \ /\ / / _` | | | | '_ \ / _` | '__| \___ \| __| | | | |/ _ \ 
- *   \ V  V / (_| | |_| | |_) | (_| | |     ___) | |_| |_| | |  __/ 
- *    \_/\_/ \__,_|\__, |_.__/ \__,_|_|    |____/ \__|\__, |_|\___| 
- *                 |___/                              |___/         
- *  
- * by Stephan Raabe (2024) 
- * ----------------------------------------------------- 
-*/
-
-@define-color backgroundlight #FFFFFF;
-@define-color backgrounddark #FFFFFF;
-@define-color workspacesbackground1 #FFFFFF;
-@define-color workspacesbackground2 #CCCCCC;
-@define-color bordercolor #FFFFFF;
-@define-color textcolor1 #000000;
-@define-color textcolor2 #000000;
-@define-color textcolor3 #FFFFFF;
-@define-color iconcolor #FFFFFF;
-
-/* -----------------------------------------------------
- * General 
- * ----------------------------------------------------- */
-
 * {
-    font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    border: none;
-    border-radius: 0px;
+  border: none;
+  border-radius: 0px;
+  font-family: JetBrainsMono Nerd Font;
+  font-weight: bold;
+  font-size: 15px;
+  min-height: 0;
 }
 
 window#waybar {
-    background-color: rgba(0,0,0,0.2);
-    border-bottom: 0px solid #ffffff;
-    /* color: #FFFFFF; */
-    transition-property: background-color;
-    transition-duration: .5s;
+  background: #1d2021;
+  color: #ebdbb2;
 }
 
-/* -----------------------------------------------------
- * Workspaces 
- * ----------------------------------------------------- */
-
-#workspaces {
-    margin: 5px 1px 6px 1px;
-    padding: 0px 1px;
-    border-radius: 15px;
-    border: 0px;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 16px;
-    color: @textcolor1;
+tooltip {
+  background: #282828;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1d2021;
 }
-
 #workspaces button {
-    padding: 0px 5px;
-    margin: 4px 3px;
-    border-radius: 15px;
-    border: 0px;
-    color: @textcolor3;
-    transition: all 0.3s ease-in-out;
+  padding: 0 0.4em;
+  color: #504945;
+  border-radius: 6px;
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 #workspaces button.active {
-    color: @textcolor1;
-    background: @workspacesbackground2;
-    border-radius: 15px;
-    min-width: 40px;
-    transition: all 0.3s ease-in-out;
+  color: #ebdbb2;
+  background: #4e635b;
+}
+
+#workspaces button.focused {
+  color: #ebdbb2;
+  background: #4e635b;
+}
+
+#workspaces button.urgent {
+  color: #1d2021;
+  background: #fb4934;
 }
 
 #workspaces button:hover {
-    color: @textcolor1;
-    background: @workspacesbackground2;
-    border-radius: 15px;
+  background: #4e635b;
+  color: #ebdbb2;
 }
 
-/* -----------------------------------------------------
- * Tooltips
- * ----------------------------------------------------- */
-
-tooltip {
-    border-radius: 10px;
-    background-color: @backgroundlight;
-    opacity:0.8;
-    padding:20px;
-    margin:0px;
+#custom-power,
+#date,
+#backlight,
+#idle_inhibitor,
+#pulseaudio,
+#network,
+#workspaces,
+#mpd,
+#temperature,
+#clock,
+#tray,
+#battery {
+  background: #32302f;
+  padding: 0 0.5em;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 6px;
 }
 
-tooltip label {
-    color: @textcolor2;
+#tray {
+  margin-right: 6px;
 }
 
-/* -----------------------------------------------------
- * Window
- * ----------------------------------------------------- */
-
-#window {
-    background: @backgroundlight;
-    margin: 10px 15px 10px 0px;
-    padding: 2px 10px 0px 10px;
-    border-radius: 12px;
-    color:@textcolor2;
-    font-size:16px;
-    font-weight:normal;
+#network {
+  color: #ebdbb2;
+  margin-right: 6px;
 }
 
-window#waybar.empty #window {
-    background-color:transparent;
+#pulseaudio {
+  margin-right: 6px;
+  color: #ebdbb2;
 }
 
-/* -----------------------------------------------------
- * Taskbar
- * ----------------------------------------------------- */
+#custom-power {
+  color: #fb4934;
+  background: #32302f;
+}
+
+#clock {
+  color: #ebdbb2;
+  margin-right: 6px;
+}
+
+#mpd {
+  background: #32302f;
+  background-image: linear-gradient(62deg, #32302f 0%, #3d3d3d 100%);
+  color: #ebdbb2;
+}
+
+#mpd.playing {
+  background: #32302f;
+  background-image: linear-gradient(62deg, #32302f 0%, rgba(184,187,38,00) 100%);
+  color: #ebdbb2;
+}
+
+#mpd.paused {
+  background: #32302f;
+  background-image: linear-gradient(62deg, #32302f 0%, rgba(251,73,52,00) 100%);
+  color: #ebdbb2;
+}
 
 #taskbar {
-    background: @backgroundlight;
-    margin: 6px 15px 6px 0px;
-    padding:0px;
-    border-radius: 15px;
-    font-weight: normal;
-    font-style: normal;
-    border: 3px solid @backgroundlight;
+  background: #1d2021;
+  padding: 0 0.6em;
+  margin-right: 10px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  color: #ebdbb2;
 }
 
 #taskbar button {
-    margin:0;
-    border-radius: 15px;
-    padding: 0px 5px 0px 5px;
+  border-radius: 6px;
+  background: #32302f;
+  color: #a89984;
+  margin-right: 6px;
 }
 
-/* -----------------------------------------------------
- * Modules
- * ----------------------------------------------------- */
-
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
+#taskbar button.minimized {
+  border-radius: 6px;
+  background: #32302f;
+  color: #a89984;
 }
 
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
+#taskbar button.active {
+  border-radius: 6px;
+  background: #4e635b;
+  color: #ebdbb2;
 }
 
-/* -----------------------------------------------------
- * Custom Quicklinks
- * ----------------------------------------------------- */
 
-#custom-browser, 
-#custom-filemanager,
-#network,
-#pulseaudio,
-#battery,
-#custom-appmenu,
-#clock {
-    margin-right: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    color: @iconcolor;
-    padding: 4px 10px 2px 10px;
-    font-size: 16px;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 30%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-#custom-quicklink1,
-#custom-quicklink2,
-#custom-quicklink3,
-#custom-quicklink4,
-#custom-quicklink5,
-#custom-quicklink6,
-#custom-quicklink7,
-#custom-quicklink8,
-#custom-quicklink9,
-#custom-quicklink10 {
-    padding:0px;
-    margin-right: 7px;
-    font-size:20px;
-    color: @iconcolor;
+@keyframes gradient_f {
+  0% {
+    background-position: 0% 200%;
+  }
+
+  50% {
+    background-position: 200% 0%;
+  }
+
+  100% {
+    background-position: 400% 200%;
+  }
 }
 
-/* -----------------------------------------------------
- * Custom Modules
- * ----------------------------------------------------- */
+@keyframes gradient_f_nh {
+  0% {
+    background-position: 0% 200%;
+  }
 
-#custom-appmenu {
-    background-color: @backgrounddark;
-    color: @textcolor1;
-    border-radius: 15px;
-    margin: 10px 10px 10px 10px;
+  100% {
+    background-position: 200% 200%;
+  }
 }
 
-/* -----------------------------------------------------
- * Custom Exit
- * ----------------------------------------------------- */
-
-#custom-exit {
-    margin: 2px 20px 0px 0px;
-    padding:0px;
-    font-size:20px;
-    color: @iconcolor;
+#custom-music.low {
+  background: rgb(148, 226, 213);
+  background: linear-gradient(52deg, rgba(148, 226, 213, 1) 0%, rgba(137, 220, 235, 1) 19%, rgba(116, 199, 236, 1) 43%, rgba(137, 180, 250, 1) 56%, rgba(180, 190, 254, 1) 80%, rgba(186, 187, 241, 1) 100%);
+  background-size: 300% 300%;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+  animation: gradient 15s ease infinite;
+  font-weight: bold;
+  color: #fff;
 }
 
-/* -----------------------------------------------------
- * Hardware Group
- * ----------------------------------------------------- */
-
- #disk,#memory,#cpu,#language {
-    margin:0px;
-    padding:0px;
-    font-size:16px;
-    color:@iconcolor;
+#custom-music.random {
+  background: rgb(148, 226, 213);
+  background: radial-gradient(circle, rgba(148, 226, 213, 1) 0%, rgba(156, 227, 191, 1) 21%, rgba(249, 226, 175, 1) 34%, rgba(158, 227, 186, 1) 35%, rgba(163, 227, 169, 1) 59%, rgba(148, 226, 213, 1) 74%, rgba(164, 227, 167, 1) 74%, rgba(166, 227, 161, 1) 100%);
+  background-size: 400% 400%;
+  animation: gradient_f 4s ease infinite;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+  font-weight: bold;
+  color: #fff;
 }
 
-#language {
-    margin-right:10px;
+#custom-music.critical {
+  background: rgb(235, 160, 172);
+  background: linear-gradient(52deg, rgba(235, 160, 172, 1) 0%, rgba(243, 139, 168, 1) 30%, rgba(231, 130, 132, 1) 48%, rgba(250, 179, 135, 1) 77%, rgba(249, 226, 175, 1) 100%);
+  background-size: 300% 300%;
+  animation: gradient 15s cubic-bezier(.55, -0.68, .48, 1.68) infinite;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+  font-weight: bold;
+  color: #fff;
 }
 
-/* -----------------------------------------------------
- * Clock
- * ----------------------------------------------------- */
-
-#clock {
-    background-color: @backgrounddark;
-    font-size: 16px;
-    color: @textcolor1;
-    border-radius: 15px;
-    margin: 10px 7px 10px 0px;
+#custom-music.Playing {
+  background: rgb(104, 157, 106);
+  background: radial-gradient(circle, rgba(104, 157, 106, 120) 0%,rgba(78,99,91,1) 15%, rgba(66, 123, 88, 120) 25%,rgba(66,123,88,120) 75%, rgba(104,157,106,120) 100%);
+  background-size: 400% 400%;
+  animation: gradient_f 9s cubic-bezier(.72, .39, .21, 1) infinite;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
+  font-weight: bold;
+  /* color: #fff; */
+  color: #ebdbb2;
 }
 
-/* -----------------------------------------------------
- * Pulseaudio
- * ----------------------------------------------------- */
-
-#pulseaudio {
-    background-color: @backgroundlight;
-    font-size: 16px;
-    color: @textcolor2;
-    border-radius: 15px;
-    margin: 10px 10px 10px 0px;
+#custom-music.Paused,
+#custom-music.Stopped {
+  background: #427b58;
 }
 
-#pulseaudio.muted {
-    background-color: @backgrounddark;
-    color: @textcolor1;
-}
-
-/* -----------------------------------------------------
- * Network
- * ----------------------------------------------------- */
-
-#network {
-    background-color: @backgroundlight;
-    font-size: 16px;
-    color: @textcolor2;
-    border-radius: 15px;
-    margin: 10px 10px 10px 0px;
-}
-
-#network.ethernet {
-    background-color: @backgroundlight;
-    color: @textcolor2;
-}
-
-#network.wifi {
-    background-color: @backgroundlight;
-    color: @textcolor2;
-}
-
-/* -----------------------------------------------------
- * Bluetooth
- * ----------------------------------------------------- */
-
- #bluetooth, #bluetooth.on, #bluetooth.connected {
-    background-color: @backgroundlight;
-    font-size: 16px;
-    color: @textcolor2;
-    border-radius: 15px;
-    margin: 10px 15px 10px 0px;
-}
-
-#bluetooth.off {
-    background-color: transparent;
-    padding: 0px;
-    margin: 0px;
-}
-
-/* -----------------------------------------------------
- * Battery
- * ----------------------------------------------------- */
-
-#battery {
-    background-color: @backgroundlight;
-    font-size: 16px;
-    color: @textcolor2;
-    border-radius: 15px;
-    margin: 10px 15px 10px 0px;
-}
-
-#battery.charging, #battery.plugged {
-    color: @textcolor2;
-    background-color: @backgroundlight;
-}
-
-@keyframes blink {
-    to {
-        background-color: @backgroundlight;
-        color: @textcolor2;
-    }
-}
-
-#battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    color: @textcolor3;
-    animation-name: blink;
-    animation-duration: 0.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-/* -----------------------------------------------------
- * Tray
- * ----------------------------------------------------- */
-
-#tray {
-    margin:0px 10px 0px 0px;
-}
-
-#tray > .passive {
-    -gtk-icon-effect: dim;
-}
-
-#tray > .needs-attention {
-    -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
-}
-
-/* -----------------------------------------------------
- * Other
- * ----------------------------------------------------- */
-
-label:focus {
-    background-color: #000000;
-}
-
-#backlight {
-    background-color: #90b1b1;
-}
-
-#network {
-    background-color: #2980b9;
-}
-
-#network.disconnected {
-    background-color: #f53c3c;
-}
 

@@ -147,7 +147,7 @@ Item {
                 }
             } else if (menuPos === 2) {
                 x = horizMidPoint - width / 2;
-                y = screen.height - height - panelH - Kirigami.Units.gridUnit / 2;
+                y = appletTopLeft.y - height - Kirigami.Units.gridUnit
                 return calculatePosition(x, y);
             } else if (menuPos === 1) {
                 x = horizMidPoint - width / 2;

@@ -1,14 +1,16 @@
-#            _
-#    _______| |__  _ __ ___
-#   |_  / __| '_ \| '__/ __|
-#  _ / /\__ \ | | | | | (__
-# (_)___|___/_| |_|_|  \___|
+#                         88
+#                         88
+#                         88
+#     888888888 ,adPPYba, 88,dPPYba,  8b,dPPYba,  ,adPPYba,
+#          a8P" I8[    "" 88P'    "8a 88P'   "Y8 a8"     ""
+#       ,d8P'    `"Y8ba,  88       88 88         8b
+# 888 ,d8"      aa    ]8I 88       88 88         "8a,   ,aa
+# 888 888888888 `"YbbdP"' 88       88 88          `"Ybbd8"'
 #
 # by Charles Cravens (2024)
-#
-# ~/.zshrc
-#-------------------------------------------------------------
+#_____________________________________________________________
 # If you come from bash you might have to change your $PATH.
+
 export GPG_TTY=$TTY
 #export GDK_BACKEND=wayland
 #export CLUTTER_BACKEND=wayland
@@ -33,7 +35,7 @@ SAVEHIST=1000000
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -132,3 +134,10 @@ source $ZSH/oh-my-zsh.sh
 source $ZSH_CUSTOM/aliases.zsh
 source $ZSH_CUSTOM/exports.zsh
 #emulate sh -c 'source /etc/profile'
+
+# Created by `pipx` on 2024-11-11 20:49:52
+export PATH="$PATH:/home/chuck/.local/bin"
+
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/chuck/.cache/lm-studio/bin"

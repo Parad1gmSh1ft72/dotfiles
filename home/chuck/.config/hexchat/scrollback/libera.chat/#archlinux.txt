@@ -232,3 +232,150 @@ T 1730954766 23*	th3r00t (~th3r00t@user/th3r00t23) has joined
 T 1730954839 23*	another| (~another@wireguard/tunneler/another23) has joined
 T 1730954904 *	Error starting identd server: Error binding to address [::]:113: Permission denied
 T 1730954926 FiSHLiM plugin unloaded
+T 1731551535 19*	Now talking on 22#archlinux
+T 1731551535 22*	Topic for 22#archlinux is: Welcome to Arch Linux, https://archlinux.org | Rules: https://coc.archlinux.org | restart sshd after 2024-07-01 upgrade https://gitlab.archlinux.org/archlinux/packaging/packages/openssh/-/issues/5 | Pastebins: !paste | https://status.archlinux.org | Keyring problems? pacman -Sy archlinux-keyring && pacman -Su
+T 1731551535 22*	Topic for 22#archlinux set by 26phrik!~phrik@phrik.archlinux.org (24Sat Jul 13 09:47:58 2024)
+T 1731551564 23*	psichas (~psichas@user/psichas23) has joined
+T 1731551583 24*	belle has quit (Client Quit)
+T 1731551673 24*	B-| has quit (Ping timeout: 252 seconds)
+T 1731551723 24*	Cirrus_Minor has quit (Ping timeout: 255 seconds)
+T 1731551779 24*	taiyu has quit (Ping timeout: 260 seconds)
+T 1731551859 24*	random-nick has quit (Ping timeout: 260 seconds)
+T 1731552330 24*	gaku has quit (Quit: WeeChat 4.4.3)
+T 1731552459 24*	mrelcee has quit (Quit: I want Waffles!)
+T 1731552468 24*	TigerPro has quit (Quit: WeeChat 4.4.3)
+T 1731552482 24*	GaivsIvlivs has quit (Quit: Leaving.)
+T 1731552490 23*	e^pi-1 (~e@2a01:7e03:e001:dd::223) has joined
+T 1731552521 23*	mrelcee (~ThelOYD@static.251.251.161.5.clients.your-server.de23) has joined
+T 1731552524 24*	heat_ has quit (Ping timeout: 272 seconds)
+T 1731552606 23*	dgtlchlk (~uhm@user/dgtlchlk23) has joined
+T 1731552836 23*	charlie5 (~charlie5@2001:8003:362a:6100:e778:4e95:9247:1bb923) has joined
+T 1731553108 23*	_ghostbyte_ (~ghostbyte@user/-ghostbyte-:6295823) has joined
+T 1731553217 24*	Celsiuss373 has quit (Quit: Celsiuss373)
+T 1731553268 23*	Celsiuss373 (~celsiuss@216.81-167-102.customer.lyse.net23) has joined
+T 1731553333 23*	ryu` (~ryu`@user/ryu/x-320615123) has joined
+T 1731553585 24*	alexherbo2 has quit (Remote host closed the connection)
+T 1731553658 24*	IZEASG has quit (Ping timeout: 252 seconds)
+T 1731554037 24*	seifer has quit (Read error: Connection reset by peer)
+T 1731554191 23*	seifer (~seifer@49.134.11.37.dynamic.jazztel.es23) has joined
+T 1731554195 24*	psichas has quit (Quit: Leaving)
+T 1731554498 23*	IZEASG (~gfv@pc-5-153-164-190.cm.vtr.net23) has joined
+T 1731554521 23*	pks_ (~pks@user/pks23) has joined
+T 1731554538 24*	pks has quit (Ping timeout: 252 seconds)
+T 1731554565 24*	28pks_ is now known as 18pks
+T 1731554799 24*	smallville7123 has quit (Ping timeout: 260 seconds)
+T 1731554847 24*	zero1976 has quit (Quit: Leaving)
+T 1731554864 24*	dgtlchlk has quit (Quit: sleepy time)
+T 1731554880 23*	smallville7123 (~smallvill@user/androidui23) has joined
+T 1731554963 24*	chaky has quit (Ping timeout: 255 seconds)
+T 1731555086 23*	chaky (~chaky@93-138-225-10.adsl.net.t-com.hr23) has joined
+T 1731555217 23*	dgtlchlk (~uhm@user/dgtlchlk23) has joined
+T 1731555220 23*	LordRishav (~LordRisha@user/lordrishav23) has joined
+T 1731555422 23*	oriba (~oriba@dynamic-089-012-133-149.89.12.pool.telefonica.de23) has joined
+T 1731555634 24*	jerry__ has quit (Read error: Connection reset by peer)
+T 1731555726 24*	jonas has quit (Ping timeout: 252 seconds)
+T 1731555827 23*	kompetenzbolzen (~kompetenz@user/kompetenzbolzen23) has joined
+T 1731555832 24*	dgtlchlk has quit (Quit: sleepy time)
+T 1731556055 24*	Daanct12 has quit (Ping timeout: 252 seconds)
+T 1731556094 24*	RealFloridaMan has quit (Ping timeout: 260 seconds)
+T 1731556226 24*	ddxtanx has quit (Remote host closed the connection)
+T 1731556353 24*	hdh has quit (Quit: WeeChat 4.4.2)
+T 1731556453 23*	dgtlchlk (~uhm@user/dgtlchlk23) has joined
+T 1731556643 24*	dgtlchlk has quit (Client Quit)
+T 1731556706 23*	oatmealraisin (~oatmealra@143.244.47.7023) has joined
+T 1731556735 23*	hata (~hata@hata.moe23) has joined
+T 1731557156 24*	thurs42129332915 has quit (Ping timeout: 252 seconds)
+T 1731557202 24*	FluffyMask has quit (Ping timeout: 265 seconds)
+T 1731557365 23*	bitdex (~bitdex@gateway/tor-sasl/bitdex23) has joined
+T 1731557401 24*	jonakeys has quit (Quit: WeeChat 4.3.1)
+T 1731557420 23*	jonakeys (~jonathan@80-115-173-185.cable.dynamic.v4.ziggo.nl23) has joined
+T 1731557465 23*	mxz__ (~mxz@user/mxz23) has joined
+T 1731557503 23*	CarloWood (~LdK13@94-208-89-57.cable.dynamic.v4.ziggo.nl23) has joined
+T 1731557508 24*	mxz has quit (Ping timeout: 252 seconds)
+T 1731557508 24*	28mxz__ is now known as 18mxz
+T 1731557528 24*	mxz_ has quit (Ping timeout: 255 seconds)
+T 1731557535 24*	marc2377 has quit (Remote host closed the connection)
+T 1731557605 24*	ronillon has quit (Remote host closed the connection)
+T 1731557608 24*	IZEASG has quit (Ping timeout: 265 seconds)
+T 1731557610 23*	marc2377 (~marc2377@2001:1284:f50e:22e:1618:c8d5:6ba7:de0c23) has joined
+T 1731557719 23*	th3r00t (~th3r00t@user/th3r00t23) has joined
+T 1731557906 24*	cloudowind has quit (Ping timeout: 255 seconds)
+T 1731557949 24*	gimp335 has quit (Quit: WeeChat 4.4.3)
+T 1731558007 23*	cloudowind (~cloudowin@user/cloudowind23) has joined
+T 1731558117 23*	Daanct12 (~danct12@user/danct1223) has joined
+T 1731558410 23*	IZEASG (~gfv@pc-5-153-164-190.cm.vtr.net23) has joined
+T 1731558577 23*	evprok (~evprok@134.249.146.7623) has joined
+T 1731558847 23*	daemonspudguy_ (~spuddesk@173.81.51.21123) has joined
+T 1731558873 24*	daemonspudguy has quit (Ping timeout: 245 seconds)
+T 1731559100 23*	afastaudir8 (~afastaudi@user/afastaudir823) has joined
+T 1731559145 18<19afastaudir818>	Under Arch, what would be the best way to "bridge" two audio ports?
+T 1731559175 18<19afastaudir818>	My computer has an S/PDIF input and I want to make it output from one of the 3.5mm outputs on the system
+T 1731559312 24*	masterkorp has quit (Remote host closed the connection)
+T 1731559321 23*	dgtlchlk (~uhm@user/dgtlchlk23) has joined
+T 1731559329 23*	masterkorp (~masterkor@user/masterkorp23) has joined
+T 1731559364 24*	CubeTheThird has quit (Ping timeout: 255 seconds)
+T 1731559366 23*	filsinger (~filsinger@user/filsinger23) has joined
+T 1731559390 24*	Daanct12 has quit (Quit: WeeChat 4.4.3)
+T 1731559432 24*	dgtlchlk has quit (Client Quit)
+T 1731559443 24*	oriba has quit (Quit: https://quassel-irc.org - Chat comfortably. Anywhere.)
+T 1731559506 24*	LordRishav has quit (Remote host closed the connection)
+T 1731559714 23*	LordRishav (~LordRisha@user/lordrishav23) has joined
+T 1731559726 18<19Edu4rdSHL18>	reaVer, no, no way
+T 1731559743 18<19Edu4rdSHL18>	And it doesn't happens only on "pro audio", happens normally, too
+T 1731559757 18<19Edu4rdSHL18>	But it should work just fine, unless you have a very bad micro
+T 1731559874 24*	Dworin has quit (Quit: WeeChat 4.4.3)
+T 1731559918 23*	daemonspudguy (~spuddesk@173.81.51.21123) has joined
+T 1731559952 24*	daemonspudguy_ has quit (Read error: Connection reset by peer)
+T 1731560125 23*	Dworin (~Dworin@103.18.0.1923) has joined
+T 1731560152 18<20reaVer18>	Edu4rdSHL: I set it to pro audio specifically to prevent volume adjustments
+T 1731560175 18<20reaVer18>	so it's quite bothersome it still happens
+T 1731560204 18<20reaVer18>	I've found a setting that should volume adjustments from electron (and chromium) so I'll try and see how that goes
+T 1731560322 24*	lucenera has quit (Read error: Connection reset by peer)
+T 1731560333 24*	jangho has quit (Quit: znc)
+T 1731560354 24*	LordRishav has quit (Ping timeout: 260 seconds)
+T 1731560355 23*	daemonspudguy_ (~spuddesk@173.81.51.21123) has joined
+T 1731560427 24*	NIN_Leviathan has quit (Quit: NIN_Leviathan)
+T 1731560454 23*	lucenera (~lucenera@user/lucenera23) has joined
+T 1731560458 23*	NIN_Leviathan (~Thunderbi@xd4ed842b.customers.hiper-net.dk23) has joined
+T 1731560459 24*	daemonspudguy has quit (Ping timeout: 260 seconds)
+T 1731560500 24*	afastaudir8 has quit (Ping timeout: 252 seconds)
+T 1731560556 24*	quitman has quit (Quit: WeeChat 4.4.3)
+T 1731560794 23*	keikoz (~keikoz@2a01:e0a:4e8:2f40:a9ee:d747:827d:ebfa23) has joined
+T 1731560822 24*	tasse has quit (Ping timeout: 255 seconds)
+T 1731560875 23*	tasse (~tasse@user/tasse23) has joined
+T 1731560879 24*	kzd has quit (Ping timeout: 260 seconds)
+T 1731560904 23*	jangho (~jangho@121.137.56.14523) has joined
+T 1731560918 23*	b2ag_ (~b2ag@user/b2ag23) has joined
+T 1731561156 24*	b2ag has quit (Ping timeout: 260 seconds)
+T 1731561458 23*	progandy (~progandy@user/progandy23) has joined
+T 1731561472 23*	holorum (~Thunderbi@94-21-172-108.pool.digikabel.hu23) has joined
+T 1731561477 23*	Daanct12 (~danct12@user/danct1223) has joined
+T 1731561534 23*	Core1767 (~Parad1gmS@user/Parad1gmSh1ft23) has joined
+T 1731561593 24*	qkall has quit (Quit: Connection closed for inactivity)
+T 1731561685 24*	Core1767 has quit (Read error: Connection reset by peer)
+T 1731561945 23*	LordRishav (~LordRisha@user/lordrishav23) has joined
+T 1731562188 23*	fonini (~fonini@user/fofoni23) has joined
+T 1731562194 23*	dvx (~dvx@5.181.94.24523) has joined
+T 1731562230 24*	IZEASG has quit (Ping timeout: 276 seconds)
+T 1731562255 24*	julemand101 has quit (Quit: WeeChat 4.4.3)
+T 1731562275 23*	jahpex (~jahpex@user/jahpex23) has joined
+T 1731562281 24*	dnim has quit (Ping timeout: 252 seconds)
+T 1731562305 23*	dnim (~dnim@user/dnim23) has joined
+T 1731562474 23*	julemand101 (~julemand1@beta.archlinux.dk23) has joined
+T 1731562577 24*	dnim has quit (Ping timeout: 248 seconds)
+T 1731562586 23*	dnim_ (~dnim@user/dnim23) has joined
+T 1731562586 24*	28dnim_ is now known as 18dnim
+T 1731562591 24*	daemonspudguy_ has quit (Read error: Connection reset by peer)
+T 1731562609 23*	daemonspudguy (~spuddesk@173.81.51.21123) has joined
+T 1731562812 24*	jangho has quit (Quit: znc)
+T 1731562832 24*	shalok has quit (Ping timeout: 252 seconds)
+T 1731563049 24*	fonini has quit (Ping timeout: 276 seconds)
+T 1731563100 24*	ultima has quit (Quit: ZNC 1.9.1 - https://znc.in)
+T 1731563244 23*	jangho (~jangho@121.137.56.14523) has joined
+T 1731563245 24*	masterkorp has quit (Remote host closed the connection)
+T 1731563261 23*	masterkorp (~masterkor@user/masterkorp23) has joined
+T 1731563304 23*	ultima (~ultima@192.145.118.10123) has joined
+T 1731563388 24*	ultima has quit (Client Quit)
+T 1731563444 24*	daemonspudguy has quit (Read error: Connection reset by peer)
+T 1731563445 23*	daemonspudguy_ (~spuddesk@173.81.51.21123) has joined
+T 1731563508 23*	ultima (~ultima@192.145.118.10123) has joined

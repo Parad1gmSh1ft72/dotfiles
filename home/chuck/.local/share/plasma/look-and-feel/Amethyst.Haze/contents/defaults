@@ -25,5 +25,8 @@ theme=__aurorae__svg__Alba
 [plasmarc][Theme]
 name=Amethyst.Haze
 
+[KSplash]
+Theme=org.kde.Breeze
+
 [Wallpaper]
 Image=semaforo

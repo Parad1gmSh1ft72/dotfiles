@@ -49,11 +49,6 @@ Image {
 
    source: "images/background.jpg"
 
-   //onUrlwallpaperChanged: {
-      // canvas.requestPaint();
-       //edit.visible = false
-   //}
-
    Canvas {
        id: canvas
        width: edit.width

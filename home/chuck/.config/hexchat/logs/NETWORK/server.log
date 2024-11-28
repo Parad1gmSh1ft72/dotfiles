@@ -6,3 +6,159 @@ Nov 06 20:06:30 Lua version 1.3/5.4 loaded.
 Nov 06 20:06:30 Perl interface loaded
 Nov 06 20:06:30 Python interface loaded
 Nov 06 20:06:30 Sysinfo plugin loaded
+**** BEGIN LOGGING AT Wed Nov 13 19:02:49 2024
+
+Nov 13 19:02:49 *	Error starting identd server: Error binding to address [::]:113: Permission denied
+Nov 13 19:02:49 Checksum plugin loaded
+Nov 13 19:02:49 FiSHLiM plugin loaded
+Nov 13 19:02:49 Lua version 1.3/5.4 loaded.
+Nov 13 19:02:49 Perl interface loaded
+Nov 13 19:02:49 Python interface loaded
+Nov 13 19:02:49 Sysinfo plugin loaded
+Nov 13 19:02:49 *	Looking up irc.libera.chat
+Nov 13 19:02:49 *	Connecting to irc.libera.chat (130.239.18.120:6697)
+Nov 13 19:02:50 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 19:02:50 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 19:02:50 *	* Subject: /C=US/O=Let's Encrypt/CN=R11
+Nov 13 19:02:50 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 19:02:50 *	* Subject: /CN=tungsten.libera.chat
+Nov 13 19:02:50 *	* Issuer: /C=US/O=Let's Encrypt/CN=R11
+Nov 13 19:02:50 *	* Certification info:
+Nov 13 19:02:50 *	  Subject:
+Nov 13 19:02:50 *	    CN=tungsten.libera.chat
+Nov 13 19:02:50 *	  Issuer:
+Nov 13 19:02:50 *	    C=US
+Nov 13 19:02:50 *	    O=Let's Encrypt
+Nov 13 19:02:50 *	    CN=R11
+Nov 13 19:02:50 *	  Public key algorithm: rsaEncryption (4096 bits)
+Nov 13 19:02:50 *	  Sign algorithm sha256WithRSAEncryption
+Nov 13 19:02:50 *	  Valid since Oct 20 22:19:30 2024 GM to Jan 18 22:19:29 2025 GM
+Nov 13 19:02:50 *	* Cipher info:
+Nov 13 19:02:50 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Nov 13 19:02:50 *	Connected. Now logging in.
+Nov 13 19:02:50 *	*** Checking Ident
+Nov 13 19:02:50 *	*** Looking up your hostname...
+Nov 13 19:02:50 *	*** Couldn't look up your hostname
+Nov 13 19:02:56 *	*** No Ident response
+Nov 13 19:02:56 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=ECDSA-NIST256P-CHALLENGE,EXTERNAL,PLAIN,SCRAM-SHA-512 tls account-tag cap-notify echo-message server-time solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Nov 13 19:02:56 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg 
+Nov 13 19:02:56 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg
+**** ENDING LOGGING AT Wed Nov 13 19:02:57 2024
+
+**** BEGIN LOGGING AT Wed Nov 13 19:03:53 2024
+
+Nov 13 19:03:53 *	Error starting identd server: Error binding to address [::]:113: Permission denied
+Nov 13 19:03:53 Checksum plugin loaded
+Nov 13 19:03:53 FiSHLiM plugin loaded
+Nov 13 19:03:53 Lua version 1.3/5.4 loaded.
+Nov 13 19:03:53 Perl interface loaded
+Nov 13 19:03:53 Python interface loaded
+Nov 13 19:03:53 Sysinfo plugin loaded
+Nov 13 19:03:53 *	Looking up irc.libera.chat
+Nov 13 19:03:53 *	Connecting to irc.libera.chat (188.240.145.100:6697)
+Nov 13 19:03:54 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 19:03:54 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 19:03:54 *	* Subject: /C=US/O=Let's Encrypt/CN=R11
+Nov 13 19:03:54 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 19:03:54 *	* Subject: /CN=iridium.libera.chat
+Nov 13 19:03:54 *	* Issuer: /C=US/O=Let's Encrypt/CN=R11
+Nov 13 19:03:54 *	* Certification info:
+Nov 13 19:03:54 *	  Subject:
+Nov 13 19:03:54 *	    CN=iridium.libera.chat
+Nov 13 19:03:54 *	  Issuer:
+Nov 13 19:03:54 *	    C=US
+Nov 13 19:03:54 *	    O=Let's Encrypt
+Nov 13 19:03:54 *	    CN=R11
+Nov 13 19:03:54 *	  Public key algorithm: rsaEncryption (4096 bits)
+Nov 13 19:03:54 *	  Sign algorithm sha256WithRSAEncryption
+Nov 13 19:03:54 *	  Valid since Oct 14 05:05:28 2024 GM to Jan 12 05:05:27 2025 GM
+Nov 13 19:03:54 *	* Cipher info:
+Nov 13 19:03:54 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Nov 13 19:03:54 *	Connected. Now logging in.
+Nov 13 19:03:55 *	*** Checking Ident
+Nov 13 19:03:55 *	*** Looking up your hostname...
+Nov 13 19:03:55 *	*** Couldn't look up your hostname
+Nov 13 19:04:00 *	*** No Ident response
+Nov 13 19:04:00 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=ECDSA-NIST256P-CHALLENGE,EXTERNAL,PLAIN,SCRAM-SHA-512 tls account-tag cap-notify echo-message server-time solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Nov 13 19:04:00 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg 
+Nov 13 19:04:00 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg
+**** ENDING LOGGING AT Wed Nov 13 19:04:00 2024
+
+**** BEGIN LOGGING AT Wed Nov 13 23:55:26 2024
+
+Nov 13 23:55:26 *	Error starting identd server: Error binding to address [::]:113: Permission denied
+Nov 13 23:55:26 Checksum plugin loaded
+Nov 13 23:55:26 FiSHLiM plugin loaded
+Nov 13 23:55:26 Lua version 1.3/5.4 loaded.
+Nov 13 23:55:26 Perl interface loaded
+Nov 13 23:55:26 Python interface loaded
+Nov 13 23:55:26 Sysinfo plugin loaded
+Nov 13 23:55:26 *	Looking up irc.libera.chat
+Nov 13 23:55:26 *	Connecting to irc.libera.chat (188.240.145.100:6697)
+Nov 13 23:55:27 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 23:55:27 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 23:55:27 *	* Subject: /C=US/O=Let's Encrypt/CN=R11
+Nov 13 23:55:27 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 13 23:55:27 *	* Subject: /CN=iridium.libera.chat
+Nov 13 23:55:27 *	* Issuer: /C=US/O=Let's Encrypt/CN=R11
+Nov 13 23:55:27 *	* Certification info:
+Nov 13 23:55:27 *	  Subject:
+Nov 13 23:55:27 *	    CN=iridium.libera.chat
+Nov 13 23:55:27 *	  Issuer:
+Nov 13 23:55:27 *	    C=US
+Nov 13 23:55:27 *	    O=Let's Encrypt
+Nov 13 23:55:27 *	    CN=R11
+Nov 13 23:55:27 *	  Public key algorithm: rsaEncryption (4096 bits)
+Nov 13 23:55:27 *	  Sign algorithm sha256WithRSAEncryption
+Nov 13 23:55:27 *	  Valid since Oct 14 05:05:28 2024 GM to Jan 12 05:05:27 2025 GM
+Nov 13 23:55:27 *	* Cipher info:
+Nov 13 23:55:27 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Nov 13 23:55:27 *	Connected. Now logging in.
+Nov 13 23:55:27 *	*** Checking Ident
+Nov 13 23:55:27 *	*** Looking up your hostname...
+Nov 13 23:55:27 *	*** Couldn't look up your hostname
+Nov 13 23:55:33 *	*** No Ident response
+Nov 13 23:55:33 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=ECDSA-NIST256P-CHALLENGE,EXTERNAL,PLAIN,SCRAM-SHA-512 tls account-tag cap-notify echo-message server-time solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Nov 13 23:55:33 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg 
+Nov 13 23:55:33 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg
+**** ENDING LOGGING AT Wed Nov 13 23:55:33 2024
+
+**** BEGIN LOGGING AT Thu Nov 14 02:39:54 2024
+
+Nov 14 02:39:54 *	Error starting identd server: Error binding to address [::]:113: Permission denied
+Nov 14 02:39:54 Checksum plugin loaded
+Nov 14 02:39:54 FiSHLiM plugin loaded
+Nov 14 02:39:54 Lua version 1.3/5.4 loaded.
+Nov 14 02:39:54 Perl interface loaded
+Nov 14 02:39:54 Python interface loaded
+Nov 14 02:39:54 Sysinfo plugin loaded
+Nov 14 02:39:54 *	Looking up irc.libera.chat
+Nov 14 02:39:55 *	Connecting to irc.libera.chat (188.240.145.102:6697)
+Nov 14 02:39:55 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 14 02:39:55 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 14 02:39:55 *	* Subject: /C=US/O=Let's Encrypt/CN=R10
+Nov 14 02:39:55 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 14 02:39:55 *	* Subject: /CN=platinum.libera.chat
+Nov 14 02:39:55 *	* Issuer: /C=US/O=Let's Encrypt/CN=R10
+Nov 14 02:39:55 *	* Certification info:
+Nov 14 02:39:55 *	  Subject:
+Nov 14 02:39:55 *	    CN=platinum.libera.chat
+Nov 14 02:39:55 *	  Issuer:
+Nov 14 02:39:55 *	    C=US
+Nov 14 02:39:55 *	    O=Let's Encrypt
+Nov 14 02:39:55 *	    CN=R10
+Nov 14 02:39:55 *	  Public key algorithm: rsaEncryption (4096 bits)
+Nov 14 02:39:55 *	  Sign algorithm sha256WithRSAEncryption
+Nov 14 02:39:55 *	  Valid since Oct  7 05:24:46 2024 GM to Jan  5 05:24:45 2025 GM
+Nov 14 02:39:55 *	* Cipher info:
+Nov 14 02:39:55 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Nov 14 02:39:55 *	Connected. Now logging in.
+Nov 14 02:39:56 *	*** Checking Ident
+Nov 14 02:39:56 *	*** Looking up your hostname...
+Nov 14 02:39:56 *	*** Couldn't look up your hostname
+Nov 14 02:40:01 *	*** No Ident response
+Nov 14 02:40:02 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=ECDSA-NIST256P-CHALLENGE,EXTERNAL,PLAIN,SCRAM-SHA-512 tls account-tag cap-notify echo-message server-time solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Nov 14 02:40:02 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg 
+Nov 14 02:40:02 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg
+**** ENDING LOGGING AT Thu Nov 14 02:40:02 2024
+

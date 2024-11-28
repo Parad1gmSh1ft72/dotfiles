@@ -27,7 +27,9 @@
         "kns://wallpaper.knsrc/api.kde-look.org/1683121",
         "kns://plasma-themes.knsrc/api.kde-look.org/1704303",
         "kns://icons.knsrc/api.kde-look.org/1733012",
+        "kns://lookandfeel.knsrc/api.kde-look.org/2145004",
         "kns://plasmoids.knsrc/api.kde-look.org/2144212",
-        "kns://wallpaper.knsrc/api.kde-look.org/2086140"
+        "kns://wallpaper.knsrc/api.kde-look.org/2086140",
+        "kns://plasmoids.knsrc/api.kde-look.org/2196105"
     ]
 }

@@ -15,13 +15,14 @@
         "Id": "Amethyst.Haze",
         "License": "GPLv3+",
         "Name": "Amethyst.Haze",
-        "Website": ""
+        "Website": "https://store.kde.org/p/2218603"
         },
         "X-KPackage-Dependencies": [
         "kns://colorschemes.knsrc/api.kde-look.org/2218602",
         "kns://plasma-themes.knsrc/api.kde-look.org/2218601",
         "kns://plasma-themes.knsrc/api.kde-look.org/2023421",
         "kns://xcursor.knsrc/api.kde-look.org/2083798",
+        "kns://lookandfeel.knsrc/api.kde-look.org/2220545",
         "kns://plasmoids.knsrc/api.kde-look.org/2137418",
         "kns://plasmoids.knsrc/api.kde-look.org/2139890",
         "kns://plasmoids.knsrc/api.kde-look.org/2136299",

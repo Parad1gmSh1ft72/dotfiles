@@ -67,5 +67,6 @@ clock_desktop = desktopByClock.addWidget("Redmi.Clock", 20, 20, 256, 256)
 clock_desktop.currentConfigGroup = ["General"]
 clock_desktop.writeConfig("colorHex", "#18131e")
 
-
-
+splash = ConfigFile("ksplashrc")
+splash.group = "KSplash"
+splash.writeEntry("Theme", "Kde.Splash.Dinamic")

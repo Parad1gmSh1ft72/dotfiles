@@ -2,7 +2,7 @@
 # /home/chuck/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA Settings utility
-# Generated on Thu Oct 24 23:47:50 2024
+# Generated on Sun Nov 10 22:07:05 2024
 #
 
 # ConfigProperties:
@@ -12,9 +12,10 @@ DisplayStatusBar = Yes
 SliderTextEntries = Yes
 IncludeDisplayNameInConfigFile = No
 UpdateRulesOnProfileNameChange = Yes
-Timer = Thermal_Monitor_(GPU_0),Yes,1000
-Timer = Memory_Used_(GPU_0),Yes,3000
 Timer = PowerMizer_Monitor_(GPU_0),Yes,1000
+Timer = Memory_Used_(GPU_0),Yes,3000
+Timer = Thermal_Monitor_(GPU_0),Yes,1000
 
 # Attributes:
 
+[GPU:0]/GPUPowerMizerMode=2

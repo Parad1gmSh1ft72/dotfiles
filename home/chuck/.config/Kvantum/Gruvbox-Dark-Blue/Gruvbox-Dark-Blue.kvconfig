@@ -27,9 +27,9 @@ progressbar_thickness=2
 menubar_mouse_tracking=true
 toolbutton_style=1
 double_click=false
-translucent_windows=false
-blurring=false
-popup_blurring=false
+translucent_windows=true
+blurring=true
+popup_blurring=true
 vertical_spin_indicators=false
 spin_button_width=24
 fill_rubberband=false
@@ -70,7 +70,7 @@ menu_blur_radius=0
 no_inactiveness=false
 reduce_menu_opacity=0
 saturation=1.00
-shadowless_popup=false
+shadowless_popup=true
 tooltip_blur_radius=0
 
 [GeneralColors]
@@ -96,9 +96,9 @@ progress.indicator.text.color=#fbf1c7
 
 [Hacks]
 transparent_ktitle_label=true
-transparent_dolphin_view=false
-transparent_pcmanfm_sidepane=true
-blur_translucent=false
+transparent_dolphin_view=true
+transparent_pcmanfm_sidepane=false
+blur_translucent=true
 transparent_menutitle=true
 respect_darkness=false
 kcapacitybar_as_progressbar=true
@@ -111,7 +111,7 @@ normal_default_pushbutton=true
 single_top_toolbar=true
 tint_on_mouseover=0
 transparent_pcmanfm_view=false
-no_selection_tint=true
+no_selection_tint=false
 transparent_arrow_button=true
 blur_only_active_window=false
 centered_forms=false

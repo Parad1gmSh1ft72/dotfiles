@@ -2,45 +2,58 @@ import QtQuick 2.0
 import org.kde.plasma.configuration 2.0
 
 ConfigModel {
+
     ConfigCategory {
-        name: i18n("General")
-        icon: "preferences"
-        source: "configGeneral.qml"
+        name: i18n("Presets")
+        icon: "starred-symbolic"
+        source: "configPresets.qml"
     }
 
     ConfigCategory {
-        name: i18n("Presets autoloading")
-        icon: "system-run"
+        name: i18n("Presets auto-loading")
+        icon: "system-run-symbolic"
         source: "configPresetAutoload.qml"
     }
 
     ConfigCategory {
-        name: i18n("Widget background")
-        icon: "preferences-desktop-theme-global"
-        source: "configWidgetBg.qml"
+        name: i18n("Appearance")
+        icon: "desktop-symbolic"
+        source: "configAppearance.qml"
+    }
+
+    ConfigCategory {
+        name: i18n("Stock Panel Settings")
+        icon: "configure-symbolic"
+        source: "configStockPanelSettings.qml"
+    }
+
+    ConfigCategory {
+        name: i18n("Unified widget backgrounds")
+        icon: "lines-connector-symbolic"
+        source: "configUnifiedBackground.qml"
+    }
+
+    ConfigCategory {
+        name: i18n("Preset Overrides")
+        icon: "semi-starred-symbolic"
+        source: "configPresetWidgetOverrides.qml"
+    }
+
+    ConfigCategory {
+        name: i18n("Global Overrides")
+        icon: "globe-symbolic"
+        source: "configGlobalWidgetOverrides.qml"
     }
 
     ConfigCategory {
         name: i18n("Text and icons")
-        icon: "preferences-desktop-icons"
+        icon: "color-mode-invert-text-symbolic"
         source: "configForeground.qml"
     }
 
     ConfigCategory {
-        name: i18n("Panel background")
-        icon: "preferences-desktop-plasma-theme"
-        source: "configPanelBg.qml"
-    }
-
-    ConfigCategory {
-        name: i18n("Blacklist")
-        icon: "preferences-desktop-filter"
-        source: "configWidgetBlacklist.qml"
-    }
-
-    ConfigCategory {
-        name: i18n("Layout")
-        icon: "distribute-horizontal-margin"
-        source: "configLayout.qml"
+        name: i18n("General")
+        icon: "configure-symbolic"
+        source: "configGeneral.qml"
     }
 }
