@@ -137,7 +137,3 @@ source $ZSH_CUSTOM/exports.zsh
 
 # Created by `pipx` on 2024-11-11 20:49:52
 export PATH="$PATH:/home/chuck/.local/bin"
-
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/home/chuck/.cache/lm-studio/bin"

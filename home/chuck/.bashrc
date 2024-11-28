@@ -31,10 +31,10 @@ export EDITOR=nano
 # Uncomment only one of these!
 
 # "nvim" as manpager
-export MANPAGER="nvim +Man!"
+#export MANPAGER="nvim +Man!"
 
 # "less" as manpager
-#export MANPAGER="less"
+export MANPAGER="less"
 
 # Changing "ls" to "eza"
 alias ldot='eza -ld .*'                                                               # List dotfiles only (directories shown as entries instead of recursed into)
