@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zone target="ACCEPT">
+  <short>Trusted</short>
+  <description>All network connections are accepted.</description>
+  <service name="minidlna"/>
+  <service name="mdns"/>
+  <service name="samba"/>
+  <service name="samba-client"/>
+  <service name="upnp-client"/>
+  <service name="kdeconnect"/>
+  <forward/>
+</zone>

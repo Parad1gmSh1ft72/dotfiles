@@ -1,0 +1,90 @@
+abi <abi/3.0>,
+
+#include <tunables/global>
+
+@{xdg_data_home}=@{HOME}/.local/share
+
+@{xdg_config_home}=@{HOME}/.config
+
+@{postgresqlpath} = /usr/ /usr/lib{,64}/postgresql/*/ /usr/lib{,64}/postgresql*[0-9]/ /opt/pgsql*/
+
+/usr/bin/akonadiserver {
+  #include <abstractions/base>
+  #include <abstractions/consoles>
+  #include <abstractions/dbus-session-strict>
+  #include <abstractions/nameservice>
+  #include <abstractions/openssl>
+  #include <abstractions/qt5>
+  #include <abstractions/user-tmp>
+
+  signal send set=kill peer=mysqld_akonadi,
+  signal send set=term peer=mysqld_akonadi,
+  ptrace read peer=mysqld_akonadi,
+
+  signal send set=kill peer=mariadbd_akonadi,
+  signal send set=term peer=mariadbd_akonadi,
+  ptrace read peer=mariadbd_akonadi,
+
+  signal send set=kill peer=postgresql_akonadi,
+  signal send set=term peer=postgresql_akonadi,
+
+  dbus (send)
+      bus=session
+      interface=org.freedesktop.DBus,
+  dbus bind
+      bus=session
+      name=org.freedesktop.Akonadi,
+  dbus (receive, send)
+      bus=session
+      interface=org.freedesktop.Akonadi**,
+
+  /etc/xdg/** r,
+  /usr/bin/akonadiserver mr,
+  /usr/lib/x86_64-linux-gnu/libexec/drkonqi PUx,
+  /usr/lib{,64}/libexec/drkonqi PUx,
+  /usr/libexec/drkonqi PUx,
+  /usr/bin/mariadb-admin Px -> mariadbd_akonadi,
+  /usr/bin/mariadb-check Px -> mariadbd_akonadi,
+  /usr/bin/mariadb-install-db Px -> mariadbd_akonadi,
+  /usr/bin/mariadb-upgrade Px -> mariadbd_akonadi,
+  /usr/{,s}bin/mariadbd Px -> mariadbd_akonadi,
+  /usr/bin/mysql_install_db Px -> mysqld_akonadi,
+  /usr/bin/mysql_upgrade Px -> mysqld_akonadi,
+  /usr/bin/mysqladmin Px -> mysqld_akonadi,
+  /usr/bin/mysqlcheck Px -> mysqld_akonadi,
+  /usr/{,s}bin/mysqld Px -> mysqld_akonadi,
+  @{postgresqlpath}/bin/initdb Px -> postgresql_akonadi,
+  @{postgresqlpath}/bin/pg_ctl Px -> postgresql_akonadi,
+  @{postgresqlpath}/bin/pg_upgrade Px -> postgresql_akonadi,
+  /usr/sbin/mysqld Px -> mysqld_akonadi,
+  /usr/share/icu/[0-9]*.[0-9]*/*.dat r,
+  /usr/{local/,}share/mime/mime.cache r,
+  /usr/share/mime/packages/ r,
+  /usr/{local/,}share/mime/types r,
+  /usr/share/qt5/qtlogging.ini r,
+  /usr/share/qt{,[5-6]}/translations/* r,
+  /usr/share/mysql/** r,
+  @{PROC}/sys/kernel/core_pattern r,
+  @{PROC}/sys/kernel/random/boot_id r,
+  owner @{xdg_config_home}/* r,
+  owner @{xdg_config_home}/akonadi* rw,
+  owner @{xdg_config_home}/QtProject/qtlogging.ini r,
+  owner @{xdg_config_home}/akonadi/ rw,
+  owner @{xdg_config_home}/akonadi/** rwl,
+  owner @{xdg_config_home}/akonadi/akonadiconnectionrc wl,
+  owner @{xdg_config_home}/akonadi/akonadiconnectionrc.lock rwk,
+  owner @{xdg_config_home}/akonadi/akonadiserverrc.lock rwk,
+  owner @{xdg_data_home}/mime/mime.cache r,
+  owner @{xdg_data_home}/mime/packages/ r,
+  owner @{xdg_data_home}/mime/types r,
+  owner @{xdg_data_home}/akonadi/ rw,
+  owner @{xdg_data_home}/akonadi/* rwlk,
+  owner @{xdg_data_home}/akonadi/** rwk,
+  owner @{PROC}/@{pid}/loginuid r,
+  owner @{PROC}/@{pid}/mounts r,
+  owner @{PROC}/[0-9]*/stat r,
+  owner /{,var/}run/user/@{uid}/akonadi** rwk,
+  owner /{,var/}run/user/@{uid}/kdeinit** rwk,
+  owner /{,var/}run/user/@{uid}/kcrash** rwk,
+  owner /tmp/#[0-9]* m,
+}

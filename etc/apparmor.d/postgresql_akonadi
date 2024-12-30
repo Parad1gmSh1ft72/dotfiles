@@ -1,0 +1,48 @@
+abi <abi/3.0>,
+
+#include <tunables/global>
+
+@{xdg_data_home}=@{HOME}/.local/share
+
+@{postgresqlpath} = /usr/ /usr/lib{,64}/postgresql/*/ /usr/lib{,64}/postgresql*[0-9]/ /opt/pgsql*/
+
+profile postgresql_akonadi flags=(attach_disconnected) {
+  #include <abstractions/base>
+  #include <abstractions/bash>
+  #include <abstractions/consoles>
+  #include <abstractions/nameservice>
+  #include <abstractions/user-tmp>
+
+  capability setgid,
+  capability setuid,
+
+  signal receive set=kill peer=/usr/bin/akonadiserver,
+  signal receive set=term peer=/usr/bin/akonadiserver,
+
+  deny / rw,  # disconnected path
+
+  /etc/passwd r,
+  /{usr/,}bin/{b,d}ash mrix,
+  /{usr/,}bin/locale mrix,
+  @{postgresqlpath}/bin/initdb mrix,
+  @{postgresqlpath}/bin/pg_ctl mrix,
+  @{postgresqlpath}/bin/postgres mrix,
+  /usr/share/postgresql/** r,
+  /usr/share/postgresql*[0-9]/timezonesets/Default r,
+  owner /dev/shm/PostgreSQL.* rw,
+  owner @{xdg_data_home}/akonadi/** rwlk,
+  owner @{xdg_data_home}/akonadi/db_data/** l,
+  owner /{,var/}run/user/@{uid}/akonadi** rwk,
+
+  # pg_upgrade
+  @{postgresqlpath}/bin/pg_upgrade mrix,
+  /opt/pgsql*/** mr,
+  @{postgresqlpath}/bin/pg_controldata mrix,
+  @{postgresqlpath}/bin/pg_resetwal mrix,
+  @{postgresqlpath}/bin/pg_dumpall mrix,
+  @{postgresqlpath}/bin/pg_dump mrix,
+  @{postgresqlpath}/bin/vacuumdb mrix,
+  @{postgresqlpath}/bin/psql mrix,
+  @{postgresqlpath}/bin/pg_restore mrix,
+  /{usr/,}bin/cp mrix,
+}
