@@ -3,7 +3,7 @@
 mixer-element=Master
 
 [audacious]
-equalizer_active=TRUE
+enable_replay_gain=FALSE
 filepopup_delay=3
 recurse_for_cover=TRUE
 
@@ -23,10 +23,8 @@ volume_right=100
 
 [qtui]
 column_widths=25,25,233,144,72,183,128,25,100,50,65,275,275,275,110,275,175,75
-infoarea_show_vis=FALSE
-menu_visible=FALSE
-player_height=506
-player_width=958
+player_height=508
+player_width=954
 playlist_columns=playing title artist album-artist album queued length bitrate year genre
 playlist_headers_bold=TRUE
 statusbar_visible=FALSE

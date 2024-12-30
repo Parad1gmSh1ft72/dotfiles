@@ -26,7 +26,7 @@ UUID=766ced71-8059-49dd-ac85-c4bd377abc65        /run/media/chuck/data/  ext4   
 #UUID=48e7ac84-3fe6-4cee-8e91-83ac8d225344   /run/timeshift/backup       btrfs   defaults,noatime  0 0
 
 # /dev/zram0
-/dev/zram0 none swap defaults,pri=100 0 0
+/dev/zram0 none swap defaults   0 0
 
 # //openwrt/mnt/sda1/home/Music
 //192.168.0.10/Music    /media/music    cifs    guest,uid=chuck,nounix,noauto,user,dir_mode=0777,file_mode=0777 0 0

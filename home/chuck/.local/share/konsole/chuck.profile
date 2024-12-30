@@ -1,5 +1,5 @@
 [Appearance]
-ColorScheme=Gruvbox Material Hard Dark
+ColorScheme=Gruvbox_dark
 Font=JetBrainsMono NF,11,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
 TabColor=255,0,0
 UseFontLineChararacters=true

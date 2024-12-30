@@ -36,7 +36,7 @@ Item {
 
   property string datosweather: "0"
   property string forecastWeather: "0"
-  property string observer: datosweather + forecastWeather
+  //property string observer: datosweather + forecastWeather
   property int retrysCity: 0
 
   property string oneIcon: asingicon(obtener(forecastWeather, 1))
@@ -53,7 +53,7 @@ Item {
   property int fiveMax: fahrenheit(obtener(forecastWeather, 12))
   property int sixMax: fahrenheit(obtener(forecastWeather, 13))
   property int sevenMax: fahrenheit(obtener(forecastWeather, 14))
-  property int oneMin: fahrenheit(obtener(forecastWeather, 14))
+  property int oneMin: fahrenheit(obtener(forecastWeather, 15))
   property int twoMin: fahrenheit(obtener(forecastWeather, 16))
   property int threeMin: fahrenheit(obtener(forecastWeather, 17))
   property int fourMin: fahrenheit(obtener(forecastWeather, 18))
@@ -95,7 +95,9 @@ Item {
 
   property string uvtext: Traduc.uvRadiationText(codeleng)
   property string windSpeedText: Traduc.windSpeedText(codeleng)
+  property int isDay: obtener(datosweather, 8)
   property string city: "unk"
+  property string prefixIcon: isDay === 1 ? "" : "-night"
 
   Component.onCompleted: {
     console.log("primer paso")
@@ -171,6 +173,8 @@ Item {
     });
   }
 
+
+
   function asingicon(x, b) {
     let wmocodes = {
       0: "clear",
@@ -200,23 +204,9 @@ Item {
       96: "storm",
       99: "storm",
     };
-    var cicloOfDay = isday();
     var iconName = "weather-" + (wmocodes[x] || "unknown");
-    var iconNamePresicion = cicloOfDay === "day" ? iconName : iconName + "-" + cicloOfDay;
+    var iconNamePresicion = iconName + prefixIcon
     return b === "preciso" ? iconNamePresicion : iconName;
-  }
-
-  function isday() {
-    var timeActual = Number(Qt.formatDateTime(new Date(), "h"));
-    if (timeActual < 6) {
-      if (timeActual > 19) {
-        return "night";
-      } else {
-        return "day";
-      }
-    } else {
-      return "day";
-    }
   }
 
   function updateWeather(x) {
@@ -241,13 +231,8 @@ Item {
 
 
 
-  onObserverChanged: {
-    checkDataReady()
-  }
-
-  function checkDataReady() {
-    // Verificar si forecastWeather y datosweather están disponibles
-    if (forecastWeather !== "0" && datosweather !== "0" ) {
+  onForecastWeatherChanged: {
+    if (forecastWeather.length > 3) {
       dataChanged(); // Emitir el signal dataChanged cuando los datos estén listos
     }
   }
@@ -312,15 +297,6 @@ Item {
     }
   }
 
-  Timer {
-    id: forecastTimer
-    interval: 3.6e+6
-    running: true
-    repeat: true
-    onTriggered: {
-      getForecastWeather();
-    }
-  }
 
   onUseCoordinatesIpChanged: updateWeather(1)
 }

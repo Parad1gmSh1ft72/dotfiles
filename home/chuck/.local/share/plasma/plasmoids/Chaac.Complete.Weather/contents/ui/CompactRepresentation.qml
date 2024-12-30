@@ -66,7 +66,7 @@ Item {
                     id: textGrados
                     height: parent.height
                     width: parent.width - subtextGrados.implicitWidth
-                    text: weatherData.temperaturaActual
+                    text: weatherData.currentTemperature
                     font.bold: boldfonts
                     font.pixelSize: fonssizes
                     color: PlasmaCore.Theme.textColor

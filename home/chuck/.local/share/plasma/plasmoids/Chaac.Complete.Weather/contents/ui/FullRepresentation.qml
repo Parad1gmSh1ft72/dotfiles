@@ -74,7 +74,9 @@ ColumnLayout {
     }
 
     Component.onCompleted: {
-        weatherData.dataChanged.connect(updateForecastModel); // Conectar el signal dataChanged a la función updateForecastModel
+        weatherData.dataChanged.connect(() => {
+            Qt.callLater(updateForecastModel); // Asegura que la función se ejecute al final del ciclo de eventos
+        });
     }
     Item {
         width: fullweather.width
@@ -107,7 +109,7 @@ ColumnLayout {
                     Text {
                         width: parent.width
                         height: parent.height
-                        text: weatherData.temperaturaActual + "°"
+                        text: weatherData.currentTemperature + "°"
                         horizontalAlignment: Text.AlignHCenter
                         font.bold: true
                         font.pixelSize: height*.9

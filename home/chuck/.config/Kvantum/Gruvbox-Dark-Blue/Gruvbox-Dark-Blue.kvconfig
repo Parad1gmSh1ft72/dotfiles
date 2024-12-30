@@ -59,7 +59,7 @@ no_window_pattern=false
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,trojita,dragon,digikam
 reduce_window_opacity=0
 respect_DE=true
-scrollable_menu=false
+scrollable_menu=true
 submenu_delay=250
 click_behavior=0
 contrast=1.00
@@ -95,7 +95,7 @@ link.visited.color=#98971a
 progress.indicator.text.color=#fbf1c7
 
 [Hacks]
-transparent_ktitle_label=true
+transparent_ktitle_label=false
 transparent_dolphin_view=true
 transparent_pcmanfm_sidepane=false
 blur_translucent=true

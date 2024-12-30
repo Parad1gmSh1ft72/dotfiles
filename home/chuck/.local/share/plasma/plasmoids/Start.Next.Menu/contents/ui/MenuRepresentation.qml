@@ -43,6 +43,11 @@ Item {
         }
     }
 
+    SoInfo {
+        id: soInfo
+        visible: false
+    }
+
 
     Plasmoid.status: root.visible ? PlasmaCore.Types.RequiresAttentionStatus : PlasmaCore.Types.PassiveStatus
 
@@ -166,7 +171,7 @@ Item {
             focus: true
 
             property int showApps: Plasmoid.configuration.viewUser ? 0 : 1
-            property string textcategory: (showApps === 1) ? " All apps" : "Pinned"
+            property string textcategory: (showApps === 1) ? i18n(" All apps") : i18n(" Favorites")
 
 
             KCoreAddons.KUser {   id: kuser  }
@@ -431,6 +436,11 @@ Item {
                         icon: "configure"
                         command: "systemsettings"
                     }
+                    ListElement {
+                        text: "About"
+                        icon: "help-about-symbolic"
+                        command: "soInfo.visible = true"
+                    }
                 }
                 Column {
                     width: parent.width
@@ -459,7 +469,7 @@ Item {
                                         }
                                         Text {
                                             width: (parent.width - height)
-                                            text: model.text
+                                            text: i18n(model.text)
                                             height: 24
                                             color: Kirigami.Theme.textColor
                                             font.pixelSize: 12
@@ -477,7 +487,11 @@ Item {
                                     height: parent.height
                                     anchors.centerIn: parent
                                     onClicked: {
-                                        executable.exec(model.command);
+                                        if (model.text === "About") {
+                                            soInfo.visible = true
+                                        } else {
+                                            executable.exec(model.command);
+                                        }
                                     }
                                 }
                             }

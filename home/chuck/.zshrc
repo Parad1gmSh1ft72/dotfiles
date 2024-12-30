@@ -1,20 +1,13 @@
-#                         88
-#                         88
-#                         88
-#     888888888 ,adPPYba, 88,dPPYba,  8b,dPPYba,  ,adPPYba,
-#          a8P" I8[    "" 88P'    "8a 88P'   "Y8 a8"     ""
-#       ,d8P'    `"Y8ba,  88       88 88         8b
-# 888 ,d8"      aa    ]8I 88       88 88         "8a,   ,aa
-# 888 888888888 `"YbbdP"' 88       88 88          `"Ybbd8"'
 #
-# by Charles Cravens (2024)
-#_____________________________________________________________
-# If you come from bash you might have to change your $PATH.
-
-export GPG_TTY=$TTY
-#export GDK_BACKEND=wayland
-#export CLUTTER_BACKEND=wayland
-#export COGL_RENDERER=egl_wayland
+# ███████╗███████╗██╗  ██╗██████╗  ██████╗
+# ╚══███╔╝██╔════╝██║  ██║██╔══██╗██╔════╝
+#   ███╔╝ ███████╗███████║██████╔╝██║
+#  ███╔╝  ╚════██║██╔══██║██╔══██╗██║
+# ███████╗███████║██║  ██║██║  ██║╚██████╗
+# ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
+#
+# ZSH config file by Charles Cravens (GPLv3 2024)
+#______________________________________________________
 
    if [[ -n "$KITTY_INSTALLATION_DIR" ]]; then
      export KITTY_SHELL_INTEGRATION="enabled"
@@ -26,10 +19,21 @@ export GPG_TTY=$TTY
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# history
-HISTFILE=~/.zsh_history
-HISTSIZE=1000000
-SAVEHIST=1000000
+# Setting Default Editor
+export EDITOR='nvim'
+export VISUAL='nvim'
+
+# File to store ZSH history
+export HISTFILE=~/.zsh_history
+
+# Number of commands loaded into memory from HISTFILE
+export HISTSIZE=1000
+
+# Maximum number of commands stores in HISTFILE
+export SAVEHIST=1000
+
+# Setting default Ranger RC to false to avoid loading it twice
+export RANGER_LOAD_DEFAULT_RC='false'
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -68,7 +72,7 @@ zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -101,7 +105,7 @@ plugins=(git z zsh-autosuggestions zsh-autocomplete zsh-syntax-highlighting alia
 
 # User configuration
 
-export MANPATH="/usr/share/man:/usr/local/share/man:/usr/man:/usr/local/man:$MANPATH"
+# export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -110,11 +114,11 @@ export MANPATH="/usr/share/man:/usr/local/share/man:/usr/man:/usr/local/man:$MAN
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-#   export EDITOR='nvim'
+#   export EDITOR='mvim'
 # fi
 
 # Compilation flags
- export ARCHFLAGS="-arch $(uname -m)"
+# export ARCHFLAGS="-arch $(uname -m)"
 
 # Set personal aliases, overriding those provided by Oh My Zsh libs,
 # plugins, and themes. Aliases can be placed here, though Oh My Zsh
@@ -128,12 +132,27 @@ export MANPATH="/usr/share/man:/usr/local/share/man:/usr/man:/usr/local/man:$MAN
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source /home/chuck/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /home/chuck/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# ZSH profile
+source ~/.profile
+
+# XDG user dirs
+source ~/.config/user-dirs.dirs
+
+# Keybindings for FZF
+source <(fzf --zsh)
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+
 source $ZSH/oh-my-zsh.sh
 source $ZSH_CUSTOM/aliases.zsh
 source $ZSH_CUSTOM/exports.zsh
-#emulate sh -c 'source /etc/profile'
 
-# Created by `pipx` on 2024-11-11 20:49:52
-export PATH="$PATH:/home/chuck/.local/bin"
+# ZSH Autosuggestions
+source /home/chuck/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# ZSH Syntax Highlighting - must be at the end of .zshrc!
+#source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/chuck/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/chuck/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
+

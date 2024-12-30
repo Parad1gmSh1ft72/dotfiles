@@ -1,18 +1,17 @@
-#    _               _
-#   | |__   __ _ ___| |__  _ __ ___
-#   | '_ \ / _` / __| '_ \| '__/ __|
-#  _| |_) | (_| \__ \ | | | | | (__
-# (_)_.__/ \__,_|___/_| |_|_|  \___|
 #
-# by Charles Cravens (2024)
+# ███████╗███████╗██╗  ██╗██████╗  ██████╗
+# ╚══███╔╝██╔════╝██║  ██║██╔══██╗██╔════╝
+#   ███╔╝ ███████╗███████║██████╔╝██║
+#  ███╔╝  ╚════██║██╔══██║██╔══██╗██║
+# ███████╗███████║██║  ██║██║  ██║╚██████╗
+# ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
 #
-# ~/.bashrc
-#
+# Bash Config File by Charles Cravens (GPLv3 2024)
+#______________________________________________________
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 PS1='[\u@\h \W]\$ '
-
 # Nice username colors
 export PS1='\[\e[0;36m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;35m\]\w\[\e[0m\]>'
 
@@ -21,20 +20,20 @@ export PS1='\[\e[0;36m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;35m\]\w\[\e[0
     . /usr/share/bash-completion/bash_completion
 
 export GPG_TTY=$TTY
-export EDITOR=nano
+export EDITOR=nvim
 
-# ----------------------------------------------------
+#_____________________________________________________________
 # CUSTOM COMMANDS:
-# ----------------------------------------------------
+#_____________________________________________________________
 
 # SET MANPAGER
 # Uncomment only one of these!
 
 # "nvim" as manpager
-#export MANPAGER="nvim +Man!"
+export MANPAGER="nvim +Man!"
 
 # "less" as manpager
-export MANPAGER="less"
+#export MANPAGER="less"
 
 # Changing "ls" to "eza"
 alias ldot='eza -ld .*'                                                               # List dotfiles only (directories shown as entries instead of recursed into)

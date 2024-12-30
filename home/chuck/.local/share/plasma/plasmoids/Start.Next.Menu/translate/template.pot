@@ -17,9 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../metadata.desktop
-msgid "Ditto Menu"
-msgstr ""
 
 #: ../metadata.desktop
 msgid "A configurable launcher menu"
@@ -111,9 +108,6 @@ msgstr ""
 msgid "System Preferences"
 msgstr ""
 
-#: ../contents/ui/MenuRepresentation.qml
-msgid "User Home"
-msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "Lock Screen"
@@ -132,9 +126,25 @@ msgid "Type here to search ..."
 msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Favorites"
+msgid " Favorites"
 msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "All apps"
+msgid " All apps"
+msgstr ""
+
+#: ../contents/ui/MainModel.qml
+msgid "Processor"
+msgstr ""
+
+#: ../contents/ui/SoInfo.qml
+msgid "More info..."
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Home"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "About"
 msgstr ""
