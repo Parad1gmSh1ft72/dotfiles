@@ -40,7 +40,7 @@ External Requirements:
 ### Install Kickstart
 
 > **NOTE**
-> [Backup](#faq) your previous configuration (if any exists)
+> [Backup](#what-should-i-do-if-i-already-have-a-pre-existing-neovim-configuration) your previous configuration (if any exists)
 
 Neovim's configurations are located under the following paths, depending on your OS:
 
@@ -70,7 +70,7 @@ too - it's ignored in the kickstart repo to make maintenance easier, but it's
 > If following the recommended step above (i.e., forking the repo), replace
 > `nvim-lua` with `<your_github_username>` in the commands below
 
-<details><summary> Linux and Mac </summary>
+#### Linux and Mac
 
 ```sh
 git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
@@ -167,7 +167,6 @@ This requires:
 {'nvim-telescope/telescope-fzf-native.nvim', build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
 ```sh
 
-</details>
 <details><summary>Windows with gcc/make using chocolatey</summary>
 Alternatively, one can install gcc and make which don't require changing the config,
 the easiest way is to use choco:
