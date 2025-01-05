@@ -1,13 +1,12 @@
 #
-# ███████╗███████╗██╗  ██╗██████╗  ██████╗
-# ╚══███╔╝██╔════╝██║  ██║██╔══██╗██╔════╝
-#   ███╔╝ ███████╗███████║██████╔╝██║
-#  ███╔╝  ╚════██║██╔══██║██╔══██╗██║
-# ███████╗███████║██║  ██║██║  ██║╚██████╗
-# ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
-#
+#  ███████╗███████╗██╗  ██╗██████╗  ██████╗
+#  ╚══███╔╝██╔════╝██║  ██║██╔══██╗██╔════╝
+#    ███╔╝ ███████╗███████║██████╔╝██║
+#   ███╔╝  ╚════██║██╔══██║██╔══██╗██║
+#  ███████╗███████║██║  ██║██║  ██║╚██████╗
+#  ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
 # ZSH config file by Charles Cravens (GPLv3 2024)
-#______________________________________________________
+#_________________________________________________
 
    if [[ -n "$KITTY_INSTALLATION_DIR" ]]; then
      export KITTY_SHELL_INTEGRATION="enabled"
@@ -156,3 +155,8 @@ source /home/chuck/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-
 source /home/chuck/.oh-my-zsh/custom/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 
+
+export GPG_TTY=$(tty)
+
+# Created by `pipx` on 2025-01-05 01:51:09
+export PATH="$PATH:/home/chuck/.local/bin"
