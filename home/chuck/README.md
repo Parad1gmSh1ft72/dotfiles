@@ -1,4 +1,4 @@
-# archlegion
+## ![Arch-rolling][def]
 
 ```bash
        __              __       ______   __  __                     
@@ -11,7 +11,6 @@ $$ \__$$ |$$ \__$$ |  $$ |/  |$$ |      $$ |$$ |$$$$$$$$/  $$$$$$  |
 $$    $$ |$$    $$/   $$  $$/ $$ |      $$ |$$ |$$       |/     $$/ 
  $$$$$$$/  $$$$$$/     $$$$/  $$/       $$/ $$/  $$$$$$$/ $$$$$$$/  
  ```
-
 ```bash
  ▓▓▓▓▓▓▓▓▓▓
 ░▓ About: ▓  Custom Arch Linux configuration files
@@ -21,8 +20,6 @@ $$    $$ |$$    $$/   $$  $$/ $$ |      $$ |$$ |$$       |/     $$/
 ░▓▓▓▓▓▓▓▓▓▓
  ░░░░░░░░░░
 ```
-
-## ![Repository Open Graph][def]
 
 ```bash
 alias dotfiles='git --git-dir=/home/chuck/dotfiles --work-tree=/'
@@ -60,4 +57,4 @@ dot(){
 
 If called with arguments, it just invokes dotfiles, so I can do dot status or whatever. Otherwise, it shows me a fancy summary that looks like this:
 
-[def]: repository-open-graph.png
+[def]: archlinux-logo-text-dark.png

@@ -1,13 +1,14 @@
-#
-# ███████╗███████╗██╗  ██╗██████╗  ██████╗
-# ╚══███╔╝██╔════╝██║  ██║██╔══██╗██╔════╝
-#   ███╔╝ ███████╗███████║██████╔╝██║
-#  ███╔╝  ╚════██║██╔══██║██╔══██╗██║
-# ███████╗███████║██║  ██║██║  ██║╚██████╗
-# ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
-#
-# Bash Config File by Charles Cravens (GPLv3 2024)
-#______________________________________________________
+#       __                            __
+#      /  |                          /  |
+#      $$ |____    ______    _______ $$ |____    ______    _______
+#      $$      \  /      \  /       |$$      \  /      \  /       |
+#      $$$$$$$  | $$$$$$  |/$$$$$$$/ $$$$$$$  |/$$$$$$  |/$$$$$$$/
+#      $$ |  $$ | /    $$ |$$      \ $$ |  $$ |$$ |  $$/ $$ |
+#   __ $$ |__$$ |/$$$$$$$ | $$$$$$  |$$ |  $$ |$$ |      $$ \_____
+#  /  |$$    $$/ $$    $$ |/     $$/ $$ |  $$ |$$ |      $$       |
+#  $$/ $$$$$$$/   $$$$$$$/ $$$$$$$/  $$/   $$/ $$/        $$$$$$$/
+#  Bash Config File by Charles Cravens (GPLv3 2024)
+#_____________________________________________________________________
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -100,8 +101,8 @@ alias gcredential="git config credential.helper store"
 
 # bare git repo alias for managing my dotfiles
 #alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
-alias dotfiles='/usr/bin/git --git-dir="/home/chuck/dotfiles" --work-tree=/'
-alias dtig='GIT_DIR=/home/chuck/dotfiles GIT_WORK_TREE=/ tig'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
+alias dtig='GIT_DIR=$HOME/dotfiles GIT_WORK_TREE=$HOME tig'
 
 # vim and emacs
 alias vim="nvim"
