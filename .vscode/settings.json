@@ -1,0 +1,7 @@
+{
+	"editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"editor.minimap.sectionHeaderFontSize": 10,
+	"scm.inputFontSize": 14,
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"terminal.integrated.fontLigatures": true
+}
