@@ -14,8 +14,10 @@
 $
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1736476178,,"q!"
 :q
-|2,0,1734171495,,"q"
+|2,0,1736476147,,"q"
 :help
 |2,0,1734171484,,"help"
 :wq
@@ -34,28 +36,34 @@ $
 # Registers:
 
 # File marks:
-'0  36  19  ~/.zshrc
-|4,48,36,19,1732643090,"~/.zshrc"
-'1  36  14  ~/.zshrc
-|4,49,36,14,1732642999,"~/.zshrc"
-'2  9  16  ~/.Xresources
-|4,50,9,16,1732642938,"~/.Xresources"
-'3  1  0  ~/.bashrc
-|4,51,1,0,1732642797,"~/.bashrc"
-'4  8  0  ~/.config/hypr/conf
-|4,52,8,0,1732638569,"~/.config/hypr/conf"
-'5  25  0  /etc/X11/xinit/xinitrc
-|4,53,25,0,1732076012,"/etc/X11/xinit/xinitrc"
-'6  99  0  /etc/pacman.conf
-|4,54,99,0,1729576804,"/etc/pacman.conf"
-'7  50  0  /etc/pacman.conf
-|4,55,50,0,1729574141,"/etc/pacman.conf"
+'0  18  0  /var/lib/PackageKit/transactions.db
+|4,48,18,0,1736476178,"/var/lib/PackageKit/transactions.db"
+'1  36  19  ~/.zshrc
+|4,49,36,19,1732643090,"~/.zshrc"
+'2  36  14  ~/.zshrc
+|4,50,36,14,1732642999,"~/.zshrc"
+'3  9  16  ~/.Xresources
+|4,51,9,16,1732642938,"~/.Xresources"
+'4  1  0  ~/.bashrc
+|4,52,1,0,1732642797,"~/.bashrc"
+'5  8  0  ~/.config/hypr/conf
+|4,53,8,0,1732638569,"~/.config/hypr/conf"
+'6  25  0  /etc/X11/xinit/xinitrc
+|4,54,25,0,1732076012,"/etc/X11/xinit/xinitrc"
+'7  99  0  /etc/pacman.conf
+|4,55,99,0,1729576804,"/etc/pacman.conf"
 '8  50  0  /etc/pacman.conf
 |4,56,50,0,1729574141,"/etc/pacman.conf"
-'9  1  0  /tmp/fz3temp-2/log.smbd
-|4,57,1,0,1725169295,"/tmp/fz3temp-2/log.smbd"
+'9  50  0  /etc/pacman.conf
+|4,57,50,0,1729574141,"/etc/pacman.conf"
 
 # Jumplist (newest first):
+-'  18  0  /var/lib/PackageKit/transactions.db
+|4,39,18,0,1736476178,"/var/lib/PackageKit/transactions.db"
+-'  36  19  ~/.zshrc
+|4,39,36,19,1732643090,"~/.zshrc"
+-'  36  19  ~/.zshrc
+|4,39,36,19,1732643090,"~/.zshrc"
 -'  36  19  ~/.zshrc
 |4,39,36,19,1732643090,"~/.zshrc"
 -'  36  19  ~/.zshrc
@@ -64,10 +72,22 @@ $
 |4,39,1,0,1732643060,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1732643060,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1732643060,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1732643060,"~/.zshrc"
 -'  36  14  ~/.zshrc
 |4,39,36,14,1732642999,"~/.zshrc"
 -'  36  14  ~/.zshrc
 |4,39,36,14,1732642999,"~/.zshrc"
+-'  36  14  ~/.zshrc
+|4,39,36,14,1732642999,"~/.zshrc"
+-'  36  14  ~/.zshrc
+|4,39,36,14,1732642999,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1732642973,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1732642973,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1732642973,"~/.zshrc"
 -'  1  0  ~/.zshrc
@@ -88,6 +108,38 @@ $
 |4,39,9,16,1732642938,"~/.Xresources"
 -'  9  16  ~/.Xresources
 |4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  9  16  ~/.Xresources
+|4,39,9,16,1732642938,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
+-'  1  0  ~/.Xresources
+|4,39,1,0,1732642880,"~/.Xresources"
 -'  1  0  ~/.Xresources
 |4,39,1,0,1732642880,"~/.Xresources"
 -'  1  0  ~/.Xresources
@@ -136,6 +188,38 @@ $
 |4,39,1,0,1732642797,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732642797,"~/.bashrc"
 -'  8  0  ~/.config/hypr/conf
 |4,39,8,0,1732638569,"~/.config/hypr/conf"
 -'  8  0  ~/.config/hypr/conf
@@ -174,88 +258,16 @@ $
 |4,39,8,0,1732638569,"~/.config/hypr/conf"
 -'  8  0  ~/.config/hypr/conf
 |4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  8  0  ~/.config/hypr/conf
-|4,39,8,0,1732638569,"~/.config/hypr/conf"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
--'  25  0  /etc/X11/xinit/xinitrc
-|4,39,25,0,1732076012,"/etc/X11/xinit/xinitrc"
 
 # History of marks within files (newest to oldest):
+
+> /var/lib/PackageKit/transactions.db
+	*	1736476172	0
+	"	18	0
+
+> /var/lib/PackageKit/transactions.db.pacsave
+	*	1736476135	0
+	"	136	0
 
 > /usr/share/vim/vim91/doc/help.txt
 	*	1734171484	0

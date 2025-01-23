@@ -8,7 +8,7 @@
 #  /  |$$    $$/ $$    $$ |/     $$/ $$ |  $$ |$$ |      $$       |
 #  $$/ $$$$$$$/   $$$$$$$/ $$$$$$$/  $$/   $$/ $$/        $$$$$$$/
 #  Bash Config File by Charles Cravens (GPLv3 2024)
-#_____________________________________________________________________
+#___________________________________________________________________
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -20,7 +20,6 @@ export PS1='\[\e[0;36m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;35m\]\w\[\e[0
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] &&
     . /usr/share/bash-completion/bash_completion
 
-export GPG_TTY=$TTY
 export EDITOR=nvim
 
 #_____________________________________________________________
@@ -100,9 +99,9 @@ alias gcredential="git config credential.helper store"
 #alias dotsync="~/dotfiles-versions/dotfiles/.dev/sync.sh dotfiles"
 
 # bare git repo alias for managing my dotfiles
-#alias config="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
-alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME'
-alias dtig='GIT_DIR=$HOME/dotfiles GIT_WORK_TREE=$HOME tig'
+alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
+#alias dotfiles='/usr/bin/git --git-dir="/home/chuck/dotfiles" --work-tree=/'
+alias dtig='GIT_DIR=/home/chuck/dotfiles GIT_WORK_TREE=$HOME tig'
 
 # vim and emacs
 alias vim="nvim"
@@ -187,3 +186,9 @@ dot() {
         dotfiles $*
     fi
 }
+
+export GPG_TTY=$(tty)
+eval "$(direnv hook bash)"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/chuck/.lmstudio/bin"
