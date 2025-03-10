@@ -1,7 +1,0 @@
-2025-02-14 07:24:22.748 [info] GitLens v16.3.0 activating in Visual Studio Code (1.97.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (2971b7672a3192ab08b0c03bcc581b7c11dba4e729f1d43954d87349c4be1f76|6f390559-b927-42ff-b3fd-1b10b0803bb31739539454316)
-To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
-
-2025-02-14 07:25:59.280 [info] GitLens v16.3.0 activating in Visual Studio Code (1.97.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (2971b7672a3192ab08b0c03bcc581b7c11dba4e729f1d43954d87349c4be1f76|6f390559-b927-42ff-b3fd-1b10b0803bb31739539454316)
-To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
-[2025-02-14 13:25:59.102] [GIT    *517ms] [/home/chuck/src/self-hosted-ai-starter-kit] git rev-parse --show-toplevel [*517ms] (slow)
-

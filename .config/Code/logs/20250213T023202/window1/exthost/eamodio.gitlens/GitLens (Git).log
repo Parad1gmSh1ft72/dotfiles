@@ -1,6 +1,0 @@
-2025-02-13 02:34:32.663 [info] [2025-02-13 08:34:32.541] [         26ms] [/home/chuck/src/self-hosted-ai-starter-kit/.git] git rev-parse --show-toplevel • FAILED
-2025-02-13 02:34:32.663 [info] 
-Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
-fatal: this operation must be run in a work tree
-
-
