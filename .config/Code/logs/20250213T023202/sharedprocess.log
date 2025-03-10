@@ -1,0 +1,8 @@
+2025-02-13 02:32:08.158 [info] Getting Manifest... ms-python.debugpy
+2025-02-13 02:32:08.507 [info] Installing extension: ms-python.debugpy {"productVersion":{"version":"1.97.1","date":"2025-02-10T13:13:58.153Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chuck/.vscode/extensions/extensions.json","path":"/home/chuck/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-13 02:32:09.057 [info] Getting Manifest... ms-python.python
+2025-02-13 02:32:09.496 [info] Extension signature verification result for ms-python.debugpy: UnknownError. Executed: true. Duration: 13ms.
+2025-02-13 02:32:09.900 [info] Extracted extension to file:///home/chuck/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64: ms-python.debugpy
+2025-02-13 02:32:09.916 [info] Renamed to /home/chuck/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64
+2025-02-13 02:32:09.937 [info] Marked extension as removed ms-python.debugpy-2025.0.0
+2025-02-13 02:32:09.980 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/chuck/.vscode/extensions/extensions.json

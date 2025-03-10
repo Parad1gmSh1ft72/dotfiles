@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "Maya2024_theme"
+version = "0.0.2"
+name = "Maya2024"
+tagline = "Maya-inspired Blender theme by kame404"
+maintainer = "kame404"
+type = "theme"
+
+website = "https://github.com/kame404/Blender-Themes"
+tags = ["Dark"]
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]

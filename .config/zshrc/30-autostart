@@ -1,0 +1,34 @@
+# -----------------------------------------------------
+# AUTOSTART
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Pywal
+# -----------------------------------------------------
+# cat ~/.cache/wal/sequences
+
+if [[ -n "$KITTY_INSTALLATION_DIR" ]]; then
+     export KITTY_SHELL_INTEGRATION="enabled"
+     autoload -Uz -- "$KITTY_INSTALLATION_DIR"/shell-integration/zsh/kitty-integration
+     kitty-integration
+     unfunction kitty-integration
+   fi
+
+if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
+     source "$GHOSTTY_RESOURCES_DIR"/shell-integration/zsh/ghostty-integration
+   fi
+   
+# -----------------------------------------------------
+# Fastfetch
+# -----------------------------------------------------
+if [[ $(tty) == *"pts"* ]]; then
+    fastfetch --config examples/18
+else
+    echo
+    if [ -f /bin/qtile ]; then
+        echo "Start Qtile X11 with command Qtile"
+    fi
+    if [ -f /bin/hyprctl ]; then
+        echo "Start Hyprland with command Hyprland"
+    fi
+fi

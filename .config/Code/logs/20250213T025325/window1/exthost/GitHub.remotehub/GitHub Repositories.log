@@ -1,0 +1,748 @@
+2025-02-13 02:53:27.663 [warning] Running on the desktop; workspaceId=1886269cf81fdabf266a8ce8b8e688fe; storageUri=vscode-userdata:/home/chuck/.config/Code/User/globalStorage/github.remotehub
+2025-02-13 02:53:27.663 [info] [    2] ChangeStore.getWorkspacesWithChanges()
+2025-02-13 02:53:27.663 [info] [    6] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/settings.json)
+2025-02-13 02:53:27.663 [info] [    8] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/tasks.json)
+2025-02-13 02:53:27.663 [info] [   10] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/launch.json)
+2025-02-13 02:53:27.663 [info] [   17] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.git/config)
+2025-02-13 02:53:27.663 [info] [   20] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/extensions.json)
+2025-02-13 02:53:27.663 [info] [    6] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/settings.json): Not found; no operations
+2025-02-13 02:53:27.663 [info] [    8] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/tasks.json): Not found; no operations
+2025-02-13 02:53:27.663 [info] [    6] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/settings.json) took 14 ms
+2025-02-13 02:53:27.663 [info] [   10] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/launch.json): Not found; no operations
+2025-02-13 02:53:27.663 [info] [    8] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/tasks.json) took 14 ms
+2025-02-13 02:53:27.663 [info] [    2] ChangeStore.getWorkspacesWithChanges() took 29 ms
+2025-02-13 02:53:27.663 [info] [   10] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/launch.json) took 15 ms
+2025-02-13 02:53:27.663 [info] [   17] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.git/config): Not found; no operations
+2025-02-13 02:53:27.663 [info] [   17] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.git/config) took 15 ms
+2025-02-13 02:53:27.663 [info] [   20] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/extensions.json): Not found; no operations
+2025-02-13 02:53:27.663 [info] [   20] ChangeStore.readFile(vscode-vfs://github/Parad1gmSh1ft72/hyprdots/.vscode/extensions.json) took 16 ms
+2025-02-13 02:53:27.663 [info] [   30] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined)
+2025-02-13 02:53:27.663 [info] Parsed metadata for vscode-vfs://github/Parad1gmSh1ft72/hyprdots: name Parad1gmSh1ft72/hyprdots, owner Parad1gmSh1ft72, name hyprdots, ref undefined
+2025-02-13 02:53:27.663 [info] [   31] GitHub.ensureAuthenticated
+2025-02-13 02:53:27.663 [info] [   32] GitHub.sync(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, resolution=0, to=undefined)
+2025-02-13 02:53:27.663 [info] [   33] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=true, to=undefined)
+2025-02-13 02:53:27.663 [info] [   34] GitHub.sync(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, resolution=0, to=undefined)
+2025-02-13 02:53:27.663 [info] [   35] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=true, to=undefined)
+2025-02-13 02:53:27.693 [info] [   31] GitHub.ensureAuthenticated took 273 ms
+2025-02-13 02:53:28.477 [info] [   30] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined) • Prefetching tree for 2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6...
+2025-02-13 02:53:28.477 [info] [   37] GitHub.createFileTree(github://github/Parad1gmSh1ft72/hyprdots:2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:28.477 [info] [   38] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined)
+2025-02-13 02:53:28.478 [info] [   39] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:)
+2025-02-13 02:53:28.479 [info] [   40] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:.vscode)
+2025-02-13 02:53:28.480 [info] [   37] GitHub.createFileTree(github://github/Parad1gmSh1ft72/hyprdots:2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 0 ms
+2025-02-13 02:53:28.480 [warning] [   30] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined) took 1058 ms • HEAD=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 02:53:28.625 [info] [   68] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots)
+2025-02-13 02:53:28.637 [info] [   71] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots)
+2025-02-13 02:53:28.652 [info] [   74] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots)
+2025-02-13 02:53:28.670 [info] [   77] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots)
+2025-02-13 02:53:28.686 [info] [   80] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots)
+2025-02-13 02:53:28.717 [info] [   39] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:): Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6; Tree query took 239 ms • Waiting for permissions...
+2025-02-13 02:53:28.717 [info] [   39] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:) Permissions query took 0 ms • Filling trie...
+2025-02-13 02:53:28.717 [info] [   39] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:) took 239 ms (Filling trie took 0 ms) • Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 02:53:28.718 [warning] [    1] Time to root directory took 1331 ms
+2025-02-13 02:53:28.747 [error] /home/chuck/.vscode/extensions/github.remotehub-0.65.2024112101/dist/extension.js:160:26289
+HttpError: Not Found
+2025-02-13 02:53:28.747 [info] [   40] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:.vscode) took 270 ms (Tree query took 270 ms)• Loading for path=.vscode failed; HttpError: Not Found
+2025-02-13 02:53:28.751 [info] [   93] getFileContents
+2025-02-13 02:53:28.753 [info] [   94] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:28.753 [info] [   94] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:28.753 [info] [   94] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:28.770 [info] [   94] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 17 ms (Getting .tar from disk took 17 ms) • Skipped download
+2025-02-13 02:53:28.797 [info] [   38] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined): Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6; Tree query took 319 ms • Waiting for permissions...
+2025-02-13 02:53:28.799 [info] [   38] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined) Permissions query took 0 ms • Filling trie...
+2025-02-13 02:53:28.799 [info] [   38] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined) took 322 ms (Filling trie took 2 ms) • Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 02:53:28.802 [info] [  120] FileTree.loadAllContent(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:28.802 [info] [  121] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:28.803 [info] [  121] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:28.803 [info] [  121] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:28.888 [warning] [   35] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=true, to=undefined) took 1468 ms • Up to date
+2025-02-13 02:53:28.888 [warning] [   34] GitHub.sync(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, resolution=0, to=undefined) took 1468 ms • to=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 02:53:28.904 [info] [   74] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots) took 251 ms
+2025-02-13 02:53:28.921 [warning] [   33] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=true, to=undefined) took 1501 ms • Up to date
+2025-02-13 02:53:28.921 [warning] [   32] GitHub.sync(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, resolution=0, to=undefined) took 1501 ms • to=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 02:53:28.935 [info] [   77] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots) took 265 ms
+2025-02-13 02:53:28.941 [info] [   80] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots) took 255 ms
+2025-02-13 02:53:28.956 [info] [  121] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 153 ms (Getting .tar from disk took 153 ms) • Skipped download
+2025-02-13 02:53:28.956 [info] [  120] FileTree.loadAllContent(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 153 ms (Tar cache query took 153 ms) • No cached Tar
+2025-02-13 02:53:28.967 [info] [   68] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots) took 341 ms
+2025-02-13 02:53:28.971 [info] [   93] getFileContentsRetrieved .gitignore from web took 220 ms
+2025-02-13 02:53:29.017 [info] [   71] GitHub.getFileList(github://github/Parad1gmSh1ft72/hyprdots) took 379 ms
+2025-02-13 02:53:31.944 [info] [  297] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:31.944 [info] [  297] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:31.945 [info] [  297] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:32.046 [info] [  297] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 102 ms (Getting .tar from disk took 101 ms) • Failed; Canceled: Canceled
+2025-02-13 02:53:32.046 [error] G1.getTarCore
+Canceled: Canceled
+2025-02-13 02:53:34.893 [info] [  307] getFileContents
+2025-02-13 02:53:34.894 [info] [  308] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:34.894 [info] [  308] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:34.894 [info] [  308] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:34.914 [info] [  308] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 20 ms (Getting .tar from disk took 20 ms) • Skipped download
+2025-02-13 02:53:35.394 [warning] [  307] getFileContentsRetrieved .gitignore from web took 501 ms
+2025-02-13 02:53:55.073 [info] [  812] getFileContents
+2025-02-13 02:53:55.074 [info] [  813] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:55.074 [info] [  813] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:55.074 [info] [  813] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:55.089 [info] [  813] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:53:55.236 [info] [  812] getFileContentsRetrieved .directory from web took 163 ms
+2025-02-13 02:53:55.238 [info] [  816] getFileContents
+2025-02-13 02:53:55.239 [info] [  817] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:55.239 [info] [  817] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:55.239 [info] [  817] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:55.254 [info] [  817] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:53:55.420 [info] [  816] getFileContentsRetrieved .github/FUNDING.yml from web took 182 ms
+2025-02-13 02:53:55.422 [info] [  820] getFileContents
+2025-02-13 02:53:55.422 [info] [  821] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:55.422 [info] [  821] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:55.422 [info] [  821] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:55.438 [info] [  821] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:53:55.607 [info] [  820] getFileContentsRetrieved .github/ISSUE_TEMPLATE/bug_report.de.md from web took 185 ms
+2025-02-13 02:53:55.608 [info] [  824] getFileContents
+2025-02-13 02:53:55.609 [info] [  825] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:55.609 [info] [  825] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:55.609 [info] [  825] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:55.623 [info] [  825] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:55.798 [info] [  824] getFileContentsRetrieved .github/ISSUE_TEMPLATE/bug_report.es.md from web took 189 ms
+2025-02-13 02:53:55.800 [info] [  828] getFileContents
+2025-02-13 02:53:55.801 [info] [  829] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:55.801 [info] [  829] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:55.801 [info] [  829] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:55.815 [info] [  829] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:53:55.965 [info] [  828] getFileContentsRetrieved .github/ISSUE_TEMPLATE/bug_report.md from web took 164 ms
+2025-02-13 02:53:55.970 [info] [  832] getFileContents
+2025-02-13 02:53:55.974 [info] [  833] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:55.974 [info] [  833] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:55.974 [info] [  833] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:56.015 [info] [  833] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 40 ms (Getting .tar from disk took 40 ms) • Skipped download
+2025-02-13 02:53:56.203 [info] [  832] getFileContentsRetrieved .github/ISSUE_TEMPLATE/custom.de.md from web took 232 ms
+2025-02-13 02:53:56.204 [info] [  836] getFileContents
+2025-02-13 02:53:56.205 [info] [  837] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:56.205 [info] [  837] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:56.205 [info] [  837] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:56.219 [info] [  837] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:56.371 [info] [  836] getFileContentsRetrieved .github/ISSUE_TEMPLATE/custom.es.md from web took 166 ms
+2025-02-13 02:53:56.372 [info] [  840] getFileContents
+2025-02-13 02:53:56.373 [info] [  841] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:56.373 [info] [  841] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:56.373 [info] [  841] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:56.387 [info] [  841] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:56.578 [info] [  840] getFileContentsRetrieved .github/ISSUE_TEMPLATE/custom.md from web took 206 ms
+2025-02-13 02:53:56.583 [info] [  844] getFileContents
+2025-02-13 02:53:56.583 [info] [  845] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:56.583 [info] [  845] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:56.583 [info] [  845] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:56.597 [info] [  845] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:53:56.762 [info] [  844] getFileContentsRetrieved .github/ISSUE_TEMPLATE/documentation_update.de.md from web took 179 ms
+2025-02-13 02:53:56.763 [info] [  848] getFileContents
+2025-02-13 02:53:56.764 [info] [  849] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:56.764 [info] [  849] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:56.764 [info] [  849] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:56.779 [info] [  849] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:53:56.950 [info] [  848] getFileContentsRetrieved .github/ISSUE_TEMPLATE/documentation_update.es.md from web took 186 ms
+2025-02-13 02:53:56.951 [info] [  852] getFileContents
+2025-02-13 02:53:56.952 [info] [  853] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:56.952 [info] [  853] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:56.952 [info] [  853] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:56.966 [info] [  853] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:57.138 [info] [  852] getFileContentsRetrieved .github/ISSUE_TEMPLATE/documentation_update.md from web took 187 ms
+2025-02-13 02:53:57.140 [info] [  856] getFileContents
+2025-02-13 02:53:57.141 [info] [  857] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:57.141 [info] [  857] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:57.141 [info] [  857] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:57.155 [info] [  857] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:57.349 [info] [  856] getFileContentsRetrieved .github/ISSUE_TEMPLATE/feature_request.de.md from web took 208 ms
+2025-02-13 02:53:57.350 [info] [  860] getFileContents
+2025-02-13 02:53:57.351 [info] [  861] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:57.351 [info] [  861] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:57.351 [info] [  861] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:57.365 [info] [  861] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:57.544 [info] [  860] getFileContentsRetrieved .github/ISSUE_TEMPLATE/feature_request.es.md from web took 194 ms
+2025-02-13 02:53:57.548 [info] [  864] getFileContents
+2025-02-13 02:53:57.549 [info] [  865] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:57.549 [info] [  865] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:57.549 [info] [  865] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:57.563 [info] [  865] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:57.714 [info] [  864] getFileContentsRetrieved .github/ISSUE_TEMPLATE/feature_request.md from web took 165 ms
+2025-02-13 02:53:57.715 [info] [  868] getFileContents
+2025-02-13 02:53:57.716 [info] [  869] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:57.716 [info] [  869] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:57.716 [info] [  869] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:57.729 [info] [  869] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:53:57.875 [info] [  868] getFileContentsRetrieved .github/PULL_REQUEST_TEMPLATE.de.md from web took 160 ms
+2025-02-13 02:53:57.877 [info] [  872] getFileContents
+2025-02-13 02:53:57.877 [info] [  873] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:57.877 [info] [  873] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:57.877 [info] [  873] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:57.892 [info] [  873] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:58.034 [info] [  872] getFileContentsRetrieved .github/PULL_REQUEST_TEMPLATE.es.md from web took 157 ms
+2025-02-13 02:53:58.036 [info] [  876] getFileContents
+2025-02-13 02:53:58.036 [info] [  877] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:58.036 [info] [  877] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:58.036 [info] [  877] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:58.051 [info] [  877] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:58.213 [info] [  876] getFileContentsRetrieved .github/PULL_REQUEST_TEMPLATE.md from web took 177 ms
+2025-02-13 02:53:58.218 [info] [  880] getFileContents
+2025-02-13 02:53:58.222 [info] [  881] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:58.222 [info] [  881] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:58.222 [info] [  881] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:58.261 [info] [  881] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 39 ms (Getting .tar from disk took 38 ms) • Skipped download
+2025-02-13 02:53:58.411 [info] [  880] getFileContentsRetrieved .gitmodules from web took 193 ms
+2025-02-13 02:53:58.416 [info] [  884] getFileContents
+2025-02-13 02:53:58.416 [info] [  885] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:58.416 [info] [  885] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:58.416 [info] [  885] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:58.430 [info] [  885] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:53:58.711 [info] [  884] getFileContentsRetrieved COMMIT_MESSAGE_GUIDELINES.md from web took 295 ms
+2025-02-13 02:53:58.712 [info] [  888] getFileContents
+2025-02-13 02:53:58.712 [info] [  889] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:58.713 [info] [  889] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:58.713 [info] [  889] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:58.728 [info] [  889] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:53:58.903 [info] [  888] getFileContentsRetrieved CONTRIBUTING.md from web took 190 ms
+2025-02-13 02:53:58.908 [info] [  892] getFileContents
+2025-02-13 02:53:58.912 [info] [  893] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:58.912 [info] [  893] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:58.912 [info] [  893] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:58.948 [info] [  893] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 36 ms (Getting .tar from disk took 36 ms) • Skipped download
+2025-02-13 02:53:59.123 [info] [  892] getFileContentsRetrieved CONTRIBUTING_HYPRDOTS.md from web took 215 ms
+2025-02-13 02:53:59.125 [info] [  896] getFileContents
+2025-02-13 02:53:59.125 [info] [  897] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:59.125 [info] [  897] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:59.125 [info] [  897] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:59.140 [info] [  897] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:59.298 [info] [  896] getFileContentsRetrieved Configs/.config/Kvantum/kvantum.kvconfig from web took 173 ms
+2025-02-13 02:53:59.300 [info] [  900] getFileContents
+2025-02-13 02:53:59.300 [info] [  901] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:59.300 [info] [  901] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:59.300 [info] [  901] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:59.315 [info] [  901] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:53:59.480 [info] [  900] getFileContentsRetrieved Configs/.config/Kvantum/wallbash/wallbash.kvconfig from web took 180 ms
+2025-02-13 02:53:59.485 [info] [  904] getFileContents
+2025-02-13 02:53:59.489 [info] [  905] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:59.489 [info] [  905] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:59.489 [info] [  905] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:59.508 [info] [  905] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 19 ms (Getting .tar from disk took 18 ms) • Skipped download
+2025-02-13 02:53:59.664 [info] [  904] getFileContentsRetrieved Configs/.config/MangoHud/MangoHud.conf from web took 178 ms
+2025-02-13 02:53:59.665 [info] [  908] getFileContents
+2025-02-13 02:53:59.666 [info] [  909] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:59.666 [info] [  909] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:59.666 [info] [  909] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:59.680 [info] [  909] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:53:59.838 [info] [  908] getFileContentsRetrieved Configs/.config/baloofilerc from web took 172 ms
+2025-02-13 02:53:59.839 [info] [  912] getFileContents
+2025-02-13 02:53:59.840 [info] [  913] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:53:59.840 [info] [  913] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:53:59.840 [info] [  913] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:53:59.854 [info] [  913] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:00.023 [info] [  912] getFileContentsRetrieved Configs/.config/code-flags.conf from web took 183 ms
+2025-02-13 02:54:00.024 [info] [  916] getFileContents
+2025-02-13 02:54:00.025 [info] [  917] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:00.025 [info] [  917] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:00.025 [info] [  917] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:00.039 [info] [  917] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:00.203 [info] [  916] getFileContentsRetrieved Configs/.config/dolphinrc from web took 178 ms
+2025-02-13 02:54:00.204 [info] [  920] getFileContents
+2025-02-13 02:54:00.205 [info] [  921] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:00.205 [info] [  921] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:00.205 [info] [  921] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:00.218 [info] [  921] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:00.452 [info] [  920] getFileContentsRetrieved Configs/.config/dunst/dunst.conf from web took 248 ms
+2025-02-13 02:54:00.453 [info] [  924] getFileContents
+2025-02-13 02:54:00.454 [info] [  925] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:00.454 [info] [  925] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:00.454 [info] [  925] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:00.468 [info] [  925] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:00.652 [info] [  924] getFileContentsRetrieved Configs/.config/dunst/dunstrc from web took 198 ms
+2025-02-13 02:54:00.653 [info] [  928] getFileContents
+2025-02-13 02:54:00.654 [info] [  929] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:00.654 [info] [  929] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:00.654 [info] [  929] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:00.669 [info] [  929] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:00.817 [info] [  928] getFileContentsRetrieved Configs/.config/electron-flags.conf from web took 163 ms
+2025-02-13 02:54:00.818 [info] [  932] getFileContents
+2025-02-13 02:54:00.819 [info] [  933] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:00.819 [info] [  933] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:00.819 [info] [  933] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:00.834 [info] [  933] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:01.014 [info] [  932] getFileContentsRetrieved Configs/.config/fastfetch/config.jsonc from web took 195 ms
+2025-02-13 02:54:01.015 [info] [  936] getFileContents
+2025-02-13 02:54:01.016 [info] [  937] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:01.016 [info] [  937] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:01.016 [info] [  937] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:01.031 [info] [  937] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:01.427 [info] [  936] getFileContentsRetrieved Configs/.config/fastfetch/logo/aisaka.icon from web took 411 ms
+2025-02-13 02:54:01.431 [info] [  940] getFileContents
+2025-02-13 02:54:01.432 [info] [  941] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:01.432 [info] [  941] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:01.432 [info] [  941] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:01.448 [info] [  941] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:54:01.657 [info] [  940] getFileContentsRetrieved Configs/.config/fastfetch/logo/hyprland.icon from web took 225 ms
+2025-02-13 02:54:01.659 [info] [  944] getFileContents
+2025-02-13 02:54:01.660 [info] [  945] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:01.660 [info] [  945] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:01.660 [info] [  945] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:01.675 [info] [  945] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:54:01.970 [info] [  944] getFileContentsRetrieved Configs/.config/fastfetch/logo/loli.icon from web took 311 ms
+2025-02-13 02:54:01.975 [info] [  948] getFileContents
+2025-02-13 02:54:01.975 [info] [  949] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:01.976 [info] [  949] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:01.976 [info] [  949] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:01.992 [info] [  949] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 16 ms (Getting .tar from disk took 16 ms) • Skipped download
+2025-02-13 02:54:02.243 [info] [  948] getFileContentsRetrieved Configs/.config/fastfetch/logo/pochita.icon from web took 268 ms
+2025-02-13 02:54:02.246 [info] [  952] getFileContents
+2025-02-13 02:54:02.247 [info] [  953] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:02.247 [info] [  953] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:02.247 [info] [  953] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:02.262 [info] [  953] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:02.473 [info] [  952] getFileContentsRetrieved Configs/.config/fastfetch/logo/ryuzaki.icon from web took 226 ms
+2025-02-13 02:54:02.476 [info] [  956] getFileContents
+2025-02-13 02:54:02.477 [info] [  957] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:02.477 [info] [  957] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:02.477 [info] [  957] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:02.492 [info] [  957] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:54:02.637 [info] [  956] getFileContentsRetrieved Configs/.config/fish/config.fish from web took 161 ms
+2025-02-13 02:54:02.639 [info] [  960] getFileContents
+2025-02-13 02:54:02.639 [info] [  961] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:02.640 [info] [  961] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:02.640 [info] [  961] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:02.654 [info] [  961] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:02.909 [info] [  960] getFileContentsRetrieved Configs/.config/gtk-3.0/settings.ini from web took 269 ms
+2025-02-13 02:54:02.910 [info] [  964] getFileContents
+2025-02-13 02:54:02.910 [info] [  965] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:02.911 [info] [  965] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:02.911 [info] [  965] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:02.933 [info] [  965] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 22 ms (Getting .tar from disk took 22 ms) • Skipped download
+2025-02-13 02:54:03.405 [info] [  964] getFileContentsRetrieved Configs/.config/hyde/config.toml from web took 494 ms
+2025-02-13 02:54:03.406 [info] [  968] getFileContents
+2025-02-13 02:54:03.407 [info] [  969] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:03.407 [info] [  969] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:03.407 [info] [  969] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:03.421 [info] [  969] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:03.662 [info] [  968] getFileContentsRetrieved Configs/.config/hyde/wallbash/README.md from web took 255 ms
+2025-02-13 02:54:03.663 [info] [  972] getFileContents
+2025-02-13 02:54:03.664 [info] [  973] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:03.664 [info] [  973] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:03.664 [info] [  973] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:03.693 [info] [  973] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 29 ms (Getting .tar from disk took 29 ms) • Skipped download
+2025-02-13 02:54:03.944 [info] [  972] getFileContentsRetrieved Configs/.config/hyde/wallbash/always/cava.dcol from web took 280 ms
+2025-02-13 02:54:03.945 [info] [  976] getFileContents
+2025-02-13 02:54:03.946 [info] [  977] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:03.946 [info] [  977] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:03.946 [info] [  977] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:03.961 [info] [  977] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:04.199 [info] [  976] getFileContentsRetrieved Configs/.config/hyde/wallbash/always/chrome.dcol from web took 253 ms
+2025-02-13 02:54:04.204 [info] [  980] getFileContents
+2025-02-13 02:54:04.208 [info] [  981] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:04.208 [info] [  981] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:04.208 [info] [  981] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:04.238 [info] [  981] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 30 ms (Getting .tar from disk took 29 ms) • Skipped download
+2025-02-13 02:54:04.559 [info] [  980] getFileContentsRetrieved Configs/.config/hyde/wallbash/always/discord.dcol from web took 354 ms
+2025-02-13 02:54:04.560 [info] [  984] getFileContents
+2025-02-13 02:54:04.561 [info] [  985] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:04.561 [info] [  985] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:04.561 [info] [  985] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:04.574 [info] [  985] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:04.763 [info] [  984] getFileContentsRetrieved Configs/.config/hyde/wallbash/always/spotify.dcol from web took 203 ms
+2025-02-13 02:54:04.764 [info] [  988] getFileContents
+2025-02-13 02:54:04.765 [info] [  989] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:04.765 [info] [  989] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:04.765 [info] [  989] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:04.780 [info] [  989] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:54:04.988 [info] [  988] getFileContentsRetrieved Configs/.config/hyde/wallbash/scripts/cava.sh from web took 224 ms
+2025-02-13 02:54:04.990 [info] [  992] getFileContents
+2025-02-13 02:54:04.990 [info] [  993] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:04.991 [info] [  993] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:04.991 [info] [  993] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:05.005 [info] [  993] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:05.378 [info] [  992] getFileContentsRetrieved Configs/.config/hyde/wallbash/scripts/chrome.sh from web took 387 ms
+2025-02-13 02:54:05.379 [info] [  996] getFileContents
+2025-02-13 02:54:05.380 [info] [  997] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:05.380 [info] [  997] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:05.380 [info] [  997] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:05.393 [info] [  997] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:12.952 [warning] [  996] getFileContentsRetrieved Configs/.config/hyde/wallbash/scripts/code.sh from web took 7573 ms
+2025-02-13 02:54:12.954 [info] [ 1000] getFileContents
+2025-02-13 02:54:12.954 [info] [ 1001] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:12.955 [info] [ 1001] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:12.955 [info] [ 1001] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:12.970 [info] [ 1001] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:54:13.132 [info] [ 1000] getFileContentsRetrieved Configs/.config/hyde/wallbash/scripts/discord.sh from web took 178 ms
+2025-02-13 02:54:13.133 [info] [ 1004] getFileContents
+2025-02-13 02:54:13.134 [info] [ 1005] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:13.134 [info] [ 1005] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:13.134 [info] [ 1005] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:13.148 [info] [ 1005] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:13.336 [info] [ 1004] getFileContentsRetrieved Configs/.config/hyde/wallbash/scripts/spotify.sh from web took 202 ms
+2025-02-13 02:54:13.337 [info] [ 1008] getFileContents
+2025-02-13 02:54:13.338 [info] [ 1009] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:13.338 [info] [ 1009] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:13.338 [info] [ 1009] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:13.353 [info] [ 1009] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:13.552 [info] [ 1008] getFileContentsRetrieved Configs/.config/hyde/wallbash/theme/code.dcol from web took 214 ms
+2025-02-13 02:54:13.554 [info] [ 1012] getFileContents
+2025-02-13 02:54:13.554 [info] [ 1013] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:13.555 [info] [ 1013] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:13.555 [info] [ 1013] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:13.569 [info] [ 1013] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:13.749 [info] [ 1012] getFileContentsRetrieved Configs/.config/hypr/animations.conf from web took 195 ms
+2025-02-13 02:54:13.750 [info] [ 1016] getFileContents
+2025-02-13 02:54:13.751 [info] [ 1017] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:13.751 [info] [ 1017] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:13.751 [info] [ 1017] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:13.766 [info] [ 1017] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:13.949 [info] [ 1016] getFileContentsRetrieved Configs/.config/hypr/animations/classic.conf from web took 198 ms
+2025-02-13 02:54:13.951 [info] [ 1020] getFileContents
+2025-02-13 02:54:13.952 [info] [ 1021] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:13.952 [info] [ 1021] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:13.952 [info] [ 1021] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:13.967 [info] [ 1021] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:14.138 [info] [ 1020] getFileContentsRetrieved Configs/.config/hypr/animations/diablo-1.conf from web took 187 ms
+2025-02-13 02:54:14.140 [info] [ 1024] getFileContents
+2025-02-13 02:54:14.141 [info] [ 1025] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:14.141 [info] [ 1025] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:14.141 [info] [ 1025] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:14.155 [info] [ 1025] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:14.329 [info] [ 1024] getFileContentsRetrieved Configs/.config/hypr/animations/diablo-2.conf from web took 188 ms
+2025-02-13 02:54:14.330 [info] [ 1028] getFileContents
+2025-02-13 02:54:14.331 [info] [ 1029] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:14.331 [info] [ 1029] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:14.331 [info] [ 1029] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:14.349 [info] [ 1029] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 18 ms (Getting .tar from disk took 18 ms) • Skipped download
+2025-02-13 02:54:14.516 [info] [ 1028] getFileContentsRetrieved Configs/.config/hypr/animations/disable.conf from web took 185 ms
+2025-02-13 02:54:14.522 [info] [ 1032] getFileContents
+2025-02-13 02:54:14.525 [info] [ 1033] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:14.526 [info] [ 1033] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:14.526 [info] [ 1033] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:14.566 [info] [ 1033] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 41 ms (Getting .tar from disk took 41 ms) • Skipped download
+2025-02-13 02:54:14.747 [info] [ 1032] getFileContentsRetrieved Configs/.config/hypr/animations/dynamic.conf from web took 225 ms
+2025-02-13 02:54:14.753 [info] [ 1036] getFileContents
+2025-02-13 02:54:14.756 [info] [ 1037] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:14.757 [info] [ 1037] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:14.757 [info] [ 1037] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:14.797 [info] [ 1037] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 40 ms (Getting .tar from disk took 40 ms) • Skipped download
+2025-02-13 02:54:15.167 [info] [ 1036] getFileContentsRetrieved Configs/.config/hypr/animations/end4.conf from web took 414 ms
+2025-02-13 02:54:15.172 [info] [ 1040] getFileContents
+2025-02-13 02:54:15.176 [info] [ 1041] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:15.176 [info] [ 1041] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:15.176 [info] [ 1041] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:15.216 [info] [ 1041] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 40 ms (Getting .tar from disk took 40 ms) • Skipped download
+2025-02-13 02:54:15.376 [info] [ 1040] getFileContentsRetrieved Configs/.config/hypr/animations/fast.conf from web took 204 ms
+2025-02-13 02:54:15.378 [info] [ 1044] getFileContents
+2025-02-13 02:54:15.379 [info] [ 1045] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:15.379 [info] [ 1045] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:15.379 [info] [ 1045] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:15.393 [info] [ 1045] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:15.615 [info] [ 1044] getFileContentsRetrieved Configs/.config/hypr/animations/high.conf from web took 236 ms
+2025-02-13 02:54:15.617 [info] [ 1048] getFileContents
+2025-02-13 02:54:15.617 [info] [ 1049] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:15.618 [info] [ 1049] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:15.618 [info] [ 1049] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:15.632 [info] [ 1049] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:15.801 [info] [ 1048] getFileContentsRetrieved Configs/.config/hypr/animations/ja.conf from web took 183 ms
+2025-02-13 02:54:15.806 [info] [ 1052] getFileContents
+2025-02-13 02:54:15.810 [info] [ 1053] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:15.810 [info] [ 1053] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:15.810 [info] [ 1053] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:15.862 [info] [ 1053] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 52 ms (Getting .tar from disk took 52 ms) • Skipped download
+2025-02-13 02:54:16.032 [info] [ 1052] getFileContentsRetrieved Configs/.config/hypr/animations/me-1.conf from web took 225 ms
+2025-02-13 02:54:16.034 [info] [ 1056] getFileContents
+2025-02-13 02:54:16.034 [info] [ 1057] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:16.034 [info] [ 1057] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:16.034 [info] [ 1057] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:16.049 [info] [ 1057] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:16.233 [info] [ 1056] getFileContentsRetrieved Configs/.config/hypr/animations/me-2.conf from web took 199 ms
+2025-02-13 02:54:16.234 [info] [ 1060] getFileContents
+2025-02-13 02:54:16.235 [info] [ 1061] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:16.235 [info] [ 1061] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:16.235 [info] [ 1061] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:16.248 [info] [ 1061] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:16.430 [info] [ 1060] getFileContentsRetrieved Configs/.config/hypr/animations/minimal-1.conf from web took 196 ms
+2025-02-13 02:54:16.432 [info] [ 1064] getFileContents
+2025-02-13 02:54:16.432 [info] [ 1065] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:16.432 [info] [ 1065] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:16.432 [info] [ 1065] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:16.446 [info] [ 1065] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:16.612 [info] [ 1064] getFileContentsRetrieved Configs/.config/hypr/animations/minimal-2.conf from web took 180 ms
+2025-02-13 02:54:16.617 [info] [ 1068] getFileContents
+2025-02-13 02:54:16.617 [info] [ 1069] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:16.617 [info] [ 1069] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:16.617 [info] [ 1069] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:16.631 [info] [ 1069] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:16.871 [info] [ 1068] getFileContentsRetrieved Configs/.config/hypr/animations/moving.conf from web took 253 ms
+2025-02-13 02:54:16.876 [info] [ 1072] getFileContents
+2025-02-13 02:54:16.879 [info] [ 1073] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:16.879 [info] [ 1073] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:16.879 [info] [ 1073] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:16.900 [info] [ 1073] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 20 ms (Getting .tar from disk took 20 ms) • Skipped download
+2025-02-13 02:54:17.062 [info] [ 1072] getFileContentsRetrieved Configs/.config/hypr/animations/optimized.conf from web took 186 ms
+2025-02-13 02:54:17.063 [info] [ 1076] getFileContents
+2025-02-13 02:54:17.064 [info] [ 1077] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:17.064 [info] [ 1077] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:17.064 [info] [ 1077] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:17.077 [info] [ 1077] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:17.266 [info] [ 1076] getFileContentsRetrieved Configs/.config/hypr/animations/standard.conf from web took 202 ms
+2025-02-13 02:54:17.267 [info] [ 1080] getFileContents
+2025-02-13 02:54:17.268 [info] [ 1081] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:17.268 [info] [ 1081] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:17.268 [info] [ 1081] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:17.282 [info] [ 1081] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:17.435 [info] [ 1080] getFileContentsRetrieved Configs/.config/hypr/animations/theme.conf from web took 167 ms
+2025-02-13 02:54:17.436 [info] [ 1084] getFileContents
+2025-02-13 02:54:17.437 [info] [ 1085] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:17.437 [info] [ 1085] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:17.437 [info] [ 1085] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:17.454 [info] [ 1085] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 16 ms (Getting .tar from disk took 16 ms) • Skipped download
+2025-02-13 02:54:17.618 [info] [ 1084] getFileContentsRetrieved Configs/.config/hypr/animations/vertical.conf from web took 181 ms
+2025-02-13 02:54:17.619 [info] [ 1088] getFileContents
+2025-02-13 02:54:17.620 [info] [ 1089] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:17.620 [info] [ 1089] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:17.620 [info] [ 1089] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:17.634 [info] [ 1089] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:17.777 [info] [ 1088] getFileContentsRetrieved Configs/.config/hypr/hyde.conf from web took 158 ms
+2025-02-13 02:54:17.779 [info] [ 1092] getFileContents
+2025-02-13 02:54:17.779 [info] [ 1093] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:17.780 [info] [ 1093] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:17.780 [info] [ 1093] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:17.794 [info] [ 1093] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:17.956 [info] [ 1092] getFileContentsRetrieved Configs/.config/hypr/hypridle.conf from web took 177 ms
+2025-02-13 02:54:17.957 [info] [ 1096] getFileContents
+2025-02-13 02:54:17.958 [info] [ 1097] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:17.958 [info] [ 1097] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:17.958 [info] [ 1097] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:17.972 [info] [ 1097] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:18.159 [info] [ 1096] getFileContentsRetrieved Configs/.config/hypr/hyprland.conf from web took 201 ms
+2025-02-13 02:54:18.160 [info] [ 1100] getFileContents
+2025-02-13 02:54:18.161 [info] [ 1101] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:18.161 [info] [ 1101] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:18.161 [info] [ 1101] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:18.176 [info] [ 1101] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:54:18.361 [info] [ 1100] getFileContentsRetrieved Configs/.config/hypr/hyprlock.conf from web took 200 ms
+2025-02-13 02:54:18.362 [info] [ 1104] getFileContents
+2025-02-13 02:54:18.363 [info] [ 1105] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:18.363 [info] [ 1105] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:18.363 [info] [ 1105] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:18.378 [info] [ 1105] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:18.549 [info] [ 1104] getFileContentsRetrieved Configs/.config/hypr/hyprlock/Anurati.conf from web took 186 ms
+2025-02-13 02:54:18.554 [info] [ 1108] getFileContents
+2025-02-13 02:54:18.556 [info] [ 1109] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:18.556 [info] [ 1109] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:18.556 [info] [ 1109] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:18.585 [info] [ 1109] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 28 ms (Getting .tar from disk took 28 ms) • Skipped download
+2025-02-13 02:54:18.759 [info] [ 1108] getFileContentsRetrieved Configs/.config/hypr/hyprlock/Arfan on Clouds.conf from web took 205 ms
+2025-02-13 02:54:18.761 [info] [ 1112] getFileContents
+2025-02-13 02:54:18.761 [info] [ 1113] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:18.762 [info] [ 1113] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:18.762 [info] [ 1113] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:18.775 [info] [ 1113] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 13 ms (Getting .tar from disk took 13 ms) • Skipped download
+2025-02-13 02:54:18.948 [info] [ 1112] getFileContentsRetrieved Configs/.config/hypr/hyprlock/IBM Plex.conf from web took 187 ms
+2025-02-13 02:54:18.950 [info] [ 1116] getFileContents
+2025-02-13 02:54:18.951 [info] [ 1117] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:18.951 [info] [ 1117] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:18.951 [info] [ 1117] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:18.967 [info] [ 1117] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 16 ms (Getting .tar from disk took 16 ms) • Skipped download
+2025-02-13 02:54:19.170 [info] [ 1116] getFileContentsRetrieved Configs/.config/hypr/hyprlock/SF Pro.conf from web took 220 ms
+2025-02-13 02:54:19.172 [info] [ 1120] getFileContents
+2025-02-13 02:54:19.172 [info] [ 1121] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:19.172 [info] [ 1121] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:19.172 [info] [ 1121] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:19.187 [info] [ 1121] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:19.372 [info] [ 1120] getFileContentsRetrieved Configs/.config/hypr/hyprlock/theme.conf from web took 199 ms
+2025-02-13 02:54:19.377 [info] [ 1124] getFileContents
+2025-02-13 02:54:19.380 [info] [ 1125] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:19.380 [info] [ 1125] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:19.380 [info] [ 1125] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:19.394 [info] [ 1125] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:19.606 [info] [ 1124] getFileContentsRetrieved Configs/.config/hypr/keybindings.conf from web took 229 ms
+2025-02-13 02:54:19.607 [info] [ 1128] getFileContents
+2025-02-13 02:54:19.608 [info] [ 1129] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:19.608 [info] [ 1129] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:19.608 [info] [ 1129] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:19.622 [info] [ 1129] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:19.816 [info] [ 1128] getFileContentsRetrieved Configs/.config/hypr/monitors.conf from web took 208 ms
+2025-02-13 02:54:19.817 [info] [ 1132] getFileContents
+2025-02-13 02:54:19.818 [info] [ 1133] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:19.818 [info] [ 1133] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:19.818 [info] [ 1133] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:19.832 [info] [ 1133] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:20.011 [info] [ 1132] getFileContentsRetrieved Configs/.config/hypr/nvidia.conf from web took 193 ms
+2025-02-13 02:54:20.012 [info] [ 1136] getFileContents
+2025-02-13 02:54:20.013 [info] [ 1137] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:20.013 [info] [ 1137] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:20.013 [info] [ 1137] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:20.028 [info] [ 1137] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 14 ms (Getting .tar from disk took 14 ms) • Skipped download
+2025-02-13 02:54:20.250 [info] [ 1136] getFileContentsRetrieved Configs/.config/hypr/themes/colors.conf from web took 238 ms
+2025-02-13 02:54:20.252 [info] [ 1140] getFileContents
+2025-02-13 02:54:20.252 [info] [ 1141] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:54:20.252 [info] [ 1141] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:54:20.252 [info] [ 1141] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:54:20.268 [info] [ 1141] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 15 ms (Getting .tar from disk took 15 ms) • Skipped download
+2025-02-13 02:54:27.394 [info] [ 1142] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:54:27.410 [info] [ 1143] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:54:27.411 [info] [ 1143] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 02:54:27.411 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 02:54:27.615 [info] [ 1142] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 220 ms • No changes detected
+2025-02-13 02:55:27.411 [info] [ 1148] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:55:27.411 [info] [ 1148] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 02:55:27.411 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 02:55:27.615 [info] [ 1149] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:55:27.931 [info] [ 1149] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 315 ms • No changes detected
+2025-02-13 02:56:27.412 [info] [ 1150] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:56:27.413 [info] [ 1150] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 02:56:27.413 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 02:56:27.933 [info] [ 1151] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:56:27.950 [error] /home/chuck/.vscode/extensions/github.remotehub-0.65.2024112101/dist/extension.js:160:26455
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo EAI_AGAIN api.github.com
+2025-02-13 02:56:27.951 [info] [ 1151] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 18 ms • Unable to fetch branch tips
+2025-02-13 02:56:27.951 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 02:57:27.413 [info] [ 1171] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:57:27.413 [info] [ 1171] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 02:57:27.413 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 02:57:27.952 [info] [ 1176] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:57:28.178 [info] [ 1176] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 226 ms • No changes detected
+2025-02-13 02:58:27.414 [info] [ 1189] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:58:27.415 [info] [ 1189] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 02:58:27.415 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 02:58:28.178 [info] [ 1190] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:58:28.389 [info] [ 1190] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 211 ms • No changes detected
+2025-02-13 02:58:56.569 [info] [ 1200] getFileContents
+2025-02-13 02:58:56.570 [info] [ 1201] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 02:58:56.570 [info] [ 1201] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 02:58:56.570 [info] [ 1201] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 02:58:56.599 [info] [ 1201] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 28 ms (Getting .tar from disk took 28 ms) • Skipped download
+2025-02-13 02:58:56.774 [info] [ 1200] getFileContentsRetrieved KEYBINDINGS.md from web took 205 ms
+2025-02-13 02:59:27.416 [info] [ 1230] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:59:27.416 [info] [ 1230] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 02:59:27.416 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 02:59:28.390 [info] [ 1231] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 02:59:28.600 [info] [ 1231] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 209 ms • No changes detected
+2025-02-13 03:00:27.416 [info] [ 1265] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 03:00:27.416 [info] [ 1265] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 03:00:27.417 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 03:00:28.602 [info] [ 1266] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 03:00:28.828 [info] [ 1266] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 226 ms • No changes detected
+2025-02-13 03:00:32.207 [info] GitHubFS.onRefreshOrRepositoryChanged(github://github/Parad1gmSh1ft72/hyprdots)
+2025-02-13 03:00:32.209 [info] [ 1271] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined)
+2025-02-13 03:00:32.209 [info] Parsed metadata for vscode-vfs://github/Parad1gmSh1ft72/hyprdots: name Parad1gmSh1ft72/hyprdots, owner Parad1gmSh1ft72, name hyprdots, ref undefined
+2025-02-13 03:00:32.625 [info] [ 1271] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined) • Prefetching tree for 2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6...
+2025-02-13 03:00:32.625 [info] [ 1273] GitHub.createFileTree(github://github/Parad1gmSh1ft72/hyprdots:2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:00:32.625 [info] [ 1274] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined)
+2025-02-13 03:00:32.625 [info] [ 1275] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:)
+2025-02-13 03:00:32.626 [info] [ 1276] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:.vscode)
+2025-02-13 03:00:32.627 [info] [ 1273] GitHub.createFileTree(github://github/Parad1gmSh1ft72/hyprdots:2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 0 ms
+2025-02-13 03:00:32.627 [info] [ 1271] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined) took 416 ms • HEAD=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 03:00:32.826 [info] [ 1275] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:): Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6; Tree query took 201 ms • Waiting for permissions...
+2025-02-13 03:00:32.826 [info] [ 1275] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:) Permissions query took 0 ms • Filling trie...
+2025-02-13 03:00:32.826 [info] [ 1275] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:) took 201 ms (Filling trie took 0 ms) • Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 03:00:32.826 [info] [ 1286] getFileContents
+2025-02-13 03:00:32.827 [info] [ 1287] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:00:32.828 [info] [ 1287] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 03:00:32.828 [info] [ 1287] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 03:00:32.846 [info] [ 1287] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 18 ms (Getting .tar from disk took 18 ms) • Skipped download
+2025-02-13 03:00:32.847 [error] /home/chuck/.vscode/extensions/github.remotehub-0.65.2024112101/dist/extension.js:160:26289
+HttpError: Not Found
+2025-02-13 03:00:32.847 [info] [ 1276] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:.vscode) took 222 ms (Tree query took 222 ms)• Loading for path=.vscode failed; HttpError: Not Found
+2025-02-13 03:00:32.879 [info] [ 1274] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined): Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6; Tree query took 253 ms • Waiting for permissions...
+2025-02-13 03:00:32.881 [info] [ 1274] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined) Permissions query took 0 ms • Filling trie...
+2025-02-13 03:00:32.881 [info] [ 1274] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined) took 256 ms (Filling trie took 2 ms) • Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 03:00:32.882 [info] [ 1298] FileTree.loadAllContent(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:00:32.882 [info] [ 1299] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:00:32.882 [info] [ 1299] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 03:00:32.882 [info] [ 1299] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 03:00:32.885 [info] [ 1299] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 2 ms (Getting .tar from disk took 2 ms) • Skipped download
+2025-02-13 03:00:32.885 [info] [ 1298] FileTree.loadAllContent(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 2 ms (Tar cache query took 2 ms) • No cached Tar
+2025-02-13 03:00:33.005 [info] [ 1286] getFileContentsRetrieved KEYBINDINGS.md from web took 178 ms
+2025-02-13 03:00:33.006 [info] [ 1301] getFileContents
+2025-02-13 03:00:33.007 [info] [ 1302] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:00:33.007 [info] [ 1302] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 03:00:33.007 [info] [ 1302] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 03:00:33.024 [info] [ 1302] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 16 ms (Getting .tar from disk took 16 ms) • Skipped download
+2025-02-13 03:00:33.193 [info] [ 1301] getFileContentsRetrieved KEYBINDINGS.md from web took 186 ms
+2025-02-13 03:00:41.479 [info] [ 1305] GitHub.sync(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, resolution=0, to=undefined)
+2025-02-13 03:00:41.479 [info] [ 1306] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=true, to=undefined)
+2025-02-13 03:00:41.750 [info] [ 1306] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=true, to=undefined) took 271 ms • Up to date
+2025-02-13 03:00:41.750 [info] [ 1305] GitHub.sync(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, resolution=0, to=undefined) took 271 ms • to=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 03:01:16.176 [info] ChangeStore.discardAll(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined)
+2025-02-13 03:01:23.398 [info] GitHubFS.onRefreshOrRepositoryChanged(github://github/Parad1gmSh1ft72/hyprdots)
+2025-02-13 03:01:23.398 [info] [ 1315] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined)
+2025-02-13 03:01:23.398 [info] Parsed metadata for vscode-vfs://github/Parad1gmSh1ft72/hyprdots: name Parad1gmSh1ft72/hyprdots, owner Parad1gmSh1ft72, name hyprdots, ref undefined
+2025-02-13 03:01:23.749 [info] [ 1315] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined) • Prefetching tree for 2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6...
+2025-02-13 03:01:23.749 [info] [ 1317] GitHub.createFileTree(github://github/Parad1gmSh1ft72/hyprdots:2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:01:23.749 [info] [ 1318] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined)
+2025-02-13 03:01:23.750 [info] [ 1319] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:)
+2025-02-13 03:01:23.751 [info] [ 1320] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:.vscode)
+2025-02-13 03:01:23.752 [info] [ 1317] GitHub.createFileTree(github://github/Parad1gmSh1ft72/hyprdots:2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 0 ms
+2025-02-13 03:01:23.752 [info] [ 1315] GitHub.createMetadata(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, undefined) took 351 ms • HEAD=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 03:01:23.952 [error] /home/chuck/.vscode/extensions/github.remotehub-0.65.2024112101/dist/extension.js:160:26289
+HttpError: Not Found
+2025-02-13 03:01:23.952 [info] [ 1320] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:.vscode) took 202 ms (Tree query took 202 ms)• Loading for path=.vscode failed; HttpError: Not Found
+2025-02-13 03:01:23.972 [info] [ 1319] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:): Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6; Tree query took 222 ms • Waiting for permissions...
+2025-02-13 03:01:23.972 [info] [ 1319] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:) Permissions query took 0 ms • Filling trie...
+2025-02-13 03:01:23.972 [info] [ 1319] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:) took 222 ms (Filling trie took 0 ms) • Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 03:01:23.972 [info] [ 1330] getFileContents
+2025-02-13 03:01:23.973 [info] [ 1331] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:01:23.973 [info] [ 1331] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 03:01:23.973 [info] [ 1331] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 03:01:23.992 [info] [ 1331] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 18 ms (Getting .tar from disk took 18 ms) • Skipped download
+2025-02-13 03:01:24.018 [info] [ 1318] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined): Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6; Tree query took 268 ms • Waiting for permissions...
+2025-02-13 03:01:24.019 [info] [ 1318] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined) Permissions query took 0 ms • Filling trie...
+2025-02-13 03:01:24.019 [info] [ 1318] FileTree.load(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6:undefined) took 269 ms (Filling trie took 1 ms) • Tree=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 03:01:24.020 [info] [ 1342] FileTree.loadAllContent(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:01:24.020 [info] [ 1343] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:01:24.020 [info] [ 1343] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 03:01:24.020 [info] [ 1343] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 03:01:24.022 [info] [ 1343] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 1 ms (Getting .tar from disk took 1 ms) • Skipped download
+2025-02-13 03:01:24.022 [info] [ 1342] FileTree.loadAllContent(2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 1 ms (Tar cache query took 1 ms) • No cached Tar
+2025-02-13 03:01:24.166 [info] [ 1330] getFileContentsRetrieved KEYBINDINGS.md from web took 194 ms
+2025-02-13 03:01:24.167 [info] [ 1345] getFileContents
+2025-02-13 03:01:24.168 [info] [ 1346] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:01:24.168 [info] [ 1346] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 03:01:24.168 [info] [ 1346] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 03:01:24.185 [info] [ 1346] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 16 ms (Getting .tar from disk took 16 ms) • Skipped download
+2025-02-13 03:01:24.351 [info] [ 1345] getFileContentsRetrieved KEYBINDINGS.md from web took 183 ms
+2025-02-13 03:01:25.346 [info] [ 1349] GitHub.sync(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, resolution=0, to=undefined)
+2025-02-13 03:01:25.346 [info] [ 1350] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=true, to=undefined)
+2025-02-13 03:01:25.569 [info] [ 1350] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=true, to=undefined) took 223 ms • Up to date
+2025-02-13 03:01:25.570 [info] [ 1349] GitHub.sync(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, resolution=0, to=undefined) took 223 ms • to=2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6
+2025-02-13 03:01:27.417 [info] [ 1352] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 03:01:27.417 [info] [ 1352] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 03:01:27.417 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 03:01:28.829 [info] [ 1353] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 03:01:29.010 [info] [ 1353] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 181 ms • No changes detected
+2025-02-13 03:02:27.418 [info] [ 1354] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 03:02:27.418 [info] [ 1354] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 03:02:27.418 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 03:02:29.011 [info] [ 1355] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 03:02:29.267 [info] [ 1355] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 256 ms • No changes detected
+2025-02-13 03:03:27.420 [info] [ 1356] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 03:03:27.420 [info] [ 1356] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 0 ms • Unable to fetch branch tips
+2025-02-13 03:03:27.421 [error] Function.SyncOrFetchError
+Error: Unable to fetch the repository
+2025-02-13 03:03:29.268 [info] [ 1357] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined)
+2025-02-13 03:03:29.580 [info] [ 1357] GitHub.fetch(vscode-vfs://github/Parad1gmSh1ft72/hyprdots, force=undefined, to=undefined) took 311 ms • No changes detected
+2025-02-13 03:03:47.035 [info] [ 1365] getFileContents
+2025-02-13 03:03:47.036 [info] [ 1366] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6)
+2025-02-13 03:03:47.036 [info] [ 1366] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) • Getting .tar from memory...
+2025-02-13 03:03:47.036 [info] [ 1366] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6): Not found • Getting .tar from memory took 0 ms • Getting .tar from disk...
+2025-02-13 03:03:47.056 [info] [ 1366] TarPit.getTar(github/Parad1gmSh1ft72/hyprdots/2eaf75935e62a5cd1deee0efb8f2d5e2f42ebfa6) took 20 ms (Getting .tar from disk took 19 ms) • Skipped download
+2025-02-13 03:03:47.209 [info] [ 1365] getFileContentsRetrieved .gitignore from web took 174 ms
+2025-02-13 03:04:19.970 [error] Failed to save workspace repositories
+Canceled: Canceled
+2025-02-13 03:04:19.975 [error] Failed to save workspace repositories
+Canceled: Canceled
+2025-02-13 03:11:54.099 [warning] Running on the desktop; workspaceId=577acec0a2c58533efcf28daddb636eb; storageUri=vscode-userdata:/home/chuck/.config/Code/User/globalStorage/github.remotehub
+2025-02-13 03:11:54.099 [info] [    2] ChangeStore.getWorkspacesWithChanges()
+2025-02-13 03:11:54.099 [info] [    2] ChangeStore.getWorkspacesWithChanges() took 0 ms
+2025-02-13 03:12:08.264 [error] Failed to save workspace repositories
+Canceled: Canceled
+2025-02-13 03:12:08.265 [error] Failed to save workspace repositories
+Canceled: Canceled

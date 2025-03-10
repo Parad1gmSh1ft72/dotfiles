@@ -1,0 +1,112 @@
+Executing /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/jre/21.0.5-linux-x86_64.tar/bin/java -jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/server/sonarlint-ls.jar -stdio -analyzers /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonargo.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarjava.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarjavasymbolicexecution.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarjs.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarphp.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarpython.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarhtml.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarxml.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarcfamily.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonartext.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonariac.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarlintomnisharp.jar
+[Info - 07:24:23.213] [org.sonarsource.sonarlint.core.rpc.impl.SonarLintRpcServerImpl : main] SonarLint backend started, instance=org.sonarsource.sonarlint.core.rpc.impl.SonarLintRpcServerImpl@52f27fbd
+[Info - 07:24:26.335] [sonarlint : SonarLint Server RPC sequential executor] Started embedded server on port 64120
+[Info - 07:24:30.268] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 07:24:30.274] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/docker-compose.yml (UTF-8)
+  ]
+]
+
+[Info - 07:24:30.374] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 07:24:30.375] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/docker-compose.yml (UTF-8)
+  ]
+]
+
+[Info - 07:24:30.403] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 07:24:30.406] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/docker-compose.yml (UTF-8)
+  ]
+]
+
+[Info - 07:24:30.462] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 07:24:30.466] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 07:24:31.091] [sonarlint : Progress of the CloudFormation analysis] 0 source files to be analyzed
+[Info - 07:24:31.095] [sonarlint : Progress of the CloudFormation analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.173] [sonarlint : Progress of the kubernetes  parsing] 0 source files to be parsed
+[Info - 07:24:31.174] [sonarlint : Progress of the kubernetes  parsing] 0/0 source files have been parsed
+[Info - 07:24:31.174] [sonarlint : Progress of the kubernetes  analysis] 0 source files to be analyzed
+[Info - 07:24:31.174] [sonarlint : Progress of the kubernetes  analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.174] [sonarlint : Progress of the kubernetes  analysis] 0 source files to be checked
+[Info - 07:24:31.174] [sonarlint : Progress of the kubernetes  analysis] 0/0 source files have been checked
+[Info - 07:24:31.174] [sonarlint : sonarlint-analysis-engine] Finished building Kubernetes Project Context
+[Info - 07:24:31.183] [sonarlint : Progress of the Kubernetes  parsing] 0 source files to be parsed
+[Info - 07:24:31.183] [sonarlint : Progress of the Kubernetes  parsing] 0/0 source files have been parsed
+[Info - 07:24:31.183] [sonarlint : Progress of the Kubernetes  analysis] 0 source files to be analyzed
+[Info - 07:24:31.183] [sonarlint : Progress of the Kubernetes  analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.183] [sonarlint : Progress of the Kubernetes  analysis] 0 source files to be checked
+[Info - 07:24:31.183] [sonarlint : Progress of the Kubernetes  analysis] 0/0 source files have been checked
+[Info - 07:24:31.195] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 07:24:31.195] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.201] [sonarlint : sonarlint-analysis-engine] No input files found for analysis
+[Info - 07:24:31.202] [sonarlint : sonarlint-analysis-engine] Hit the cache for 0 out of 0
+[Info - 07:24:31.203] [sonarlint : sonarlint-analysis-engine] Miss the cache for 0 out of 0
+[Info - 07:24:31.203] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 07:24:31.264] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 07:24:31.265] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.265] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 07:24:31.265] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 07:24:31.611] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 07:24:31.616] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 07:24:31.634] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 07:24:31.639] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 3613ms
+[Info - 07:24:31.682] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 07:24:31.683] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 07:24:31.755] [sonarlint : Progress of the CloudFormation analysis] 0 source files to be analyzed
+[Info - 07:24:31.756] [sonarlint : Progress of the CloudFormation analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.800] [sonarlint : Progress of the Kubernetes  parsing] 0 source files to be parsed
+[Info - 07:24:31.800] [sonarlint : Progress of the Kubernetes  parsing] 0/0 source files have been parsed
+[Info - 07:24:31.800] [sonarlint : Progress of the Kubernetes  analysis] 0 source files to be analyzed
+[Info - 07:24:31.800] [sonarlint : Progress of the Kubernetes  analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.800] [sonarlint : Progress of the Kubernetes  analysis] 0 source files to be checked
+[Info - 07:24:31.800] [sonarlint : Progress of the Kubernetes  analysis] 0/0 source files have been checked
+[Info - 07:24:31.802] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 07:24:31.802] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.804] [sonarlint : sonarlint-analysis-engine] No input files found for analysis
+[Info - 07:24:31.804] [sonarlint : sonarlint-analysis-engine] Hit the cache for 0 out of 0
+[Info - 07:24:31.804] [sonarlint : sonarlint-analysis-engine] Miss the cache for 0 out of 0
+[Info - 07:24:31.804] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 07:24:31.812] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 07:24:31.812] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.812] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 07:24:31.812] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 07:24:31.866] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 07:24:31.867] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 07:24:31.871] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 07:24:31.872] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 1503ms
+[Info - 07:24:31.899] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 07:24:31.899] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 07:24:31.954] [sonarlint : Progress of the CloudFormation analysis] 0 source files to be analyzed
+[Info - 07:24:31.954] [sonarlint : Progress of the CloudFormation analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.991] [sonarlint : Progress of the Kubernetes  parsing] 0 source files to be parsed
+[Info - 07:24:31.991] [sonarlint : Progress of the Kubernetes  parsing] 0/0 source files have been parsed
+[Info - 07:24:31.991] [sonarlint : Progress of the Kubernetes  analysis] 0 source files to be analyzed
+[Info - 07:24:31.991] [sonarlint : Progress of the Kubernetes  analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.991] [sonarlint : Progress of the Kubernetes  analysis] 0 source files to be checked
+[Info - 07:24:31.991] [sonarlint : Progress of the Kubernetes  analysis] 0/0 source files have been checked
+[Info - 07:24:31.991] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 07:24:31.992] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 07:24:31.993] [sonarlint : sonarlint-analysis-engine] No input files found for analysis
+[Info - 07:24:31.993] [sonarlint : sonarlint-analysis-engine] Hit the cache for 0 out of 0
+[Info - 07:24:31.993] [sonarlint : sonarlint-analysis-engine] Miss the cache for 0 out of 0
+[Info - 07:24:31.993] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 07:24:32.000] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 07:24:32.000] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 07:24:32.000] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 07:24:32.000] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 07:24:32.022] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 07:24:32.023] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 07:24:32.027] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 07:24:32.027] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 1631ms

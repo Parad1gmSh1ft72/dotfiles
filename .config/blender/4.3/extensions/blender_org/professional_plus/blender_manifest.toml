@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+# Example of manifest file for a Blender extension
+# Change the values according to your extension
+id = "professional_plus"
+version = "1.3.1"
+name = "Professional Plus"
+tagline = "Professional theme with more vivid colors: ✨PROFESSIONAL PLUS✨"
+maintainer = "Alessandro Vecchio [Forma Vision] <d1y8kdwlk@relay.crumbs.org>"
+type = "theme"
+tags = ["Dark", "High Contrast"]
+
+blender_version_min = "4.2.0"
+
+# License conforming to https://spdx.org/licenses/
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-2.0-or-later",
+]

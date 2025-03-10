@@ -1,0 +1,20 @@
+2025-02-14 19:20:34.611 [info] Marked extension as removed github.copilot-1.270.0
+2025-02-14 19:20:34.611 [info] Marked extension as removed github.copilot-chat-0.24.0
+2025-02-14 19:20:34.611 [info] Marked extension as removed github.vscode-pull-request-github-0.104.0
+2025-02-14 19:20:34.704 [info] Deleted marked for removal extension from disk github.vscode-pull-request-github /home/chuck/.vscode/extensions/github.vscode-pull-request-github-0.104.0
+2025-02-14 19:20:34.723 [info] Deleted marked for removal extension from disk github.copilot-chat /home/chuck/.vscode/extensions/github.copilot-chat-0.24.0
+2025-02-14 19:20:34.723 [info] Deleted marked for removal extension from disk github.copilot /home/chuck/.vscode/extensions/github.copilot-1.270.0
+2025-02-14 19:20:38.823 [info] Getting Manifest... firefox-devtools.vscode-firefox-debug
+2025-02-14 19:20:38.825 [info] Getting Manifest... shopify.ruby-lsp
+2025-02-14 19:20:39.395 [info] Installing extension: firefox-devtools.vscode-firefox-debug {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chuck/.vscode/extensions/extensions.json","path":"/home/chuck/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-14 19:20:39.437 [info] Installing extension: shopify.ruby-lsp {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chuck/.vscode/extensions/extensions.json","path":"/home/chuck/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-14 19:20:39.797 [info] Extension signature verification result for firefox-devtools.vscode-firefox-debug: UnknownError. Executed: true. Duration: 19ms.
+2025-02-14 19:20:39.831 [info] Extracted extension to file:///home/chuck/.vscode/extensions/firefox-devtools.vscode-firefox-debug-2.14.1: firefox-devtools.vscode-firefox-debug
+2025-02-14 19:20:39.834 [info] Renamed to /home/chuck/.vscode/extensions/firefox-devtools.vscode-firefox-debug-2.14.1
+2025-02-14 19:20:39.851 [info] Marked extension as removed firefox-devtools.vscode-firefox-debug-2.14.0
+2025-02-14 19:20:39.891 [info] Extension installed successfully: firefox-devtools.vscode-firefox-debug vscode-userdata:/home/chuck/.vscode/extensions/extensions.json
+2025-02-14 19:20:39.941 [info] Extension signature verification result for shopify.ruby-lsp: UnknownError. Executed: true. Duration: 7ms.
+2025-02-14 19:20:40.022 [info] Extracted extension to file:///home/chuck/.vscode/extensions/shopify.ruby-lsp-0.9.5: shopify.ruby-lsp
+2025-02-14 19:20:40.026 [info] Renamed to /home/chuck/.vscode/extensions/shopify.ruby-lsp-0.9.5
+2025-02-14 19:20:40.041 [info] Marked extension as removed shopify.ruby-lsp-0.9.3
+2025-02-14 19:20:40.075 [info] Extension installed successfully: shopify.ruby-lsp vscode-userdata:/home/chuck/.vscode/extensions/extensions.json

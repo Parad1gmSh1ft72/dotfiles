@@ -1,0 +1,30 @@
+2025-02-12 09:02:00.428 [info] Using the Electron fetcher.
+2025-02-12 09:02:00.428 [info] Initializing Git extension service.
+2025-02-12 09:02:00.428 [info] Successfully activated the vscode.git extension.
+2025-02-12 09:02:00.428 [info] Enablement state of the vscode.git extension: true.
+2025-02-12 09:02:00.428 [info] Successfully registered Git commit message provider.
+2025-02-12 09:02:02.235 [info] Logged in as Parad1gmSh1ft72
+2025-02-12 09:02:02.811 [info] Got Copilot token for Parad1gmSh1ft72
+2025-02-12 09:02:03.120 [info] Fetched model metadata in 280ms c26b41fc-4b5d-410b-920c-1857f9bdfd72
+2025-02-12 09:02:03.179 [info] activationBlocker from 'languageModelAccess' took for 2891ms
+2025-02-12 09:02:03.965 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-12 09:02:03.971 [info] Registering default platform agent...
+2025-02-12 09:02:03.975 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-02-12 09:02:03.975 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-02-12 09:02:03.975 [info] Successfully registered GitHub PR title and description provider.
+2025-02-12 09:16:36.571 [info] Fetched model metadata in 441ms ebcfec59-5e95-4c5e-a6d7-4fe5e89ee23d
+2025-02-12 09:16:40.574 [info] message 0 returned. finish reason: [stop]
+2025-02-12 09:16:40.575 [info] request done: requestId: [7f1647ff-a349-45a2-9f4e-95afb654a90c] model deployment ID: []
+2025-02-12 09:27:02.826 [info] Logged in as Parad1gmSh1ft72
+2025-02-12 09:27:03.331 [info] Got Copilot token for Parad1gmSh1ft72
+2025-02-12 09:27:03.373 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-12 09:42:03.607 [info] Fetched model metadata in 217ms defcc5c4-618f-4c4a-a1c8-d6a54a678141
+2025-02-12 09:52:03.345 [info] Logged in as Parad1gmSh1ft72
+2025-02-12 09:52:03.796 [info] Got Copilot token for Parad1gmSh1ft72
+2025-02-12 09:52:03.803 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-12 09:52:04.074 [info] Fetched model metadata in 268ms 5bcf4333-7b37-42f7-b311-48c03d10ecf6
+2025-02-12 10:07:04.208 [info] Fetched model metadata in 125ms bfbac7f6-5451-4b3b-a521-8c6d0a4ed835
+2025-02-12 10:17:03.803 [info] Logged in as Parad1gmSh1ft72
+2025-02-12 10:17:04.726 [info] Got Copilot token for Parad1gmSh1ft72
+2025-02-12 10:17:04.735 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-12 10:17:04.928 [info] Fetched model metadata in 191ms 9cc201d1-fb96-4d83-aae8-51c2134e0cce

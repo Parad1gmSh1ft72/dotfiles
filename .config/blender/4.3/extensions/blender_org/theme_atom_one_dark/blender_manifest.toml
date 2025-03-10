@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "theme_atom_one_dark"
+version = "0.1.0"
+name = "Atom One Dark theme"
+tagline = "Dark theme inspired by Atom's One Dark theme"
+maintainer = "aryan02420 <aryan02420@gamil.com>"
+type = "theme"
+
+website = "https://github.com/aryan02420/blender-themes"
+
+# https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
+tags = ["Dark", "Inspired By"]
+
+blender_version_min = "4.2.0"
+# blender_version_max = "5.1.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]

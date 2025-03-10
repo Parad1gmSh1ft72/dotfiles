@@ -1,0 +1,21 @@
+2025-02-14 07:24:19.880 [info] Getting Manifest... github.copilot
+2025-02-14 07:24:19.881 [info] Getting Manifest... github.copilot-chat
+2025-02-14 07:24:19.882 [info] Getting Manifest... github.vscode-pull-request-github
+2025-02-14 07:24:20.387 [info] Installing extension: github.copilot {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chuck/.vscode/extensions/extensions.json","path":"/home/chuck/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-14 07:24:20.390 [info] Installing extension: github.vscode-pull-request-github {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chuck/.vscode/extensions/extensions.json","path":"/home/chuck/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-14 07:24:20.415 [info] Installing extension: github.copilot-chat {"productVersion":{"version":"1.97.2","date":"2025-02-12T23:20:35.343Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/chuck/.vscode/extensions/extensions.json","path":"/home/chuck/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-14 07:24:21.481 [info] Extension signature verification result for github.copilot-chat: UnknownError. Executed: true. Duration: 17ms.
+2025-02-14 07:24:21.637 [info] Extension signature verification result for github.vscode-pull-request-github: UnknownError. Executed: true. Duration: 10ms.
+2025-02-14 07:24:21.687 [info] Extension signature verification result for github.copilot: UnknownError. Executed: true. Duration: 10ms.
+2025-02-14 07:24:21.772 [info] Extracted extension to file:///home/chuck/.vscode/extensions/github.vscode-pull-request-github-0.104.1: github.vscode-pull-request-github
+2025-02-14 07:24:21.779 [info] Renamed to /home/chuck/.vscode/extensions/github.vscode-pull-request-github-0.104.1
+2025-02-14 07:24:21.820 [info] Marked extension as removed github.vscode-pull-request-github-0.104.0
+2025-02-14 07:24:21.833 [info] Extension installed successfully: github.vscode-pull-request-github vscode-userdata:/home/chuck/.vscode/extensions/extensions.json
+2025-02-14 07:24:21.866 [info] Extracted extension to file:///home/chuck/.vscode/extensions/github.copilot-chat-0.24.1: github.copilot-chat
+2025-02-14 07:24:21.872 [info] Renamed to /home/chuck/.vscode/extensions/github.copilot-chat-0.24.1
+2025-02-14 07:24:21.945 [info] Marked extension as removed github.copilot-chat-0.24.0
+2025-02-14 07:24:21.965 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/chuck/.vscode/extensions/extensions.json
+2025-02-14 07:24:22.300 [info] Extracted extension to file:///home/chuck/.vscode/extensions/github.copilot-1.271.0: github.copilot
+2025-02-14 07:24:22.306 [info] Renamed to /home/chuck/.vscode/extensions/github.copilot-1.271.0
+2025-02-14 07:24:22.320 [info] Marked extension as removed github.copilot-1.270.0
+2025-02-14 07:24:22.364 [info] Extension installed successfully: github.copilot vscode-userdata:/home/chuck/.vscode/extensions/extensions.json

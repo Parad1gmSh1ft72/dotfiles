@@ -1,0 +1,16 @@
+blender_version_min = "4.2.0"
+id = "green_olive"
+license = [
+  "SPDX:GPL-2.0-or-later",
+]
+maintainer = "Liuuzaki <Liuuzaki@qq.com>"
+name = "Green Olive"
+schema_version = "1.0.0"
+tagline = "A fine-tuned dark green theme"
+type = "theme"
+version = "1.0.1"
+tags = ["Dark", "Accessibility"]
+
+
+
+

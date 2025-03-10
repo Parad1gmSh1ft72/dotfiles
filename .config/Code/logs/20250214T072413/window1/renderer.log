@@ -1,0 +1,41 @@
+2025-02-14 07:24:14.285 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-14 07:24:14.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-14 07:24:14.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-14 07:24:14.296 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-14 07:24:14.832 [info] Started local extension host with pid 63253.
+2025-02-14 07:24:15.380 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-02-14 07:24:15.382 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-02-14 07:24:16.971 [warning] Authentication provider sqltools-driver-credentials was not declared in the Extension Manifest.
+2025-02-14 07:24:17.226 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-14 07:24:17.227 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-14 07:24:18.296 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:24:18.303 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:24:18.303 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:24:18.303 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:24:18.303 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:24:18.303 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:24:18.303 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:24:18.303 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:24:18.725 [info] [perf] Render performance baseline is 32ms
+2025-02-14 07:24:18.887 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-14 07:24:22.551 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-14 07:24:24.759 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-14 07:24:27.680 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-14 07:25:53.424 [info] Started local extension host with pid 65578.
+2025-02-14 07:25:54.514 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:25:54.514 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:25:54.518 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:25:54.519 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:25:54.520 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:25:54.521 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:25:54.521 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:25:54.521 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-14 07:25:54.785 [warning] Authentication provider sqltools-driver-credentials was not declared in the Extension Manifest.
+2025-02-14 07:25:54.790 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-14 07:25:55.503 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-14 07:26:01.911 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-02-14 07:26:01.911 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-02-14 07:26:01.945 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-02-14 07:26:01.946 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-02-14 07:26:03.636 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-14 07:29:16.214 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72

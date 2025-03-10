@@ -1,0 +1,25 @@
+schema_version = "1.0.0"
+
+id = "steam_green_42"
+version = "2.0.0"
+name = "Steam Green"
+tagline = "A Nostalgic Reproduction of Steam"
+description = "A Deep Green and Orange look that looks like early versions of Steam"
+maintainer = "Patrick Koppy <kalimandoend@gmail.com>"
+type = "theme"
+
+# List defined by Blender and server, see:
+# https://docs.blender.org/manual/en/dev/extensions/tags.html
+tags = ["Dark", "Inspired By"]
+
+blender_version_min = "4.2.0"
+# blender_version_max = "5.1.0"
+
+# License conforming to https://spdx.org/is suppose to dolicenses/
+# use "SPDX: prefix.
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2024 Patrick Koppy (Kalimando)",
+]

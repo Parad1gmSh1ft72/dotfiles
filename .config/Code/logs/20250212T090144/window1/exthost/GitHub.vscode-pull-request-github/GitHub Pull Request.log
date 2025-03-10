@@ -1,0 +1,21 @@
+2025-02-12 09:01:48.339 [warning] /home/chuck/.ssh/config: ENOENT: no such file or directory, open '/home/chuck/.ssh/config'
+2025-02-12 09:01:48.339 [info] Activation> Extension version: 0.104.0
+2025-02-12 09:01:48.599 [info] Looking for git repository
+2025-02-12 09:01:48.599 [info] Found 0 repositories during activation
+2025-02-12 09:01:48.599 [info] Git repository found, initializing review manager and pr tree view.
+2025-02-12 09:01:58.035 [info] Registering git provider
+2025-02-12 09:02:00.172 [info] Repository file:///home/chuck/src/self-hosted-ai-starter-kit has been opened
+2025-02-12 09:02:00.366 [info] Git initialization state changed: state=initialized
+2025-02-12 09:02:00.366 [info] Review+0> Validate state in progress
+2025-02-12 09:02:00.366 [info] Review+0> Validating state...
+2025-02-12 09:02:00.366 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-02-12 09:02:00.366 [info] No GitHub remotes found for folder /home/chuck/src/self-hosted-ai-starter-kit
+2025-02-12 09:02:02.514 [info] Review+0> Validate state in progress
+2025-02-12 09:02:02.514 [info] Review+0> Validating state...
+2025-02-12 09:02:02.515 [info] Repo state for file:///home/chuck/src/self-hosted-ai-starter-kit changed.
+2025-02-12 09:02:02.515 [info] Repo file:///home/chuck/src/self-hosted-ai-starter-kit has already been setup.
+2025-02-12 09:02:02.530 [info] Found GitHub remote for folder /home/chuck/src/self-hosted-ai-starter-kit
+2025-02-12 09:02:03.001 [info] FolderRepositoryManager+0> Trying to use globalState for assignableUsers.
+2025-02-12 09:02:03.127 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-02-12 09:02:03.149 [info] FolderRepositoryManager+0> GlobalState does not exist for assignableUsers.
+2025-02-12 09:02:05.503 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

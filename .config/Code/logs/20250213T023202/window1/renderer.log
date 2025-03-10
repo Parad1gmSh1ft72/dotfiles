@@ -1,0 +1,102 @@
+2025-02-13 02:32:02.543 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-13 02:32:02.543 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-13 02:32:02.543 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-13 02:32:02.543 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-13 02:32:03.246 [info] Started local extension host with pid 8642.
+2025-02-13 02:32:03.522 [warning] [redhat.vscode-yaml]: Cannot register 'redhat.telemetry.enabled'. This property is already registered.
+2025-02-13 02:32:03.525 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-02-13 02:32:04.665 [warning] Authentication provider sqltools-driver-credentials was not declared in the Extension Manifest.
+2025-02-13 02:32:04.826 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:32:04.837 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-13 02:32:05.574 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:32:05.604 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:32:05.605 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:32:05.605 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:32:05.606 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:32:05.607 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:32:05.608 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:32:05.608 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:32:05.833 [info] [perf] Render performance baseline is 27ms
+2025-02-13 02:32:06.029 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:32:09.560 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:32:13.217 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-13 02:34:02.583 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:34:09.916 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:34:18.170 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:35:41.353 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:35:41.354 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:36:59.042 [info] Started local extension host with pid 14908.
+2025-02-13 02:36:59.943 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:36:59.946 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:36:59.948 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:36:59.948 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:36:59.951 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:36:59.952 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:36:59.952 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:36:59.953 [error] [Extension Host] Failed to load message bundle for file /home/chuck/.vscode/extensions/ms-edgedevtools.vscode-edge-devtools-2.1.8/out/extension
+2025-02-13 02:37:00.447 [warning] Authentication provider sqltools-driver-credentials was not declared in the Extension Manifest.
+2025-02-13 02:37:00.490 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:37:01.220 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:37:07.595 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-02-13 02:37:07.595 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-02-13 02:37:07.628 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-02-13 02:37:07.629 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-02-13 02:37:09.428 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-13 02:37:59.596 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:37:59.597 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:38:29.483 [warning] Ignoring the error while validating workspace folder vscode-vfs://github/Parad1gmSh1ft72/hyprdots - ENOPRO: No file system provider found for resource 'vscode-vfs://github/Parad1gmSh1ft72/hyprdots'
+2025-02-13 02:38:29.485 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-13 02:38:29.485 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-13 02:38:29.485 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-13 02:38:29.485 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-13 02:38:29.693 [info] Started local extension host with pid 17031.
+2025-02-13 02:38:30.538 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:38:30.594 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-13 02:38:31.906 [info] Settings Sync: Token updated for the account Parad1gmSh1ft72
+2025-02-13 02:38:32.439 [info] [perf] Render performance baseline is 31ms
+2025-02-13 02:38:50.759 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2025-02-13 02:38:52.738 [warning] Authentication provider sqltools-driver-credentials was not declared in the Extension Manifest.
+2025-02-13 02:38:55.302 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-13 02:38:55.628 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2025-02-13 02:38:55.628 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2025-02-13 02:38:55.650 [error] No registered selector for ID: copilot-chat.terminalToDebugging
+2025-02-13 02:38:55.650 [error] No registered selector for ID: copilot-chat.terminalToDebuggingSuccess
+2025-02-13 02:39:06.658 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-13 02:39:07.023 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (file:///opt/visual-studio-code/resources/app/out/main.js:33:4635)
+    at wf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:19901)
+    at wf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:19424)
+    at Ho.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:18826)
+    at D.B (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at D.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2443)
+    at D.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2660)
+    at Ho.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:4893)
+    at D.B (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at D.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at Ho.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5077)
+    at D.B (file:///opt/visual-studio-code/resources/app/out/main.js:30:2373)
+    at D.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2591)
+    at T (file:///opt/visual-studio-code/resources/app/out/main.js:28:7328)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:33:20534)
+    at IpcMainImpl.emit (node:events:518:28)
+    at WebContents.<anonymous> (node:electron/js2c/browser_init:2:85782)
+    at WebContents.emit (node:events:518:28)
+2025-02-13 02:39:07.157 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-13 02:39:08.202 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-13 02:39:08.302 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-13 02:39:42.002 [info] Extension host (LocalProcess pid: 17031) is unresponsive.
+2025-02-13 02:39:43.206 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-02-13 02:45:56.703 [warning] [backup tracker] suspended, ignoring unregister event vscode-vfs://github/Parad1gmSh1ft72/hyprdots/Hyprdots-to-HyDE.md 
+2025-02-13 02:45:56.703 [warning] [backup tracker] suspended, ignoring register event vscode-vfs://github/Parad1gmSh1ft72/hyprdots/Hyprdots-to-HyDE.md 
+2025-02-13 02:45:56.704 [warning] [backup tracker] suspended, ignoring unregister event vscode-vfs://github/Parad1gmSh1ft72/hyprdots/Hyprdots-to-HyDE.md 
+2025-02-13 02:45:56.707 [error] CodeExpectedError
+    at nct.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3202:59998)
+    at async nct.m (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3202:60077)
+    at async nct.readFileStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3202:64054)
+    at async Tct.M (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3203:9257)
+    at async Tct.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3203:9032)
+    at async Zge.Eb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1268:12151)
+    at async Zge.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1268:10626)
+    at async Ict.W (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3203:5889)
+    at async YOe.jb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:510:21266)
+    at async aye.setInput (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2107:119112)

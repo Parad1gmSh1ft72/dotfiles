@@ -1,0 +1,4 @@
+[Warn  - 7:20:35 PM] 01:20:35.715 WARNING ⛔️ Environment variable configuration is being deprecated, please use workspace configuration. The following environment variables were used: shfmt
+[Info  - 7:20:36 PM] 01:20:35.887 INFO BackgroundAnalysis: resolving glob "**/*@(.sh|.inc|.bash|.command)" inside "file:///home/chuck/src/self-hosted-ai-starter-kit"...
+[Info  - 7:20:36 PM] 01:20:35.901 INFO BackgroundAnalysis: Glob resolved with 0 files after 0.014 seconds
+[Info  - 7:20:36 PM] 01:20:35.901 INFO BackgroundAnalysis: Completed after 0.014 seconds.

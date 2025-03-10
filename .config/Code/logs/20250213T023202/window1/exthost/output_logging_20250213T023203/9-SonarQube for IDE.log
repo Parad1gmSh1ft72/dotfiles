@@ -1,0 +1,258 @@
+Executing /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/jre/21.0.5-linux-x86_64.tar/bin/java -jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/server/sonarlint-ls.jar -stdio -analyzers /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonargo.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarjava.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarjavasymbolicexecution.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarjs.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarphp.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarpython.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarhtml.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarxml.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarcfamily.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonartext.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonariac.jar /home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/analyzers/sonarlintomnisharp.jar
+[Info - 02:32:10.164] [org.sonarsource.sonarlint.core.rpc.impl.SonarLintRpcServerImpl : main] SonarLint backend started, instance=org.sonarsource.sonarlint.core.rpc.impl.SonarLintRpcServerImpl@52f27fbd
+[Info - 02:32:12.147] [sonarlint : SonarLint Server RPC sequential executor] Started embedded server on port 64120
+[Info - 02:34:34.333] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:34:34.337] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG (UTF-8)
+  ]
+]
+
+[Info - 02:34:34.443] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:34:34.454] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:34:34.975] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:34:34.979] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:34:34.980] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:34:35.036] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:34:35.036] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:34:35.037] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:34:35.037] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:34:35.348] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:34:35.352] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:34:35.361] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:34:35.364] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 3050ms
+[Info - 02:34:47.919] [sonarlint : sonarlint-analysis-engine] Module file event for MODIFIED for file [uri=file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG] has been ignored because it's not a Kubernetes file.
+[Info - 02:34:47.925] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:34:47.927] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG (UTF-8)
+  ]
+]
+
+[Info - 02:34:47.968] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:34:47.968] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:34:48.061] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:34:48.061] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:34:48.061] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:34:48.069] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:34:48.070] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:34:48.070] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:34:48.070] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:34:48.129] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:34:48.129] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:34:48.130] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:34:48.131] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 212ms
+[Info - 02:34:48.994] [sonarlint : sonarlint-analysis-engine] Module file event for MODIFIED for file [uri=file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG] has been ignored because it's not a Kubernetes file.
+[Info - 02:34:48.999] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:34:49.001] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG (UTF-8)
+  ]
+]
+
+[Info - 02:34:49.039] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:34:49.040] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:34:49.126] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:34:49.127] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:34:49.127] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:34:49.134] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:34:49.135] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:34:49.135] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:34:49.135] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:34:49.168] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:34:49.170] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:34:49.172] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:34:49.173] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 178ms
+[Info - 02:34:49.328] [sonarlint : sonarlint-analysis-engine] Module file event for MODIFIED for file [uri=file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG] has been ignored because it's not a Kubernetes file.
+[Info - 02:34:49.333] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:34:49.335] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG (UTF-8)
+  ]
+]
+
+[Info - 02:34:49.360] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:34:49.360] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:34:49.444] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:34:49.444] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:34:49.445] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:34:49.449] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:34:49.449] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:34:49.449] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:34:49.449] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:34:49.472] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:34:49.472] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:34:49.474] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:34:49.474] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 145ms
+[Info - 02:34:49.836] [sonarlint : sonarlint-analysis-engine] Module file event for MODIFIED for file [uri=file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG] has been ignored because it's not a Kubernetes file.
+[Info - 02:34:49.842] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:34:49.843] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG (UTF-8)
+  ]
+]
+
+[Info - 02:34:49.871] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:34:49.871] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:34:49.945] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:34:49.945] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:34:49.945] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:34:49.949] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:34:49.949] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:34:49.949] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:34:49.949] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:34:49.970] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:34:49.970] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:34:49.972] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:34:49.972] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 135ms
+[Info - 02:34:50.216] [sonarlint : sonarlint-analysis-engine] Module file event for MODIFIED for file [uri=file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG] has been ignored because it's not a Kubernetes file.
+[Info - 02:34:50.227] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:34:50.231] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG (UTF-8)
+  ]
+]
+
+[Info - 02:34:50.293] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:34:50.294] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:34:50.367] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:34:50.367] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:34:50.367] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:34:50.374] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:34:50.374] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:34:50.374] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:34:50.374] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:34:50.390] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:34:50.391] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:34:50.392] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:34:50.393] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 176ms
+[Info - 02:34:50.710] [sonarlint : sonarlint-analysis-engine] Module file event for MODIFIED for file [uri=file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG] has been ignored because it's not a Kubernetes file.
+[Info - 02:34:50.716] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:34:50.717] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG (UTF-8)
+  ]
+]
+
+[Info - 02:34:50.737] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:34:50.737] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:34:50.813] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:34:50.813] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:34:50.813] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:34:50.816] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:34:50.816] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:34:50.816] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:34:50.816] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:34:50.834] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:34:50.834] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:34:50.837] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:34:50.837] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 126ms
+[Info - 02:35:03.233] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:35:03.234] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/docker-compose.yml (UTF-8)
+  ]
+]
+
+[Info - 02:35:03.271] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:35:03.271] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:35:03.360] [sonarlint : Progress of the CloudFormation analysis] 0 source files to be analyzed
+[Info - 02:35:03.360] [sonarlint : Progress of the CloudFormation analysis] 0/0 source files have been analyzed
+[Info - 02:35:03.419] [sonarlint : Progress of the kubernetes  parsing] 0 source files to be parsed
+[Info - 02:35:03.420] [sonarlint : Progress of the kubernetes  parsing] 0/0 source files have been parsed
+[Info - 02:35:03.420] [sonarlint : Progress of the kubernetes  analysis] 0 source files to be analyzed
+[Info - 02:35:03.420] [sonarlint : Progress of the kubernetes  analysis] 0/0 source files have been analyzed
+[Info - 02:35:03.420] [sonarlint : Progress of the kubernetes  analysis] 0 source files to be checked
+[Info - 02:35:03.420] [sonarlint : Progress of the kubernetes  analysis] 0/0 source files have been checked
+[Info - 02:35:03.420] [sonarlint : sonarlint-analysis-engine] Finished building Kubernetes Project Context
+[Info - 02:35:03.428] [sonarlint : Progress of the Kubernetes  parsing] 0 source files to be parsed
+[Info - 02:35:03.428] [sonarlint : Progress of the Kubernetes  parsing] 0/0 source files have been parsed
+[Info - 02:35:03.428] [sonarlint : Progress of the Kubernetes  analysis] 0 source files to be analyzed
+[Info - 02:35:03.429] [sonarlint : Progress of the Kubernetes  analysis] 0/0 source files have been analyzed
+[Info - 02:35:03.429] [sonarlint : Progress of the Kubernetes  analysis] 0 source files to be checked
+[Info - 02:35:03.429] [sonarlint : Progress of the Kubernetes  analysis] 0/0 source files have been checked
+[Info - 02:35:03.429] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:35:03.429] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:35:03.432] [sonarlint : sonarlint-analysis-engine] No input files found for analysis
+[Info - 02:35:03.433] [sonarlint : sonarlint-analysis-engine] Hit the cache for 0 out of 0
+[Info - 02:35:03.433] [sonarlint : sonarlint-analysis-engine] Miss the cache for 0 out of 0
+[Info - 02:35:03.434] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:35:03.440] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:35:03.440] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:35:03.440] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:35:03.440] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:35:03.455] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:35:03.456] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:35:03.464] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:35:03.465] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 235ms
+[Info - 02:35:31.862] [sonarlint : sonarlint-analysis-engine] Module file event for MODIFIED for file [uri=file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG] has been ignored because it's not a Kubernetes file.
+[Info - 02:35:31.866] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:35:31.867] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.git/COMMIT_EDITMSG (UTF-8)
+  ]
+]
+
+[Info - 02:35:31.891] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:35:31.891] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:35:31.958] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:35:31.958] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:35:31.959] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:35:31.964] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:35:31.964] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:35:31.964] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:35:31.964] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:35:31.988] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:35:31.988] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:35:31.988] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:35:31.988] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 125ms
+[Info - 02:36:35.825] [sonarlint : SonarLint Analysis Executor] .gitignore file was not found for /home/chuck/src/self-hosted-ai-starter-kit
+[Info - 02:36:35.826] [sonarlint : SonarLint Analysis Executor] Triggering analysis with configuration: [
+  baseDir: /home/chuck/src/self-hosted-ai-starter-kit
+  extraProperties: {sonar.cfamily.compile-commands=, sonar.js.internal.bundlePath=/home/chuck/.vscode/extensions/sonarsource.sonarlint-vscode-4.15.0-linux-x64/eslint-bridge}
+  activeRules: [13 kubernetes, 214 python, 429 cpp, 24 css, 189 c, 23 go, 210 ipython, 29 secrets, 265 javascript, 26 docker, 477 java, 46 Web, 14 xml, 299 csharpsquid, 155 php, 7 terraform, 267 typescript, 18 azureresourcemanager, 7 cloudformation]
+  inputFiles: [
+    file:///home/chuck/src/self-hosted-ai-starter-kit/.env (UTF-8)
+  ]
+]
+
+[Info - 02:36:35.853] [sonarlint : sonarlint-analysis-engine] Index files
+[Info - 02:36:35.853] [sonarlint : Report about progress of file indexation] 1 file indexed
+[Info - 02:36:35.905] [sonarlint : Progress of the Java analysis] 0 source files to be analyzed
+[Info - 02:36:35.906] [sonarlint : Progress of the Java analysis] 0/0 source files have been analyzed
+[Info - 02:36:35.906] [sonarlint : sonarlint-analysis-engine] No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+[Info - 02:36:35.912] [sonarlint : Progress of the Docker analysis] 0 source files to be analyzed
+[Info - 02:36:35.912] [sonarlint : Progress of the Docker analysis] 0/0 source files have been analyzed
+[Info - 02:36:35.912] [sonarlint : sonarlint-analysis-engine] Available processors: 12
+[Info - 02:36:35.912] [sonarlint : sonarlint-analysis-engine] Using 12 threads for analysis.
+[Info - 02:36:35.933] [sonarlint : sonarlint-analysis-engine] Analyzing all except non binary files
+[Info - 02:36:35.934] [sonarlint : Progress of the text and secrets analysis] 1 source file to be analyzed
+[Info - 02:36:35.937] [sonarlint : Progress of the text and secrets analysis] 1/1 source file has been analyzed
+[Info - 02:36:35.938] [sonarlint : sonarlint-analysis-engine] Analysis detected 0 issues and 0 Security Hotspots in 116ms

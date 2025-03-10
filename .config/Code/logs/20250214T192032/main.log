@@ -1,0 +1,9 @@
+2025-02-14 19:20:33.092 [info] update#setState idle
+2025-02-14 19:21:03.077 [info] update#setState checking for updates
+2025-02-14 19:21:03.186 [info] update#setState idle
+2025-02-14 20:21:03.098 [info] update#setState checking for updates
+2025-02-14 20:21:03.566 [info] update#setState idle
+2025-02-14 21:21:51.168 [info] update#setState checking for updates
+2025-02-14 21:21:51.694 [info] update#setState idle
+2025-02-14 21:34:20.602 [info] Extension host with pid 45383 exited with code: 0, signal: unknown.
+2025-02-14 21:35:11.532 [info] Extension host with pid 183690 exited with code: 0, signal: unknown.

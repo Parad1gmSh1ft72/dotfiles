@@ -1,0 +1,9 @@
+2025-02-12 09:01:48.339 [info] GitLens v16.3.0 activating in Visual Studio Code (1.97.1) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (2971b7672a3192ab08b0c03bcc581b7c11dba4e729f1d43954d87349c4be1f76|74303ccf-ab1c-472b-b2a5-40cbb029faf41739372505442)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-02-12 09:02:02.747 [info] [2025-02-12 15:02:02.247] Function.e
+EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, open '/home/chuck/.local/share/gk/repoMapping.json'
+
+2025-02-12 09:35:48.444 [info] [2025-02-12 15:35:47.944] [GIT          ] [/home/chuck/src/self-hosted-ai-starter-kit/.git] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • this operation must be run in a work tree [24ms]
+
+

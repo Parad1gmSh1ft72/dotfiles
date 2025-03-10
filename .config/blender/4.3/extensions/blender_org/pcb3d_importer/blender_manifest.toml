@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+id = "pcb3d_importer"
+version = "2.16.1"
+name = "PCB 3D Importer"
+tagline = "Import PCB 3D Models from KiCad"
+maintainer = "30350n (Max Schlecht)"
+type = "add-on"
+website = "https://github.com/30350n/pcb2blender"
+tags = ["Import-Export"]
+blender_version_min = "4.2.0"
+blender_version_max = "4.4.0"
+license = ["SPDX:GPL-3.0-or-later"]
+platforms = ["windows-x64", "linux-x64", "macos-x64", "macos-arm64"]
+wheels = ["./wheels/skia_python-87.6-cp311-cp311-win_amd64.whl", "./wheels/skia_python-87.6-cp311-cp311-macosx_11_0_arm64.whl", "./wheels/skia_python-87.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "./wheels/skia_python-87.6-cp311-cp311-macosx_10_9_x86_64.whl", "./wheels/pillow-11.0.0-cp311-cp311-win_amd64.whl", "./wheels/pillow-11.0.0-cp311-cp311-macosx_11_0_arm64.whl", "./wheels/pybind11-2.13.6-py3-none-any.whl", "./wheels/error_helper-1.1-py3-none-any.whl", "./wheels/pillow-11.0.0-cp311-cp311-macosx_10_10_x86_64.whl", "./wheels/pillow-11.0.0-cp311-cp311-manylinux_2_28_x86_64.whl"]
+
+[permissions]
+files = "Import .pcb3d files from disk"

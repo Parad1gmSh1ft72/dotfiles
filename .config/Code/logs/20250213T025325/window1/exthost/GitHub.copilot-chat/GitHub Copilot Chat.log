@@ -1,0 +1,43 @@
+2025-02-13 02:53:32.038 [info] Using the Electron fetcher.
+2025-02-13 02:53:32.038 [info] Initializing Git extension service.
+2025-02-13 02:53:32.038 [info] Successfully activated the vscode.git extension.
+2025-02-13 02:53:32.038 [info] Enablement state of the vscode.git extension: true.
+2025-02-13 02:53:32.038 [info] Successfully registered Git commit message provider.
+2025-02-13 02:53:32.046 [info] loading virtual workspace contents resulted in false for: vscode-vfs://github/Parad1gmSh1ft72/hyprdots
+2025-02-13 02:53:33.372 [info] Logged in as Parad1gmSh1ft72
+2025-02-13 02:53:34.822 [info] Got Copilot token for Parad1gmSh1ft72
+2025-02-13 02:53:34.974 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-13 02:53:34.984 [info] Registering default platform agent...
+2025-02-13 02:53:34.986 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-02-13 02:53:34.986 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-02-13 02:53:34.986 [info] Successfully registered GitHub PR title and description provider.
+2025-02-13 02:53:35.058 [info] Fetched model metadata in 227ms c257c37d-e074-4c63-9e07-4a447576ecfa
+2025-02-13 02:53:35.070 [info] activationBlocker from 'languageModelAccess' took for 3132ms
+2025-02-13 03:04:25.011 [info] Using the Electron fetcher.
+2025-02-13 03:04:25.011 [info] Initializing Git extension service.
+2025-02-13 03:04:25.011 [info] Successfully activated the vscode.git extension.
+2025-02-13 03:04:25.011 [info] Enablement state of the vscode.git extension: true.
+2025-02-13 03:04:25.011 [info] Successfully registered Git commit message provider.
+2025-02-13 03:04:26.675 [info] Logged in as Parad1gmSh1ft72
+2025-02-13 03:04:28.539 [info] Got Copilot token for Parad1gmSh1ft72
+2025-02-13 03:04:28.676 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-13 03:04:28.683 [info] Registering default platform agent...
+2025-02-13 03:04:28.684 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-02-13 03:04:28.684 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-02-13 03:04:28.684 [info] Successfully registered GitHub PR title and description provider.
+2025-02-13 03:04:28.751 [info] Fetched model metadata in 198ms 6748748a-9e7c-4331-acd3-25420acf247b
+2025-02-13 03:04:28.768 [info] activationBlocker from 'languageModelAccess' took for 2320ms
+2025-02-13 03:05:27.787 [info] Using the Electron fetcher.
+2025-02-13 03:05:27.787 [info] Initializing Git extension service.
+2025-02-13 03:05:27.787 [info] Successfully activated the vscode.git extension.
+2025-02-13 03:05:27.787 [info] Enablement state of the vscode.git extension: true.
+2025-02-13 03:05:27.787 [info] Successfully registered Git commit message provider.
+2025-02-13 03:05:29.812 [info] Logged in as Parad1gmSh1ft72
+2025-02-13 03:05:30.404 [info] Got Copilot token for Parad1gmSh1ft72
+2025-02-13 03:05:30.629 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-02-13 03:05:30.635 [info] Registering default platform agent...
+2025-02-13 03:05:30.637 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-02-13 03:05:30.637 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-02-13 03:05:30.637 [info] Successfully registered GitHub PR title and description provider.
+2025-02-13 03:05:30.677 [info] Fetched model metadata in 258ms 75274132-a099-49aa-b2f9-2a44df47dd60
+2025-02-13 03:05:30.683 [info] activationBlocker from 'languageModelAccess' took for 2824ms

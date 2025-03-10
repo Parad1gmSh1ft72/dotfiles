@@ -1,0 +1,11 @@
+schema_version = "1.0.0"
+id = "theme_maya"
+name = "Maya"
+version = "1.0.0"
+tagline = "Community-made theme inspired by Maya"
+maintainer = "Community"
+type = "theme"
+tags = ["Inspired By", "Dark"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-2.0-or-later"]
+website = "https://projects.blender.org/extensions/theme_maya"

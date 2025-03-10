@@ -1,0 +1,42 @@
+2025-02-14 19:20:40.486 [warning] /home/chuck/.ssh/config: ENOENT: no such file or directory, open '/home/chuck/.ssh/config'
+2025-02-14 19:20:40.486 [info] Activation> Extension version: 0.104.1
+2025-02-14 19:20:42.103 [info] Looking for git repository
+2025-02-14 19:20:42.103 [info] Found 0 repositories during activation
+2025-02-14 19:20:42.103 [info] Git repository found, initializing review manager and pr tree view.
+2025-02-14 19:20:42.107 [info] Registering git provider
+2025-02-14 19:20:42.107 [info] Review+0> Validate state in progress
+2025-02-14 19:20:42.107 [info] Review+0> Validating state...
+2025-02-14 19:20:42.156 [info] Found GitHub remote for folder /home/chuck/src/self-hosted-ai-starter-kit
+2025-02-14 19:20:42.287 [info] Repo state for file:///home/chuck/src/self-hosted-ai-starter-kit changed.
+2025-02-14 19:20:42.287 [info] Repo file:///home/chuck/src/self-hosted-ai-starter-kit has already been setup.
+2025-02-14 19:20:42.593 [info] FolderRepositoryManager+0> Trying to use globalState for assignableUsers.
+2025-02-14 19:20:42.698 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-02-14 19:20:42.751 [info] FolderRepositoryManager+0> Using globalState assignableUsers for 2.
+2025-02-14 19:20:43.521 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-02-14 19:50:47.022 [info] Review+0> Validate state in progress
+2025-02-14 19:50:47.022 [info] Review+0> Validating state...
+2025-02-14 19:50:47.187 [info] Found GitHub remote for folder /home/chuck/src/self-hosted-ai-starter-kit
+2025-02-14 19:50:47.188 [info] Using in-memory cached assignable users.
+2025-02-14 19:50:47.231 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-02-14 19:50:48.172 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-02-14 19:50:53.162 [info] Review+0> Validate state in progress
+2025-02-14 19:50:53.162 [info] Review+0> Validating state...
+2025-02-14 19:50:53.229 [info] Found GitHub remote for folder /home/chuck/src/self-hosted-ai-starter-kit
+2025-02-14 19:50:53.230 [info] Using in-memory cached assignable users.
+2025-02-14 19:50:53.251 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-02-14 19:50:54.000 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-02-14 21:34:25.705 [warning] /home/chuck/.ssh/config: ENOENT: no such file or directory, open '/home/chuck/.ssh/config'
+2025-02-14 21:34:25.705 [info] Activation> Extension version: 0.104.1
+2025-02-14 21:34:27.524 [info] Looking for git repository
+2025-02-14 21:34:27.525 [info] Found 0 repositories during activation
+2025-02-14 21:34:27.525 [info] Git repository found, initializing review manager and pr tree view.
+2025-02-14 21:34:27.528 [info] Registering git provider
+2025-02-14 21:34:27.528 [info] Review+0> Validate state in progress
+2025-02-14 21:34:27.528 [info] Review+0> Validating state...
+2025-02-14 21:34:27.612 [info] Found GitHub remote for folder /home/chuck/src/self-hosted-ai-starter-kit
+2025-02-14 21:34:27.716 [info] Repo state for file:///home/chuck/src/self-hosted-ai-starter-kit changed.
+2025-02-14 21:34:27.716 [info] Repo file:///home/chuck/src/self-hosted-ai-starter-kit has already been setup.
+2025-02-14 21:34:28.073 [info] FolderRepositoryManager+0> Trying to use globalState for assignableUsers.
+2025-02-14 21:34:28.190 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-02-14 21:34:28.241 [info] FolderRepositoryManager+0> Using globalState assignableUsers for 2.
+2025-02-14 21:34:29.208 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

@@ -1,0 +1,18 @@
+2025-02-13 02:53:27.963 [info] Acquired MSAL enablement value from default. Value: true
+2025-02-13 02:53:28.046 [warning] [Thu, 13 Feb 2025 08:53:28 GMT] : [aebc6443-996d-45c2-90f0-388ff96faa56] [https://login.microsoftonline.com/organizations] : @azure/msal-node@2.16.2 : Warning - NativeBroker implementation was provided but the broker is unavailable.
+2025-02-13 02:53:28.087 [info] [getSessions] [all] starting
+2025-02-13 02:53:28.087 [info] [getSessions] [all] returned 1 session(s)
+2025-02-13 02:53:28.087 [info] [getSessions] [all] starting
+2025-02-13 02:53:28.087 [info] [getSessions] [all] returned 1 session(s)
+2025-02-13 02:53:28.088 [info] [getSessions] [email offline_access openid profile] starting
+2025-02-13 02:53:28.093 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)
+2025-02-13 02:53:28.438 [info] [getSessions] [all] starting
+2025-02-13 02:53:28.438 [info] [getSessions] [all] returned 1 session(s)
+2025-02-13 03:05:28.111 [info] Acquired MSAL enablement value from default. Value: true
+2025-02-13 03:05:28.165 [warning] [Thu, 13 Feb 2025 09:05:28 GMT] : [aebc6443-996d-45c2-90f0-388ff96faa56] [https://login.microsoftonline.com/organizations] : @azure/msal-node@2.16.2 : Warning - NativeBroker implementation was provided but the broker is unavailable.
+2025-02-13 03:05:29.617 [info] [getSessions] [all] starting
+2025-02-13 03:05:29.617 [info] [getSessions] [all] returned 1 session(s)
+2025-02-13 03:05:29.617 [info] [getSessions] [all] starting
+2025-02-13 03:05:29.617 [info] [getSessions] [all] returned 1 session(s)
+2025-02-13 03:05:29.617 [info] [getSessions] [email offline_access openid profile] starting
+2025-02-13 03:05:29.621 [info] [getSessions] [email offline_access openid profile] returned 1 session(s)

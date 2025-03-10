@@ -1,0 +1,31 @@
+[proc] Executing command: /usr/bin/cmake --version
+[proc] Executing command: /usr/bin/cmake -E capabilities
+[rollbar] "sourceDirectory" is not a directory {"sourceDirectory":"/Parad1gmSh1ft72/hyprdots"}
+[rollbar] "sourceDirectory" is not a directory {"sourceDirectory":"/Parad1gmSh1ft72/hyprdots"}
+[variant] Loaded new set of variants
+[kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+[proc] Executing command: /usr/bin/clang -v
+[proc] Executing command: /usr/bin/clang-19 -v
+[proc] Executing command: /usr/bin/clang-cl -v
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/gcc-13 -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-13 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-13 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-13.3.1 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc-14.2.1 -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-pc-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/clang -v
+[kit] Found Kit (trusted): Clang 19.1.7 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): Clang 19.1.7 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): Clang-cl 19.1.7 x86_64-pc-windows-msvc
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 13.3.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 13.3.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 13.3.1 x86_64-pc-linux-gnu
+[kit] Found Kit (trusted): GCC 14.2.1 x86_64-pc-linux-gnu
