@@ -1,9 +1,0 @@
-[Unit]
-Description=Send Journal Logs to tty12
-
-[Service]
-ExecStart=/home/chuck/journal_to_tty12.sh
-StandardInput=tty12
-
-[Install]
-WantedBy=multi-user.target
