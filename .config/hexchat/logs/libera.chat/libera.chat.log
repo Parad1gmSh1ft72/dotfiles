@@ -1,0 +1,217 @@
+**** BEGIN LOGGING AT Tue Mar  4 14:21:51 2025
+
+Mar 04 14:21:51 *	*** Checking Ident
+Mar 04 14:21:51 *	*** Looking up your hostname...
+Mar 04 14:21:51 *	*** Couldn't look up your hostname
+Mar 04 14:21:54 *	*** No Ident response
+Mar 04 14:21:54 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=ECDSA-NIST256P-CHALLENGE,EXTERNAL,PLAIN,SCRAM-SHA-512 tls account-tag cap-notify echo-message server-time solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Mar 04 14:21:54 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg 
+Mar 04 14:21:55 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg
+**** ENDING LOGGING AT Tue Mar  4 14:21:55 2025
+
+**** BEGIN LOGGING AT Tue Mar  4 14:21:55 2025
+
+Mar 04 14:21:55 *	Welcome to the Libera.Chat Internet Relay Chat Network Parad1gmSh1ft
+Mar 04 14:21:55 *	Your host is tantalum.libera.chat[93.158.237.2/6697], running version solanum-1.0-dev
+Mar 04 14:21:55 *	This server was created Wed Jul 17 2024 at 21:46:54 UTC
+Mar 04 14:21:55 *	tantalum.libera.chat solanum-1.0-dev DGIMQRSZaghilopsuwz CFILMPQRSTbcefgijklmnopqrstuvz bkloveqjfI
+Mar 04 14:21:55 *	ACCOUNTEXTBAN=a WHOX MONITOR=100 SAFELIST ELIST=CMNTU ETRACE FNC CALLERID=g KNOCK CHANTYPES=# EXCEPTS INVEX :are supported by this server
+Mar 04 14:21:55 *	CHANMODES=eIbq,k,flj,CFLMPQRSTcgimnprstuz CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 :are supported by this server
+Mar 04 14:21:55 *	DEAF=D TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,agjrxz :are supported by this server
+Mar 04 14:21:55 *	There are 59 users and 31651 invisible on 28 servers
+Mar 04 14:21:55 *	39 :IRC Operators online
+Mar 04 14:21:55 *	37 :unknown connection(s)
+Mar 04 14:21:55 *	21988 :channels formed
+Mar 04 14:21:55 *	I have 2055 clients and 1 servers
+Mar 04 14:21:55 *	2055 2624 :Current local users 2055, max 2624
+Mar 04 14:21:55 *	31710 34153 :Current global users 31710, max 34153
+Mar 04 14:21:55 *	Highest connection count: 2625 (2624 clients) (807695 connections received)
+Mar 04 14:21:55 *	- tantalum.libera.chat Message of the Day - 
+Mar 04 14:21:55 *	- This server provided by Hyperfilter (https://hyperfilter.com)
+Mar 04 14:21:55 *	-  
+Mar 04 14:21:55 *	-  
+Mar 04 14:21:55 *	- Welcome to Libera Chat, the IRC network for
+Mar 04 14:21:55 *	- free & open-source software and peer directed projects.
+Mar 04 14:21:55 *	-  
+Mar 04 14:21:55 *	- Use of Libera Chat is governed by our network policies.
+Mar 04 14:21:55 *	-  
+Mar 04 14:21:55 *	- To reduce network abuses we perform open proxy checks
+Mar 04 14:21:55 *	- on hosts at connection time.
+Mar 04 14:21:55 *	-  
+Mar 04 14:21:55 *	- Please visit us in #libera for questions and support.
+Mar 04 14:21:55 *	-  
+Mar 04 14:21:55 *	- Website and documentation:  https://libera.chat
+Mar 04 14:21:55 *	- Webchat:                    https://web.libera.chat
+Mar 04 14:21:55 *	- Network policies:           https://libera.chat/policies
+Mar 04 14:21:55 *	- Email:                      support@libera.chat
+Mar 04 14:21:55 *	End of /MOTD command.
+Mar 04 14:21:55 *	Parad1gmSh1ft sets mode +Z on Parad1gmSh1ft
+Mar 04 14:21:55 *	Parad1gmSh1ft sets mode +i on Parad1gmSh1ft
+Mar 04 14:21:55 *	Parad1gmSh1ft sets mode +w on Parad1gmSh1ft
+Mar 04 14:21:55 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ IDENTIFY Parad1gmSh1ft <password>
+Mar 04 14:23:08 >NickServ<	identify ****
+Mar 04 14:23:08 -NickServ-	You are now identified for Parad1gmSh1ft.
+Mar 04 14:23:08 -NickServ-	Last login from: ~chuck@162.120.126.200 on Nov 14 06:04:26 2024 +0000.
+Mar 04 14:23:08 *	You are now logged in as Parad1gmSh1ft
+Mar 04 14:23:08 *	user/Parad1gmSh1ft :is now your hidden host (set by services.)
+**** ENDING LOGGING AT Tue Mar  4 14:25:16 2025
+
+**** BEGIN LOGGING AT Tue Mar  4 14:25:16 2025
+
+Mar 04 14:44:24 *	You have been marked as being away
+Mar 04 14:44:46 Perl interface unloaded
+Mar 04 14:44:46 Checksum plugin unloaded
+**** ENDING LOGGING AT Tue Mar  4 14:44:46 2025
+
+**** BEGIN LOGGING AT Tue Mar  4 16:13:18 2025
+
+Mar 04 16:13:18 *	Welcome to the Libera.Chat Internet Relay Chat Network Parad1gmSh1ft
+Mar 04 16:13:18 *	Your host is copper.libera.chat[130.185.232.126/6697], running version solanum-1.0-dev
+Mar 04 16:13:18 *	This server was created Wed Jul 17 2024 at 21:52:01 UTC
+Mar 04 16:13:18 *	copper.libera.chat solanum-1.0-dev DGIMQRSZaghilopsuwz CFILMPQRSTbcefgijklmnopqrstuvz bkloveqjfI
+Mar 04 16:13:18 *	ACCOUNTEXTBAN=a ETRACE FNC WHOX KNOCK CALLERID=g MONITOR=100 SAFELIST ELIST=CMNTU CHANTYPES=# EXCEPTS INVEX :are supported by this server
+Mar 04 16:13:18 *	CHANMODES=eIbq,k,flj,CFLMPQRSTcgimnprstuz CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 :are supported by this server
+Mar 04 16:13:18 *	DEAF=D TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,agjrxz :are supported by this server
+Mar 04 16:13:18 *	There are 59 users and 31358 invisible on 28 servers
+Mar 04 16:13:18 *	40 :IRC Operators online
+Mar 04 16:13:18 *	11 :unknown connection(s)
+Mar 04 16:13:18 *	21971 :channels formed
+Mar 04 16:13:18 *	I have 2008 clients and 1 servers
+Mar 04 16:13:18 *	2008 2669 :Current local users 2008, max 2669
+Mar 04 16:13:18 *	31417 33484 :Current global users 31417, max 33484
+Mar 04 16:13:18 *	Highest connection count: 2670 (2669 clients) (226148 connections received)
+Mar 04 16:13:18 *	- copper.libera.chat Message of the Day - 
+Mar 04 16:13:18 *	- Welcome to Libera Chat, the IRC network for
+Mar 04 16:13:18 *	- free & open-source software and peer directed projects.
+Mar 04 16:13:18 *	-  
+Mar 04 16:13:18 *	- Use of Libera Chat is governed by our network policies.
+Mar 04 16:13:18 *	-  
+Mar 04 16:13:18 *	- To reduce network abuses we perform open proxy checks
+Mar 04 16:13:18 *	- on hosts at connection time.
+Mar 04 16:13:18 *	-  
+Mar 04 16:13:18 *	- Please visit us in #libera for questions and support.
+Mar 04 16:13:18 *	-  
+Mar 04 16:13:18 *	- Website and documentation:  https://libera.chat
+Mar 04 16:13:18 *	- Webchat:                    https://web.libera.chat
+Mar 04 16:13:18 *	- Network policies:           https://libera.chat/policies
+Mar 04 16:13:18 *	- Email:                      support@libera.chat
+Mar 04 16:13:18 *	End of /MOTD command.
+Mar 04 16:13:18 *	Parad1gmSh1ft sets mode +Z on Parad1gmSh1ft
+Mar 04 16:13:18 *	Parad1gmSh1ft sets mode +i on Parad1gmSh1ft
+Mar 04 16:13:18 *	Parad1gmSh1ft sets mode +w on Parad1gmSh1ft
+Mar 04 16:13:18 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ IDENTIFY Parad1gmSh1ft <password>
+Mar 04 16:14:24 >NickServ<	identify ****
+Mar 04 16:14:24 -NickServ-	You are now identified for Parad1gmSh1ft.
+Mar 04 16:14:24 -NickServ-	Last login from: ~saltydogg@162.120.126.200 on Mar 04 20:44:46 2025 +0000.
+Mar 04 16:14:24 *	You are now logged in as Parad1gmSh1ft
+Mar 04 16:14:24 *	user/Parad1gmSh1ft :is now your hidden host (set by services.)
+**** ENDING LOGGING AT Tue Mar  4 16:16:31 2025
+
+**** BEGIN LOGGING AT Tue Mar  4 16:16:31 2025
+
+**** ENDING LOGGING AT Tue Mar  4 16:17:31 2025
+
+**** BEGIN LOGGING AT Tue Mar  4 16:17:31 2025
+
+**** ENDING LOGGING AT Tue Mar  4 16:22:45 2025
+
+**** BEGIN LOGGING AT Tue Mar  4 16:22:45 2025
+
+Mar 04 16:23:07 Sysinfo plugin unloaded
+Mar 04 16:23:07 Perl interface unloaded
+Mar 04 16:23:07 FiSHLiM plugin unloaded
+Mar 04 16:23:07 Checksum plugin unloaded
+**** ENDING LOGGING AT Tue Mar  4 16:23:07 2025
+
+**** BEGIN LOGGING AT Sat Mar  8 16:14:39 2025
+
+Mar 08 16:14:39 *	Welcome to the Libera.Chat Internet Relay Chat Network Parad1gmSh1ft
+Mar 08 16:14:39 *	Your host is tantalum.libera.chat[93.158.237.2/6697], running version solanum-1.0-dev
+Mar 08 16:14:39 *	This server was created Wed Jul 17 2024 at 21:46:54 UTC
+Mar 08 16:14:39 *	tantalum.libera.chat solanum-1.0-dev DGIMQRSZaghilopsuwz CFILMPQRSTbcefgijklmnopqrstuvz bkloveqjfI
+Mar 08 16:14:39 *	ACCOUNTEXTBAN=a WHOX MONITOR=100 SAFELIST ELIST=CMNTU ETRACE FNC CALLERID=g KNOCK CHANTYPES=# EXCEPTS INVEX :are supported by this server
+Mar 08 16:14:39 *	CHANMODES=eIbq,k,flj,CFLMPQRSTcgimnprstuz CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 :are supported by this server
+Mar 08 16:14:39 *	DEAF=D TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,agjrxz :are supported by this server
+Mar 08 16:14:39 *	There are 60 users and 30757 invisible on 28 servers
+Mar 08 16:14:39 *	42 :IRC Operators online
+Mar 08 16:14:39 *	39 :unknown connection(s)
+Mar 08 16:14:39 *	22105 :channels formed
+Mar 08 16:14:39 *	I have 1977 clients and 1 servers
+Mar 08 16:14:39 *	1977 2624 :Current local users 1977, max 2624
+Mar 08 16:14:39 *	30817 34153 :Current global users 30817, max 34153
+Mar 08 16:14:39 *	Highest connection count: 2625 (2624 clients) (823042 connections received)
+Mar 08 16:14:39 *	- tantalum.libera.chat Message of the Day - 
+Mar 08 16:14:39 *	- This server provided by Hyperfilter (https://hyperfilter.com)
+Mar 08 16:14:39 *	-  
+Mar 08 16:14:39 *	-  
+Mar 08 16:14:39 *	- Welcome to Libera Chat, the IRC network for
+Mar 08 16:14:39 *	- free & open-source software and peer directed projects.
+Mar 08 16:14:39 *	-  
+Mar 08 16:14:39 *	- Use of Libera Chat is governed by our network policies.
+Mar 08 16:14:39 *	-  
+Mar 08 16:14:39 *	- To reduce network abuses we perform open proxy checks
+Mar 08 16:14:39 *	- on hosts at connection time.
+Mar 08 16:14:39 *	-  
+Mar 08 16:14:39 *	- Please visit us in #libera for questions and support.
+Mar 08 16:14:39 *	-  
+Mar 08 16:14:39 *	- Website and documentation:  https://libera.chat
+Mar 08 16:14:39 *	- Webchat:                    https://web.libera.chat
+Mar 08 16:14:39 *	- Network policies:           https://libera.chat/policies
+Mar 08 16:14:39 *	- Email:                      support@libera.chat
+Mar 08 16:14:39 *	End of /MOTD command.
+Mar 08 16:14:39 *	Parad1gmSh1ft sets mode +Z on Parad1gmSh1ft
+Mar 08 16:14:39 *	Parad1gmSh1ft sets mode +i on Parad1gmSh1ft
+Mar 08 16:14:39 *	Parad1gmSh1ft sets mode +w on Parad1gmSh1ft
+Mar 08 16:14:39 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ IDENTIFY Parad1gmSh1ft <password>
+Mar 08 16:16:19 >NickServ<	identify ****
+Mar 08 16:16:19 -NickServ-	You are now identified for Parad1gmSh1ft.
+Mar 08 16:16:19 -NickServ-	Last login from: ~saltydogg@162.120.126.200 on Mar 04 22:23:08 2025 +0000.
+Mar 08 16:16:19 *	You are now logged in as Parad1gmSh1ft
+Mar 08 16:16:19 *	user/Parad1gmSh1ft :is now your hidden host (set by services.)
+**** ENDING LOGGING AT Sat Mar  8 16:18:31 2025
+
+**** BEGIN LOGGING AT Sat Mar  8 16:18:31 2025
+
+**** BEGIN LOGGING AT Sun Mar  9 03:57:26 2025
+
+Mar 09 03:57:26 *	Welcome to the Libera.Chat Internet Relay Chat Network Parad1gmSh1ft
+Mar 09 03:57:26 *	Your host is tungsten.libera.chat[130.239.18.120/6697], running version solanum-1.0-dev
+Mar 09 03:57:26 *	This server was created Wed Aug 21 2024 at 21:32:29 UTC
+Mar 09 03:57:26 *	tungsten.libera.chat solanum-1.0-dev DGIMQRSZaghilopsuwz CFILMPQRSTbcefgijklmnopqrstuvz bkloveqjfI
+Mar 09 03:57:26 *	ACCOUNTEXTBAN=a FNC MONITOR=100 KNOCK WHOX CALLERID=g ETRACE SAFELIST ELIST=CMNTU CHANTYPES=# EXCEPTS INVEX :are supported by this server
+Mar 09 03:57:26 *	CHANMODES=eIbq,k,flj,CFLMPQRSTcgimnprstuz CHANLIMIT=#:250 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=Libera.Chat STATUSMSG=@+ CASEMAPPING=rfc1459 NICKLEN=16 MAXNICKLEN=16 CHANNELLEN=50 TOPICLEN=390 :are supported by this server
+Mar 09 03:57:26 *	DEAF=D TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,agjrxz :are supported by this server
+Mar 09 03:57:26 *	There are 57 users and 30017 invisible on 28 servers
+Mar 09 03:57:26 *	41 :IRC Operators online
+Mar 09 03:57:26 *	120 :unknown connection(s)
+Mar 09 03:57:26 *	21966 :channels formed
+Mar 09 03:57:26 *	I have 1988 clients and 1 servers
+Mar 09 03:57:26 *	1988 2881 :Current local users 1988, max 2881
+Mar 09 03:57:26 *	30074 33689 :Current global users 30074, max 33689
+Mar 09 03:57:26 *	Highest connection count: 2882 (2881 clients) (518776 connections received)
+Mar 09 03:57:26 *	- tungsten.libera.chat Message of the Day - 
+Mar 09 03:57:26 *	- Welcome to Libera Chat, the IRC network for
+Mar 09 03:57:26 *	- free & open-source software and peer directed projects.
+Mar 09 03:57:26 *	-  
+Mar 09 03:57:26 *	- Use of Libera Chat is governed by our network policies.
+Mar 09 03:57:26 *	-  
+Mar 09 03:57:26 *	- To reduce network abuses we perform open proxy checks
+Mar 09 03:57:26 *	- on hosts at connection time.
+Mar 09 03:57:26 *	-  
+Mar 09 03:57:26 *	- Please visit us in #libera for questions and support.
+Mar 09 03:57:26 *	-  
+Mar 09 03:57:26 *	- Website and documentation:  https://libera.chat
+Mar 09 03:57:26 *	- Webchat:                    https://web.libera.chat
+Mar 09 03:57:26 *	- Network policies:           https://libera.chat/policies
+Mar 09 03:57:26 *	- Email:                      support@libera.chat
+Mar 09 03:57:26 *	End of /MOTD command.
+Mar 09 03:57:26 *	Parad1gmSh1ft sets mode +Z on Parad1gmSh1ft
+Mar 09 03:57:26 *	Parad1gmSh1ft sets mode +i on Parad1gmSh1ft
+Mar 09 03:57:26 *	Parad1gmSh1ft sets mode +w on Parad1gmSh1ft
+Mar 09 03:57:26 -NickServ-	This nickname is registered. Please choose a different nickname, or identify via /msg NickServ IDENTIFY Parad1gmSh1ft <password>
+Mar 09 03:57:29 Sysinfo plugin unloaded
+Mar 09 03:57:29 Perl interface unloaded
+Mar 09 03:57:29 FiSHLiM plugin unloaded
+Mar 09 03:57:29 Checksum plugin unloaded
+**** ENDING LOGGING AT Sun Mar  9 03:57:29 2025
+

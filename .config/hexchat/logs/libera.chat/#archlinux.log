@@ -1,0 +1,58 @@
+**** BEGIN LOGGING AT Tue Mar  4 14:23:28 2025
+
+Mar 04 14:23:28 *	Now talking on #archlinux
+Mar 04 14:23:28 *	Topic for #archlinux is: Welcome to Arch Linux, https://archlinux.org | Rules: https://coc.archlinux.org | https://archlinux.org/news/cleaning-up-old-repositories/ | Pastebins: !paste | https://status.archlinux.org | Keyring problems? pacman -Sy archlinux-keyring && pacman -Su
+Mar 04 14:23:28 *	Topic for #archlinux set by MrElendig (Sun Mar  2 04:31:17 2025)
+Mar 04 14:24:55 *	MortimerHoughton (~MortimerH@syn-076-183-155-111.res.spectrum.com) has joined
+**** ENDING LOGGING AT Tue Mar  4 14:25:16 2025
+
+**** BEGIN LOGGING AT Tue Mar  4 14:25:16 2025
+
+Mar 04 14:25:24 *	dan01 (~dan01@2a04:2416:8800:5180:442f:87ae:1225:4f80) has joined
+Mar 04 14:25:55 <Parad1gmSh1ft>	Client: HexChat 2.16.2 • OS: ArchLinux • CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (800MHz) • Memory: Physical: 30.5 GiB Total (29.5 GiB Free) Swap: 3.9 GiB Total (3.9 GiB Free) • Storage: 2.3 TB / 5.4 TB (3.0 TB Free) • VGA: NVIDIA Corporation TU106M [GeForce RTX 2060 Mobile] @ Intel Corporation 10th Gen Core Processor Host Bridge/DRAM Registers • Uptime: 16m 10s
+Mar 04 14:26:54 <jelle>	weird flex
+Mar 04 14:27:07 *	BrainDamage has quit (Ping timeout: 252 seconds)
+Mar 04 14:28:44 <demonicmaniac1>	or antiflex given it's hexchat
+Mar 04 14:29:17 *	hollowman has quit (Quit: Konversation terminated!)
+Mar 04 14:29:28 <jelle>	^_^
+Mar 04 14:29:55 <siak>	pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu126
+Mar 04 14:29:55 <siak>	error: externally-managed-environment
+Mar 04 14:29:55 <siak>	× This environment is externally managed
+Mar 04 14:29:57 *	hollowman (~hollowman@openSUSE/member/hollowman) has joined
+Mar 04 14:30:13 <siak>	How to install these packages in the same way globally?
+Mar 04 14:30:40 *	balrog (znc@user/balrog) has joined
+Mar 04 14:31:08 *	hollowman has quit (Client Quit)
+Mar 04 14:31:18 *	yrlf has quit (Ping timeout: 272 seconds)
+Mar 04 14:31:41 *	hollowman (~hollowman@openSUSE/member/hollowman) has joined
+Mar 04 14:32:03 *	Tom^ has quit (Remote host closed the connection)
+Mar 04 14:32:26 *	yrlf (~yrlf@omnath.yrlf.at) has joined
+Mar 04 14:32:33 *	dan01 has quit (Ping timeout: 246 seconds)
+Mar 04 14:32:52 *	pPxwL_T has quit (Remote host closed the connection)
+Mar 04 14:32:54 *	BrainDamage (~m-t6k752@user/BrainDamage) has joined
+Mar 04 14:33:23 *	kts has quit (Quit: Konversation terminated!)
+Mar 04 14:33:31 <dcb>	maybe using a venv in a global-ish location?
+Mar 04 14:34:23 *	Proton0539388 has quit (Remote host closed the connection)
+Mar 04 14:34:38 *	hollowman has quit (Client Quit)
+Mar 04 14:34:39 *	Proton0539388 (~Proton053@gateway/tor-sasl/proton0539) has joined
+Mar 04 14:34:54 *	rcf has quit (Quit: WeeChat 4.4.2)
+Mar 04 14:35:17 *	dan01 (~dan01@2a04:2416:8800:5180:442f:87ae:1225:4f80) has joined
+Mar 04 14:36:02 *	hollowman (~hollowman@openSUSE/member/hollowman) has joined
+Mar 04 14:36:05 *	holorum has quit (Remote host closed the connection)
+Mar 04 14:36:30 *	Dex_2x (~Dex2x@user/Tazmainian) has joined
+Mar 04 14:36:35 *	Tomtei (~Tomtei@user/Tomtei) has joined
+Mar 04 14:36:51 *	hollowman has quit (Client Quit)
+Mar 04 14:36:55 *	Dex_2x has quit (Read error: Connection reset by peer)
+Mar 04 14:37:23 *	hollowman (~hollowman@openSUSE/member/hollowman) has joined
+Mar 04 14:37:48 *	sfxrlz (~sfxrlz@user/sfxrlz) has joined
+Mar 04 14:37:50 *	LainExperiments (~LainExper@user/LainExperiments) has joined
+Mar 04 14:39:35 *	wavedepletion (~wavedeple@user/wavedepletion) has joined
+Mar 04 14:39:39 *	dan01 has quit (Ping timeout: 260 seconds)
+Mar 04 14:40:27 *	dan01 (~dan01@2a04:2416:8800:5180:442f:87ae:1225:4f80) has joined
+Mar 04 14:42:07 *	hollowman has quit (Client Quit)
+Mar 04 14:42:29 *	melodie has quit (Quit: Leaving)
+Mar 04 14:42:48 *	hollowman (~hollowman@openSUSE/member/hollowman) has joined
+Mar 04 14:43:47 *	hollowman has quit (Client Quit)
+Mar 04 14:44:46 Sysinfo plugin unloaded
+Mar 04 14:44:46 FiSHLiM plugin unloaded
+**** ENDING LOGGING AT Tue Mar  4 14:44:46 2025
+

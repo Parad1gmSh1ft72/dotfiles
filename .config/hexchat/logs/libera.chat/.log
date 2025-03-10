@@ -1,0 +1,22 @@
+**** BEGIN LOGGING AT Tue Mar  4 14:21:48 2025
+
+Mar 04 14:21:48 *	Connecting to irc.libera.chat (93.158.237.2:6697)
+Mar 04 14:21:51 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 04 14:21:51 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 04 14:21:51 *	* Subject: /C=US/O=Let's Encrypt/CN=R11
+Mar 04 14:21:51 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 04 14:21:51 *	* Subject: /CN=tantalum.libera.chat
+Mar 04 14:21:51 *	* Issuer: /C=US/O=Let's Encrypt/CN=R11
+Mar 04 14:21:51 *	* Certification info:
+Mar 04 14:21:51 *	  Subject:
+Mar 04 14:21:51 *	    CN=tantalum.libera.chat
+Mar 04 14:21:51 *	  Issuer:
+Mar 04 14:21:51 *	    C=US
+Mar 04 14:21:51 *	    O=Let's Encrypt
+Mar 04 14:21:51 *	    CN=R11
+Mar 04 14:21:51 *	  Public key algorithm: rsaEncryption (4096 bits)
+Mar 04 14:21:51 *	  Sign algorithm sha256WithRSAEncryption
+Mar 04 14:21:51 *	  Valid since Feb 10 05:14:19 2025 GM to May 11 05:14:18 2025 GM
+Mar 04 14:21:51 *	* Cipher info:
+Mar 04 14:21:51 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Mar 04 14:21:51 *	Connected. Now logging in.

@@ -1,0 +1,50 @@
+T 1741119808 19*	Now talking on 22#archlinux
+T 1741119808 22*	Topic for 22#archlinux is: Welcome to Arch Linux, https://archlinux.org | Rules: https://coc.archlinux.org | https://archlinux.org/news/cleaning-up-old-repositories/ | Pastebins: !paste | https://status.archlinux.org | Keyring problems? pacman -Sy archlinux-keyring && pacman -Su
+T 1741119808 22*	Topic for 22#archlinux set by 26MrElendig (24Sun Mar  2 04:31:17 2025)
+T 1741119895 23*	MortimerHoughton (~MortimerH@syn-076-183-155-111.res.spectrum.com23) has joined
+T 1741119924 23*	dan01 (~dan01@2a04:2416:8800:5180:442f:87ae:1225:4f8023) has joined
+T 1741119955 20<Parad1gmSh1ft>30	Client: HexChat 2.16.2 • OS: ArchLinux • CPU: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (800MHz) • Memory: Physical: 30.5 GiB Total (29.5 GiB Free) Swap: 3.9 GiB Total (3.9 GiB Free) • Storage: 2.3 TB / 5.4 TB (3.0 TB Free) • VGA: NVIDIA Corporation TU106M [GeForce RTX 2060 Mobile] @ Intel Corporation 10th Gen Core Processor Host Bridge/DRAM Registers • Uptime: 16m 10s
+T 1741120014 18<22jelle18>	weird flex
+T 1741120027 24*	BrainDamage has quit (Ping timeout: 252 seconds)
+T 1741120124 18<27demonicmaniac118>	or antiflex given it's hexchat
+T 1741120157 24*	hollowman has quit (Quit: Konversation terminated!)
+T 1741120168 18<22jelle18>	^_^
+T 1741120195 18<20siak18>	pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu126
+T 1741120195 18<20siak18>	error: externally-managed-environment
+T 1741120195 18<20siak18>	× This environment is externally managed
+T 1741120197 23*	hollowman (~hollowman@openSUSE/member/hollowman23) has joined
+T 1741120213 18<20siak18>	How to install these packages in the same way globally?
+T 1741120240 23*	balrog (znc@user/balrog23) has joined
+T 1741120268 24*	hollowman has quit (Client Quit)
+T 1741120278 24*	yrlf has quit (Ping timeout: 272 seconds)
+T 1741120301 23*	hollowman (~hollowman@openSUSE/member/hollowman23) has joined
+T 1741120323 24*	Tom^ has quit (Remote host closed the connection)
+T 1741120346 23*	yrlf (~yrlf@omnath.yrlf.at23) has joined
+T 1741120353 24*	dan01 has quit (Ping timeout: 246 seconds)
+T 1741120372 24*	pPxwL_T has quit (Remote host closed the connection)
+T 1741120374 23*	BrainDamage (~m-t6k752@user/BrainDamage23) has joined
+T 1741120403 24*	kts has quit (Quit: Konversation terminated!)
+T 1741120411 18<19dcb18>	maybe using a venv in a global-ish location?
+T 1741120463 24*	Proton0539388 has quit (Remote host closed the connection)
+T 1741120478 24*	hollowman has quit (Client Quit)
+T 1741120479 23*	Proton0539388 (~Proton053@gateway/tor-sasl/proton053923) has joined
+T 1741120494 24*	rcf has quit (Quit: WeeChat 4.4.2)
+T 1741120517 23*	dan01 (~dan01@2a04:2416:8800:5180:442f:87ae:1225:4f8023) has joined
+T 1741120562 23*	hollowman (~hollowman@openSUSE/member/hollowman23) has joined
+T 1741120565 24*	holorum has quit (Remote host closed the connection)
+T 1741120590 23*	Dex_2x (~Dex2x@user/Tazmainian23) has joined
+T 1741120595 23*	Tomtei (~Tomtei@user/Tomtei23) has joined
+T 1741120611 24*	hollowman has quit (Client Quit)
+T 1741120615 24*	Dex_2x has quit (Read error: Connection reset by peer)
+T 1741120643 23*	hollowman (~hollowman@openSUSE/member/hollowman23) has joined
+T 1741120668 23*	sfxrlz (~sfxrlz@user/sfxrlz23) has joined
+T 1741120670 23*	LainExperiments (~LainExper@user/LainExperiments23) has joined
+T 1741120775 23*	wavedepletion (~wavedeple@user/wavedepletion23) has joined
+T 1741120779 24*	dan01 has quit (Ping timeout: 260 seconds)
+T 1741120827 23*	dan01 (~dan01@2a04:2416:8800:5180:442f:87ae:1225:4f8023) has joined
+T 1741120927 24*	hollowman has quit (Client Quit)
+T 1741120949 24*	melodie has quit (Quit: Leaving)
+T 1741120968 23*	hollowman (~hollowman@openSUSE/member/hollowman23) has joined
+T 1741121027 24*	hollowman has quit (Client Quit)
+T 1741121086 Sysinfo plugin unloaded
+T 1741121086 FiSHLiM plugin unloaded

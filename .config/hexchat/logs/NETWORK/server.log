@@ -1,0 +1,122 @@
+**** BEGIN LOGGING AT Tue Mar  4 14:21:48 2025
+
+Mar 04 14:21:48 Checksum plugin loaded
+Mar 04 14:21:48 FiSHLiM plugin loaded
+Mar 04 14:21:48 Lua version 1.3/5.4 loaded.
+Mar 04 14:21:48 Perl interface loaded
+Mar 04 14:21:48 Python interface loaded
+Mar 04 14:21:48 Sysinfo plugin loaded
+**** BEGIN LOGGING AT Tue Mar  4 16:13:12 2025
+
+Mar 04 16:13:12 Checksum plugin loaded
+Mar 04 16:13:12 FiSHLiM plugin loaded
+Mar 04 16:13:12 Lua version 1.3/5.4 loaded.
+Mar 04 16:13:12 Perl interface loaded
+Mar 04 16:13:12 Python interface loaded
+Mar 04 16:13:12 Sysinfo plugin loaded
+Mar 04 16:13:12 *	Looking up irc.libera.chat
+Mar 04 16:13:12 *	Connecting to irc.libera.chat (130.185.232.126:6697)
+Mar 04 16:13:13 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 04 16:13:13 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 04 16:13:13 *	* Subject: /C=US/O=Let's Encrypt/CN=E5
+Mar 04 16:13:13 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 04 16:13:13 *	* Subject: /CN=copper.libera.chat
+Mar 04 16:13:13 *	* Issuer: /C=US/O=Let's Encrypt/CN=E5
+Mar 04 16:13:13 *	* Certification info:
+Mar 04 16:13:13 *	  Subject:
+Mar 04 16:13:13 *	    CN=copper.libera.chat
+Mar 04 16:13:13 *	  Issuer:
+Mar 04 16:13:13 *	    C=US
+Mar 04 16:13:13 *	    O=Let's Encrypt
+Mar 04 16:13:13 *	    CN=E5
+Mar 04 16:13:13 *	  Public key algorithm: id-ecPublicKey (384 bits)
+Mar 04 16:13:13 *	  Sign algorithm ecdsa-with-SHA384
+Mar 04 16:13:13 *	  Valid since Feb 17 05:07:44 2025 GM to May 18 05:07:43 2025 GM
+Mar 04 16:13:13 *	* Cipher info:
+Mar 04 16:13:13 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Mar 04 16:13:13 *	Connected. Now logging in.
+Mar 04 16:13:13 *	*** Checking Ident
+Mar 04 16:13:13 *	*** Looking up your hostname...
+Mar 04 16:13:13 *	*** Couldn't look up your hostname
+Mar 04 16:13:18 *	*** No Ident response
+Mar 04 16:13:18 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=ECDSA-NIST256P-CHALLENGE,EXTERNAL,PLAIN,SCRAM-SHA-512 tls account-tag cap-notify echo-message server-time solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Mar 04 16:13:18 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg 
+Mar 04 16:13:18 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg
+**** ENDING LOGGING AT Tue Mar  4 16:13:18 2025
+
+**** BEGIN LOGGING AT Sat Mar  8 16:14:32 2025
+
+Mar 08 16:14:32 Checksum plugin loaded
+Mar 08 16:14:32 FiSHLiM plugin loaded
+Mar 08 16:14:32 Lua version 1.3/5.4 loaded.
+Mar 08 16:14:32 Perl interface loaded
+Mar 08 16:14:32 Python interface loaded
+Mar 08 16:14:32 Sysinfo plugin loaded
+Mar 08 16:14:32 *	Looking up irc.libera.chat
+Mar 08 16:14:32 *	Connecting to irc.libera.chat (93.158.237.2:6697)
+Mar 08 16:14:32 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 08 16:14:32 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 08 16:14:32 *	* Subject: /C=US/O=Let's Encrypt/CN=R11
+Mar 08 16:14:32 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 08 16:14:32 *	* Subject: /CN=tantalum.libera.chat
+Mar 08 16:14:32 *	* Issuer: /C=US/O=Let's Encrypt/CN=R11
+Mar 08 16:14:32 *	* Certification info:
+Mar 08 16:14:32 *	  Subject:
+Mar 08 16:14:32 *	    CN=tantalum.libera.chat
+Mar 08 16:14:32 *	  Issuer:
+Mar 08 16:14:32 *	    C=US
+Mar 08 16:14:32 *	    O=Let's Encrypt
+Mar 08 16:14:32 *	    CN=R11
+Mar 08 16:14:32 *	  Public key algorithm: rsaEncryption (4096 bits)
+Mar 08 16:14:32 *	  Sign algorithm sha256WithRSAEncryption
+Mar 08 16:14:32 *	  Valid since Feb 10 05:14:19 2025 GM to May 11 05:14:18 2025 GM
+Mar 08 16:14:32 *	* Cipher info:
+Mar 08 16:14:32 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Mar 08 16:14:32 *	Connected. Now logging in.
+Mar 08 16:14:33 *	*** Checking Ident
+Mar 08 16:14:33 *	*** Looking up your hostname...
+Mar 08 16:14:33 *	*** Couldn't look up your hostname
+Mar 08 16:14:38 *	*** No Ident response
+Mar 08 16:14:38 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=ECDSA-NIST256P-CHALLENGE,EXTERNAL,PLAIN,SCRAM-SHA-512 tls account-tag cap-notify echo-message server-time solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Mar 08 16:14:38 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg 
+Mar 08 16:14:38 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg
+**** ENDING LOGGING AT Sat Mar  8 16:14:39 2025
+
+**** BEGIN LOGGING AT Sun Mar  9 03:57:18 2025
+
+Mar 09 03:57:18 Checksum plugin loaded
+Mar 09 03:57:18 FiSHLiM plugin loaded
+Mar 09 03:57:18 Lua version 1.3/5.4 loaded.
+Mar 09 03:57:19 Perl interface loaded
+Mar 09 03:57:19 Python interface loaded
+Mar 09 03:57:19 Sysinfo plugin loaded
+Mar 09 03:57:19 *	Looking up irc.libera.chat
+Mar 09 03:57:19 *	Connecting to irc.libera.chat (130.239.18.120:6697)
+Mar 09 03:57:19 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 09 03:57:19 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 09 03:57:19 *	* Subject: /C=US/O=Let's Encrypt/CN=R11
+Mar 09 03:57:19 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Mar 09 03:57:19 *	* Subject: /CN=tungsten.libera.chat
+Mar 09 03:57:19 *	* Issuer: /C=US/O=Let's Encrypt/CN=R11
+Mar 09 03:57:19 *	* Certification info:
+Mar 09 03:57:19 *	  Subject:
+Mar 09 03:57:19 *	    CN=tungsten.libera.chat
+Mar 09 03:57:19 *	  Issuer:
+Mar 09 03:57:19 *	    C=US
+Mar 09 03:57:19 *	    O=Let's Encrypt
+Mar 09 03:57:19 *	    CN=R11
+Mar 09 03:57:19 *	  Public key algorithm: rsaEncryption (4096 bits)
+Mar 09 03:57:19 *	  Sign algorithm sha256WithRSAEncryption
+Mar 09 03:57:19 *	  Valid since Feb 24 05:03:36 2025 GM to May 25 05:03:35 2025 GM
+Mar 09 03:57:19 *	* Cipher info:
+Mar 09 03:57:19 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Mar 09 03:57:19 *	Connected. Now logging in.
+Mar 09 03:57:20 *	*** Checking Ident
+Mar 09 03:57:20 *	*** Looking up your hostname...
+Mar 09 03:57:20 *	*** Couldn't look up your hostname
+Mar 09 03:57:25 *	*** No Ident response
+Mar 09 03:57:25 *	Capabilities supported: account-notify away-notify chghost extended-join multi-prefix sasl=ECDSA-NIST256P-CHALLENGE,EXTERNAL,PLAIN,SCRAM-SHA-512 tls account-tag cap-notify echo-message server-time solanum.chat/identify-msg solanum.chat/oper solanum.chat/realhost
+Mar 09 03:57:25 *	Capabilities requested: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg 
+Mar 09 03:57:26 *	Capabilities acknowledged: account-notify away-notify chghost extended-join multi-prefix account-tag cap-notify server-time solanum.chat/identify-msg
+**** ENDING LOGGING AT Sun Mar  9 03:57:26 2025
+
