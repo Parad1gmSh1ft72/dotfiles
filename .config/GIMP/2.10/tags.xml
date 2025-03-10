@@ -1366,6 +1366,78 @@
   <resource identifier="Adobe Utopia Medium Italic" checksum="(null)">
   </resource>
 
+  <resource identifier="Adwaita Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Heavy" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Heavy Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Ultra-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Ultra-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="Adwaita Sans Ultra-Light Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="B&amp;H Lucida Bold" checksum="(null)">
   </resource>
 
@@ -3971,6 +4043,9 @@
   </resource>
 
   <resource identifier="Nimbus Sans Narrow Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Color Emoji" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Fangsong KSS Rotated" checksum="(null)">
