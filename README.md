@@ -1,27 +1,25 @@
 # ![Arch-rolling][def]
 
 ```bash
-       __              __       ______   __  __                     
-      /  |            /  |     /      \ /  |/  |                    
-  ____$$ |  ______   _$$ |_   /$$$$$$  |$$/ $$ |  ______    _______ 
- /    $$ | /      \ / $$   |  $$ |_ $$/ /  |$$ | /      \  /       |
-/$$$$$$$ |/$$$$$$  |$$$$$$/   $$   |    $$ |$$ |/$$$$$$  |/$$$$$$$/ 
-$$ |  $$ |$$ |  $$ |  $$ | __ $$$$/     $$ |$$ |$$    $$ |$$      \ 
-$$ \__$$ |$$ \__$$ |  $$ |/  |$$ |      $$ |$$ |$$$$$$$$/  $$$$$$  |
-$$    $$ |$$    $$/   $$  $$/ $$ |      $$ |$$ |$$       |/     $$/ 
- $$$$$$$/  $$$$$$/     $$$$/  $$/       $$/ $$/  $$$$$$$/ $$$$$$$/  
+     8          o   d'b  o 8               
+     8          8   8      8               
+.oPYo8 .oPYo.  o8P o8P  o8 8 .oPYo. .oPYo. 
+8    8 8    8   8   8    8 8 8oooo8 Yb..   
+8    8 8    8   8   8    8 8 8.       'Yb. 
+`YooP' `YooP'   8   8    8 8 `Yooo' `YooP' 
+:.....::.....:::..::..:::....:.....::.....:
+:::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::
  ```
-
 ```bash
- ▓▓▓▓▓▓▓▓▓▓
-░▓ About: ▓  Custom Arch Linux configuration files
-░▓ Author:▓  Charles Cravens <parad1gmsh1ft@proton.me>
-░▓ Code:  ▓  <https://github.com/parad1gmsh1ft72/dotfiles.git>
-░▓ Mirror:▓  <https://parad1gmsh1ft72.github.io>
-░▓▓▓▓▓▓▓▓▓▓
- ░░░░░░░░░░
+ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+░▓  About: Custom Arch Linux configuration files                ▓
+░▓  Author: Charles Cravens <parad1gmsh1ft@proton.me>           ▓
+░▓  Code: https://github.com/parad1gmsh1ft72/dotfiles.git       ▓
+░▓  Mirror: https://parad1gmsh1ft72.github.io                   ▓
+░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
-
 ```bash
 alias dotfiles='git --git-dir=/home/chuck/dotfiles --work-tree=/'
 ```
