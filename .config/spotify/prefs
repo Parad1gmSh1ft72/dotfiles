@@ -1,0 +1,14 @@
+autologin.saved_credentials="{\"31ab3t7qt4uzcuuyc3u2ri5udr24\":[\"31ab3t7qt4uzcuuyc3u2ri5udr24\",\"aDlzJBsWCoAlVpwhLOye2E9JsKeb1FQbSMu3ETZ+nJkqUKvgdICsCKWpNdOlwMWyzF7cRDeFaDs2HdYOinvrbMs3WLFQFblCwDAN1OtpW/XpwvLCJY5B1ejR2vKCQWW+6pr+kaBm2vSvc+EmyeAOxLQKFx4xWXaJkLv0D8s0DD0TMz5jkodXUXtzOviXzBLmCbUCTV4IrNve3/KhO4vefG4ChRAAt6ha8uthIuSNIm08TkQtULLxocLb3oSE1nJTHDJRoAxiSTXk0vwPcb/qlvkwh7FJFyZoy8sFxDjIsh2HWiNLJnCBokKOk9xyS/rF\"]}"
+autologin.blob="aDlzJBsWCoAlVpwhLOye2E9JsKeb1FQbSMu3ETZ+nJkqUKvgdICsCKWpNdOlwMWyzF7cRDeFaDs2HdYOinvrbMs3WLFQFblCwDAN1OtpW/XpwvLCJY5B1ejR2vKCQWW+6pr+kaBm2vSvc+EmyeAOxLQKFx4xWXaJkLv0D8s0DD0TMz5jkodXUXtzOviXzBLmCbUCTV4IrNve3/KhO4vefG4ChRAAt6ha8uthIuSNIm08TkQtULLxocLb3oSE1nJTHDJRoAxiSTXk0vwPcb/qlvkwh7FJFyZoy8sFxDjIsh2HWiNLJnCBokKOk9xyS/rF"
+es.send-on-startup=true
+core.clock_delta=0
+autologin.username="31ab3t7qt4uzcuuyc3u2ri5udr24"
+app.window.state=2
+app.window.position.saved=true
+app.window.position.height=600
+app.autostart-mode="off"
+storage.last-location="/home/chuck/.cache/spotify/Storage"
+app.window.state.saved=true
+app.window.position.width=949
+autologin.canonical_username="31ab3t7qt4uzcuuyc3u2ri5udr24"
+app.last-launched-version="1.2.56.502.ga68d2d4f"
