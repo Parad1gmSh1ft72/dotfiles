@@ -14,7 +14,7 @@
 ░▓    Author: Charles Cravens | parad1gmsh1ft@proton.me       ▓                                                                   
 ░▓    Code: https://github.com/parad1gmsh1ft72/dotfiles.git   ▓                                                                         
 ░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░                                                                                                                                                                                
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░                                                                                                                                                                                
 ```
 ```bash
 alias dotfiles='git --git-dir=/home/chuck/dotfiles --work-tree=/'
