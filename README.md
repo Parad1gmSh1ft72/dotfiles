@@ -3,27 +3,19 @@
 ```bash
      8          o   d'b  o 8               
      8          8   8      8               
-.oPYo8 .oPYo.  o8P o8P  o8 8 .oPYo. .oPYo. 
-8    8 8    8   8   8    8 8 8oooo8 Yb..   
-8    8 8    8   8   8    8 8 8.       'Yb. 
-`YooP' `YooP'   8   8    8 8 `Yooo' `YooP' 
-:.....::.....:::..::..:::....:.....::.....:
+.oPYo8 .oPYo.  o8P o8P  o8 8 .oPYo. .oPYo.     ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+8    8 8    8   8   8    8 8 8oooo8 Yb..      ░▓  About: Custom Arch Linux configuration files                ▓
+8    8 8    8   8   8    8 8 8.       'Yb.    ░▓  Author: Charles Cravens <parad1gmsh1ft@proton.me>           ▓
+`YooP' `YooP'   8   8    8 8 `Yooo' `YooP'    ░▓  Code: https://github.com/parad1gmsh1ft72/dotfiles.git       ▓
+:.....::.....:::..::..:::....:.....::.....:   ░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+:::::::::::::::::::::::::::::::::::::::::::    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 :::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::::::::::::::::::::::::::::::::
- ```
+```
 ```bash
- ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-░▓  About: Custom Arch Linux configuration files                ▓
-░▓  Author: Charles Cravens <parad1gmsh1ft@proton.me>           ▓
-░▓  Code: https://github.com/parad1gmsh1ft72/dotfiles.git       ▓
-░▓  Mirror: https://parad1gmsh1ft72.github.io                   ▓
-░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
- ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
 ```bash
 alias dotfiles='git --git-dir=/home/chuck/dotfiles --work-tree=/'
 ```
-
 Now typing dotfiles status or dotfiles log will show the status or log of the repo, regardless of if you're currently in another repo. Of course looking at the status will probably take forever as the work tree is /, so it will list every single file on the filesystem as untracked. There are a few ways to stop this, but I went with simply telling git not to show untracked files:
 
 ```bash
