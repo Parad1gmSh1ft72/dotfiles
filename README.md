@@ -1,18 +1,20 @@
 # ![Arch-rolling][def]
 
 ```bash
-░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓
-░▓       8          o   d'b  o 8                                                                         ▓
-░▓       8          8   8      8                                                                         ▓
-░▓  .oPYo8 .oPYo.  o8P o8P  o8 8 .oPYo. .oPYo.                                                           ▓
-░▓  8    8 8    8   8   8    8 8 8oooo8 Yb..      About: Custom Arch Linux configuration files           ▓                
-░▓  8    8 8    8   8   8    8 8 8.       'Yb.    Author: Charles Cravens <parad1gmsh1ft@proton.me>      ▓
-░▓  `YooP' `YooP'   8   8    8 8 `Yooo' `YooP'    Code: https://github.com/parad1gmsh1ft72/dotfiles.git  ▓
-░▓ :.....::.....:::..::..:::....:.....::.....:                                                           ▓
-░▓  :::::::::::::::::::::::::::::::::::::::::::                                                          ▓
-░▓  :::::::::::::::::::::::::::::::::::::::::::                                                          ▓
-░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+░▓                                                            ▓
+░▓        dP            dP   .8888b oo dP                     ▓
+░▓        88            88   88   "    88                     ▓
+░▓  .d888b88 .d8888b. d8888P 88aaa  dP 88 .d8888b. .d8888b.   ▓
+░▓  88'  `88 88'  `88   88   88     88 88 88ooood8 Y8ooooo.   ▓
+░▓  88.  .88 88.  .88   88   88     88 88 88.  ...       88   ▓
+░▓  `88888P8 `88888P'   dP   dP     dP dP `88888P' `88888P'   ▓                                                                         
+░▓                                                            ▓                                  
+░▓    About: Custom Arch Linux configuration files            ▓                                              
+░▓    Author: Charles Cravens | parad1gmsh1ft@proton.me       ▓                                                                   
+░▓    Code: https://github.com/parad1gmsh1ft72/dotfiles.git   ▓                                                                         
+░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+ ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░                                                                                                                                                                                
 ```
 ```bash
 alias dotfiles='git --git-dir=/home/chuck/dotfiles --work-tree=/'
@@ -29,7 +31,6 @@ Example:
 
       alias dtig='GIT_DIR=/home/mx/.dotfiles GIT_WORK_TREE=/ tig'
 ```
-
 Second, because of the huge spread of where files are, I found myself always needing to list which files are explicitly tracked, using dotfiles ls-files. It's really helpful to be able to quickly see where that config file was that you need to edit again. I went a bit overboard here and added a bash function to display a summary.
 
 ```bash
@@ -46,7 +47,6 @@ dot(){
   fi
 }
 ```
-
 If called with arguments, it just invokes dotfiles, so I can do dot status or whatever. Otherwise, it shows me a fancy summary that looks like this:
 
 [def]: archlinux-logo-text-dark.png
