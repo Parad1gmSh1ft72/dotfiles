@@ -1,0 +1,6 @@
+[KSystemLogGeneral]
+DeleteDuplicatedLines=true
+MaxLines=5000
+
+[XSessionLogMode]
+LogFilePath=/home/chuck/.xsession-errors

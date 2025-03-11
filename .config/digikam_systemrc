@@ -1,0 +1,12 @@
+[System]
+enableAesthetic=true
+enableAutoTags=true
+enableFaceEngine=true
+enableLogging=false
+enableOpenCL=false
+proxyAuth=false
+proxyPort=8080
+proxyType=0
+proxyUrl=
+softwareOpenGL=false
+videoBackend=ffmpeg

@@ -1,0 +1,16 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+DefaultProfile=chuck.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+ToolBarsMovable=Enabled
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+
+[UiSettings]
+ColorScheme=
