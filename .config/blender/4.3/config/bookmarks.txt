@@ -1,0 +1,3 @@
+[Bookmarks]
+[Recent]
+/home/chuck/Downloads/theme-gruvbox-dark-v1.4.0/

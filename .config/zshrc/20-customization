@@ -44,6 +44,9 @@ plugins=(
     zsh-syntax-highlighting
 )
 
+# Setting default Ranger RC to false to avoid loading it twice
+export RANGER_LOAD_DEFAULT_RC='false'
+
 # Set-up oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 # ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#330022,bg=red,bold,underline"
@@ -57,8 +60,8 @@ source /usr/share/fzf/completion.zsh
 
 # zsh history
 HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=5000
+SAVEHIST=5000
 setopt appendhistory
 
 # XDG user dirs
