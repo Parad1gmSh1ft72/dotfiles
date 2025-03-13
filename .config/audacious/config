@@ -16,9 +16,9 @@ volume_left=100
 volume_right=100
 
 [qtui]
-column_widths=25,25,246,136,50,223,175,25,112,41,62,275,275,275,77,275,175,75
+column_widths=25,25,298,93,50,138,175,25,164,41,62,275,275,275,106,275,175,75
 menu_visible=FALSE
-player_height=947
+player_height=941
 player_width=1904
 playlist_columns=playing title artist album length bitrate genre year
 playlist_headers_bold=TRUE
