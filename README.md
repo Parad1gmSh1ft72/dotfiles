@@ -16,9 +16,11 @@
 ░▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░                                                                                                                                                                                
 ```
+
 ```bash
 alias dotfiles='git --git-dir=/home/chuck/dotfiles --work-tree=/'
 ```
+
 Now typing dotfiles status or dotfiles log will show the status or log of the repo, regardless of if you're currently in another repo. Of course looking at the status will probably take forever as the work tree is /, so it will list every single file on the filesystem as untracked. There are a few ways to stop this, but I went with simply telling git not to show untracked files:
 
 ```bash
@@ -31,6 +33,7 @@ Example:
 
       alias dtig='GIT_DIR=/home/mx/.dotfiles GIT_WORK_TREE=/ tig'
 ```
+
 Second, because of the huge spread of where files are, I found myself always needing to list which files are explicitly tracked, using dotfiles ls-files. It's really helpful to be able to quickly see where that config file was that you need to edit again. I went a bit overboard here and added a bash function to display a summary.
 
 ```bash
@@ -47,6 +50,7 @@ dot(){
   fi
 }
 ```
+
 If called with arguments, it just invokes dotfiles, so I can do dot status or whatever. Otherwise, it shows me a fancy summary that looks like this:
 
 [def]: archlinux-logo-text-dark.png
