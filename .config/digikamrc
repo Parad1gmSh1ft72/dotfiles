@@ -24,7 +24,7 @@ Icon Show Name=true
 Icon Show Overlays=true
 Icon Show Pick Label=true
 Icon Show Rating=true
-Icon Show Resolution=false
+Icon Show Resolution=true
 Icon Show Size=false
 Icon Show Tags=true
 Icon Show Title=true
@@ -85,10 +85,10 @@ TreeView Font=Cantarell,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Update Type=0
 
 [AlbumFolderView Sidebar]
-CurrentIndex=1
-Expansion=0,1
+CurrentIndex=52
+Expansion=0,1,26,27,28,34,40,41,42,47,48,53,52
 RestoreChecked=false
-Selection=1
+Selection=52
 SortColumn=0
 SortOrder=0
 
@@ -110,8 +110,8 @@ Sync Digikam to Baloo=false
 
 [Batch Queue Manager Settings]
 BqmBottomSplitter=AAAA/wAAAAEAAAACAAAAkwAAAJMB/////wEAAAABAA==
-BqmTopSplitter=AAAA/wAAAAEAAAADAAAAkwAAAHUAAACVAf////8BAAAAAQA=
-BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAnQAAAJMB/////wEAAAACAA==
+BqmTopSplitter=AAAA/wAAAAEAAAADAAAAkwAAAHUAAACXAf////8BAAAAAQA=
+BqmVerticalSplitter=AAAA/wAAAAEAAAACAAAAnwAAAJUB/////wEAAAACAA==
 
 [Camera Settings]
 DefaultTargetAlbumId=0
@@ -125,7 +125,7 @@ UseDefaultTargetAlbum=false
 UseFileMetadata=false
 
 [Collection Settings]
-LastAddedCollectionPath=
+LastAddedCollectionPath=/home/chuck
 
 [Color Management]
 BPCAlgorithm=true
@@ -138,7 +138,7 @@ EnableCM=true
 GamutCheckMaskColor=126,255,255
 LastMismatchBehavior=2049
 LastMissingProfileBehavior=2050
-LastSpecifiedAssignProfile[$e]=/usr/share/digikam/profiles/
+LastSpecifiedAssignProfile=
 LastSpecifiedInputProfile=
 LastUncalibratedBehavior=2080
 ManagedPreviews=true
@@ -887,7 +887,7 @@ tagPaths=1
 
 [Database Settings]
 Database Connectoptions=
-Database Encrypted Password=AwKenp4=
+Database Encrypted Password=AwKpqak=
 Database Hostname=
 Database Name=/home/chuck/Pictures/
 Database Name Face=/home/chuck/Pictures/
@@ -912,7 +912,7 @@ SortColumn=0
 SortOrder=0
 
 [Digikam Left Sidebar]
-ActiveTab=8
+ActiveTab=0
 Minimized=false
 RestoreSize=-1
 
@@ -1106,7 +1106,7 @@ TagComboBox-Checked=
 TagComboBox-CurrentIndex=4
 TagComboBox-Expansion=
 TagComboBox-RestoreChecked=true
-TagComboBox-Selection=4,67
+TagComboBox-Selection=34,67
 TagComboBox-SortColumn=0
 TagComboBox-SortOrder=0
 Use Full CPU=false
@@ -1175,7 +1175,7 @@ Selection=
 Sort Order=0
 SortColumn=0
 SortOrder=0
-SplitterState=AAAA/wAAAAEAAAACAAABmAAAAHsB/////wEAAAACAA==
+SplitterState=AAAA/wAAAAEAAAACAAABmgAAAH0B/////wEAAAACAA==
 
 [GPS Search Sidebar][GPSSearch Map Widget]
 Backend=marble
@@ -1239,7 +1239,10 @@ Operate tools on all=2
 Rename all=2
 
 [Image Properties SideBar]
-EXIF Tags Filter=
+EXIF Tags Filter=Exif.Photo.CameraFirmware
+EXIFTOOL Tags Filter=AFCP.AFCP.Preview.ThumbnailImage
+IPTC Tags Filter=
+MAKERNOTE Tags Filter=
 
 [Image Quality Settings]
 Accepted Threshold=60
@@ -1308,7 +1311,7 @@ ShowImageSettingsDialog=true
 SixteenBitsImage=true
 SplitterState=AAAA/wAAAAEAAAACAAAAyQAAAX0B/////wAAAAABAQ==
 TIFFCompression=false
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAfsAAAAeAGUAZABpAHQAbwByAF8AdABoAHUAbQBiAGIAYQByAQAAAAD/////AAAAXAD///8AAAAAAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAA==
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAAAAAAAAAAAAPwCAAAAAfsAAAAeAGUAZABpAHQAbwByAF8AdABoAHUAbQBiAGIAYQByAQAAAAD/////AAAAaQD///8AAAAAAAAAAAAAAAQAAAAEAAAACAAAAAj8AAAAAA==
 Unclip Color=0
 UnderExposureColor=255,255,255
 UnderExposureIndicator=false
@@ -1505,7 +1508,7 @@ FullScreen Hide ToolBars=false
 Horizontal Splitter State=AAAA/wAAAAEAAAADAAABfQAAAGkAAAF9Af////8AAAAAAQE=
 Navigate By Pair=false
 Show Thumbbar=true
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAAAAAAAAPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAGUAXwB0AGgAdQBtAGIAYgBhAHIBAAAAAP////8AAABcAP///wAAAAAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAAAAAAAAPwBAAAAAfsAAAAmAGwAaQBnAGgAdAB0AGEAYgBsAGUAXwB0AGgAdQBtAGIAYgBhAHIBAAAAAP////8AAABpAP///wAAAAAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [LightTable Settings][Left Sidebar]
 ActiveTab=0
@@ -1515,7 +1518,7 @@ ItemProperties Expanded=true
 LocationProperties Expanded=true
 Minimized=true
 PhotographProperties Expanded=true
-RestoreSize=29
+RestoreSize=33
 RightsProperties Expanded=true
 TagsProperties Expanded=true
 VideoProperties Expanded=true
@@ -1597,7 +1600,7 @@ ItemProperties Expanded=true
 LocationProperties Expanded=true
 Minimized=true
 PhotographProperties Expanded=true
-RestoreSize=28
+RestoreSize=32
 RightsProperties Expanded=true
 TagsProperties Expanded=true
 VideoProperties Expanded=true
@@ -1672,9 +1675,9 @@ Version Properties Tab=versions
 Version Properties View Mode=2
 
 [MainWindow]
-InitialAlbumID=0
+InitialAlbumID=52
 SplitterState=AAAA/wAAAAEAAAADAAAB3QAAEDYAAAF9Af////8AAAAAAQE=
-ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAAAAAAAAPwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAP////8AAABcAP///wAAA8kAAANaAAAABAAAAAQAAAAIAAAACPwAAAAA
+ThumbbarState=AAAA/wAAAAD9AAAAAQAAAAIAAAPSAAAAwPwBAAAAAfsAAAAmAG0AYQBpAG4AdwBpAG4AZABvAHcAXwB0AGgAdQBtAGIAYgBhAHIAAAAAAAAAA9IAAABpAP///wAAA9IAAAJ7AAAABAAAAAQAAAAIAAAACPwAAAAA
 
 [Marble Settings]
 Angle Unit=1
@@ -1773,20 +1776,20 @@ EXIF Rotate=true
 EXIF Set Orientation=true
 ExifTool Path=
 Metadata Writing Mode=0
-Read Metadata From Files With ExifTool=false
+Read Metadata From Files With ExifTool=true
 Rescan File If Modified=false
 Rotate By Internal Flag=true
 Rotate By Metadata Flag=true
 Rotate Contents Lossless=true
 Rotate Contents Lossy=false
-Save Color Label=false
-Save Date Time=false
-Save EXIF Comments=false
-Save FaceTags=false
+Save Color Label=true
+Save Date Time=true
+Save EXIF Comments=true
+Save FaceTags=true
 Save Pick Label=false
-Save Position=false
+Save Position=true
 Save Rating=false
-Save Tags=false
+Save Tags=true
 Save Template=false
 Update File Timestamp=true
 Use Compatible File Name=false
@@ -1842,13 +1845,13 @@ Camera Tab=0
 Editor Tab=0
 Geolocation Tab=0
 ICC Tab=0
-Metadata SubTab=0
-Metadata Tab=0
+Metadata SubTab=4
+Metadata Tab=6
 Misc Tab=0
 Plugin Tab=0
-Setup Page=1
+Setup Page=4
 Template Tab=0
-ToolTip Tab=0
+ToolTip Tab=2
 
 [Sketch Search View]
 AlbumComboBox-Checked=
