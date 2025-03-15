@@ -19,4 +19,4 @@ EnableRemoteFolderThumbnail=true
 MaximumRemoteSize=4294967296
 
 [UiSettings]
-ColorScheme=colors
+ColorScheme=
