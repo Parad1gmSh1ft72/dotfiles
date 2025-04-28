@@ -1,8 +1,8 @@
 [General]
 
 # Set to your screen resolution for better results
-width=1920
-height=1080
+width=1680
+height=1050
 
 backgroundColour="black"
 
@@ -13,7 +13,7 @@ wallpaper="backgrounds/CURRENTWALLPAPER"
 fitWallpaper=false
 
 # Main font
-fontFamily="Ubuntu Nerd Font"
+fontFamily="Noto Sans"
 
 # Set to a patched NerdFont if some icons don't display properly
 # or leave empty to use the main font family
@@ -44,10 +44,10 @@ accentColour="#a7d9ea"
 # [Greeting_Screen]
 
 # Set true to be taken directly to the login screen
-skipToLogin=true
+skipToLogin=false
 
 # Supports Markdown formatting, leave empty to not display any text
-greeting="Welcome back pimp!"
+greeting="Welcome back!"
 
 # Adjusts the font size for the greeting message, clock and date
 fontSizeMultiplier=2
@@ -83,7 +83,7 @@ blurRadius=10
 blurRecursiveLoops=5
 
 # Used to dim the background
-darkenWallpaper=0.4
+darkenWallpaper=0.3
 
 # Purely cosmetic, has no effect on login credentials
 capitaliseUsername=false

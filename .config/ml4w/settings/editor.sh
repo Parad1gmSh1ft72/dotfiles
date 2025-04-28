@@ -1,1 +1,1 @@
-geany
+gnome-text-editor

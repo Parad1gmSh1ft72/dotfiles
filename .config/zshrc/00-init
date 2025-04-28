@@ -1,17 +1,10 @@
-#    M""""""""`M          dP                         
-#    Mmmmmm   .M          88                         
-#    MMMMP  .MMM .d8888b. 88d888b. 88d888b. .d8888b. 
-#    MMP  .MMMMM Y8ooooo. 88'  `88 88'  `88 88'  `"" 
-# dP M' .MMMMMMM       88 88    88 88       88.  ... 
-# 88 M         M `88888P' dP    dP dP       `88888P' 
-#    MMMMMMMMMMM                                     
 # -----------------------------------------------------
-#   00-init by Charles Cravens (GPLv3 2025)
+# INIT
 # -----------------------------------------------------
 
 # -----------------------------------------------------
 # Exports
 # -----------------------------------------------------
 export EDITOR=nvim
-export PATH="/usr/lib/ccache/bin/:$PATH"
 export ZSH="$HOME/.oh-my-zsh"
+export PATH=$PATH:~/.cargo/bin/

@@ -1,14 +1,5 @@
-#!/usr/bin/bash
-
-#    M""""""""`M          dP                         
-#    Mmmmmm   .M          88                         
-#    MMMMP  .MMM .d8888b. 88d888b. 88d888b. .d8888b. 
-#    MMP  .MMMMM Y8ooooo. 88'  `88 88'  `88 88'  `"" 
-# dP M' .MMMMMMM       88 88    88 88       88.  ... 
-# 88 M         M `88888P' dP    dP dP       `88888P' 
-#    MMMMMMMMMMM                                     
 # -----------------------------------------------------
-#   25-aliases by Charles Cravens (GPLv3 2025)
+# ALIASES
 # -----------------------------------------------------
 
 # -----------------------------------------------------
@@ -17,7 +8,7 @@
 alias c='clear'
 alias nf='fastfetch'
 alias pf='fastfetch'
-alias ff='fastfetch --config examples/19'
+alias ff='fastfetch'
 alias ls='eza -a --icons=always'
 alias ll='eza -al --icons=always'
 alias lt='eza -a --tree --level=1 --icons=always'
@@ -63,6 +54,6 @@ alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 # -----------------------------------------------------
 # Qtile
 # -----------------------------------------------------
-alias res1='xrandr --output DisplayPort-0 --mode 1920x1080 --rate 240'
-# alias res2='xrandr --output DisplayPort-0 --mode 1920x1080 --rate 120'
-alias setkb='setxkbmap en;echo "Keyboard set back to en."'
+alias res1='xrandr --output DisplayPort-0 --mode 2560x1440 --rate 120'
+alias res2='xrandr --output DisplayPort-0 --mode 1920x1080 --rate 120'
+alias setkb='setxkbmap de;echo "Keyboard set back to de."'
