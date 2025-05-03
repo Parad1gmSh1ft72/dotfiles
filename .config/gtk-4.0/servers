@@ -3,12 +3,22 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="smb://openwrt.lan/" added="2025-03-05T06:11:00.387072Z" modified="2025-03-05T06:11:00.387093Z" visited="2025-03-05T06:11:00.387072Z">
-    <title>Windows shares on openwrt.lan</title>
+  <bookmark href="smb://192.168.0.11/" added="2025-04-28T17:11:20.935648Z" modified="2025-04-28T17:11:20.935652Z" visited="2025-04-28T17:11:20.935649Z">
+    <title>Windows shares on 192.168.0.11</title>
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-03-05T06:11:00.387073Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-04-28T17:11:20.935651Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://192.168.0.5/" added="2025-04-28T18:39:55.665145Z" modified="2025-04-28T18:39:55.665157Z" visited="2025-04-28T18:39:55.665148Z">
+    <title>Windows shares on 192.168.0.5</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-04-28T18:39:55.665152Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
