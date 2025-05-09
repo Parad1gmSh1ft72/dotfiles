@@ -49,7 +49,7 @@ ssh_tcp_keepcnt=3
 ssh_tcp_usrtimeout=60000
 applet_new_ontop=false
 applet_hide_count=false
-applet_enable_avahi=false
+applet_enable_avahi=true
 disable_tray_icon=false
 dark_theme=false
 recent_maximum=10
@@ -94,6 +94,8 @@ rdp_quality_9=80
 rdp_deviceScaleFactor=0
 rdp_desktopScaleFactor=0
 rdp_desktopOrientation=0
+start_fullscreen=false
+start_dynres=false
 
 [ssh_colors]
 background=rgb(213,204,186)
