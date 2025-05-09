@@ -1,48 +1,98 @@
+#     M""""""""`M          dP                         
+#     Mmmmmm   .M          88                         
+#     MMMMP  .MMM .d8888b. 88d888b. 88d888b. .d8888b. 
+#     MMP  .MMMMM Y8ooooo. 88'  `88 88'  `88 88'  `"" 
+#  dP M' .MMMMMMM       88 88    88 88       88.  ... 
+#  88 M         M `88888P' dP    dP dP       `88888P' 
+#     MMMMMMMMMMM                                     
 # -----------------------------------------------------
+#   20-customization by Charles Cravens (GPLv3 2025)
+# -----------------------------------------------------
+
 # CUSTOMIZATION
 # -----------------------------------------------------
-POSH=agnoster
+POSH=blue-owl
+# quick-term sonicboom_light sonicboom_dark stelbent.minimal powerlevel10k_lean powerlevel10k_modern
 
 # -----------------------------------------------------
-# oh-myzsh themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# oh-my-zsh themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # -----------------------------------------------------
-# ZSH_THEME=robbyrussell
+ZSH_THEME=darkblood
 
 # -----------------------------------------------------
-# oh-myzsh plugins
+# oh-my-zsh plugins
 # -----------------------------------------------------
 plugins=(
     git
     sudo
     web-search
     archlinux
+    aliases
+    colored-man-pages
+    colorize
+    eza
+    history
+    themes
+    docker
+    direnv
     zsh-autosuggestions
-    zsh-syntax-highlighting
     fast-syntax-highlighting
     copyfile
     copybuffer
     dirhistory
+    zsh-interactive-cd
+    zsh-syntax-highlighting
 )
+
+# Setting default Ranger RC to false to avoid loading it twice
+export RANGER_LOAD_DEFAULT_RC='false'
 
 # Set-up oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#330022,bg=red,bold,underline"
 
 # -----------------------------------------------------
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 # -----------------------------------------------------
 source <(fzf --zsh)
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 
 # zsh history
 HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=5000
+SAVEHIST=5000
 setopt appendhistory
+
+# XDG user dirs
+source ~/.config/user-dirs.dirs
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/chuck/.lmstudio/bin"
+
+# Start gpg agent:
+# gpgconf --launch gpg-agent
+# export GPG_TTY=$(tty)
 
 # -----------------------------------------------------
 # Prompt
 # -----------------------------------------------------
-# eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/EDM115-newline.omp.json)"
 
 # Shipped Theme
-# eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/agnoster.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/takuya.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/powerlevel10k_modern.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/powerlevel10k_rainbow.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/sonicboom_light.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/microverse-power.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/negligible.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/marcduiker.omp.json)"
+#eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/atomicBit.omp.json)"
+eval "$(oh-my-posh init zsh --config /usr/share/oh-my-posh/themes/blue-owl.omp.json)"
+
+eval "$(direnv hook zsh)"
+
+source /home/chuck/.oh-my-zsh/custom/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh
+source /home/chuck/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+source /home/chuck/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

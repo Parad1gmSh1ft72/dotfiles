@@ -2,11 +2,22 @@
 # AUTOSTART
 # -----------------------------------------------------
 
+if [[ -n "$KITTY_INSTALLATION_DIR" ]]; then
+     export KITTY_SHELL_INTEGRATION="enabled"
+     autoload -Uz -- "$KITTY_INSTALLATION_DIR"/shell-integration/zsh/kitty-integration
+     kitty-integration
+     unfunction kitty-integration
+   fi
+
+if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
+     source "$GHOSTTY_RESOURCES_DIR"/shell-integration/zsh/ghostty-integration
+   fi
+   
 # -----------------------------------------------------
 # Fastfetch
 # -----------------------------------------------------
 if [[ $(tty) == *"pts"* ]]; then
-    fastfetch --config examples/13
+    fastfetch --config examples/18
 else
     echo
     if [ -f /bin/hyprctl ]; then
